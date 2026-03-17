@@ -1,6 +1,6 @@
 # Examples
 
-Two worked examples showing expected outputs at different promisingness levels.
+Two worked examples showing expected outputs at different promisingness levels. Local copies of each example output are in `docs/examples/`.
 
 ## Example 1: Low promisingness (CSV row only)
 
@@ -8,7 +8,8 @@ Two worked examples showing expected outputs at different promisingness levels.
 
 - Original QEA: https://docs.google.com/document/d/1rh3rhDWNUJisksdPneudQE7XeuvVnGRHdDL0jIs45Z4/edit?tab=t.kpj5mu4f7jqf#heading=h.8q6nfqj792d
 - Original BOTEC: https://docs.google.com/spreadsheets/d/1cP6RH_AffZzOTvaPapKplikTUsOgYLvKKqwanb_Pm7o/edit?gid=162466198#gid=162466198
-- Desired CSV output: https://docs.google.com/spreadsheets/d/13X_KwRT2j1C_ZR0Xa9ib2cFiVLcB1z1y65d232hA1mI/edit?gid=0#gid=0
+
+**Local example output:** [`examples/sexual_reproductive_health_refugees_csv_row.csv`](examples/sexual_reproductive_health_refugees_csv_row.csv)
 
 **What to notice:** No writeup is produced. The "Reason" column in the CSV gives a brief, intuitive explanation of why this doesn't look promising. That's the entire output for a Low intervention.
 
@@ -18,8 +19,13 @@ Two worked examples showing expected outputs at different promisingness levels.
 
 - Original QEA: https://docs.google.com/document/d/1EZU8ogduJC3kEh9NQvDloBNZBY0sXYz3SacfAZ1GKxI/edit?tab=t.0
 - Original BOTEC: https://docs.google.com/spreadsheets/d/1yJYR7g7V_O0hS8-rbBe7tHeDZCM-uUASi2PjFNFARiw/edit?gid=0#gid=0
-- New writeup: https://docs.google.com/document/d/1ciHDlpYjJRqNZ3DD33XFUpKgG8klf_uPCS7VpGny9S0/edit?tab=t.0
-- Desired CSV output: https://docs.google.com/spreadsheets/d/1yXWiUjnoo0FAeXiE95QhrQG7HiCqR2cBoAcKjE2h0i8/edit?gid=0#gid=0
+
+**Local example outputs:**
+- CSV row: [`examples/vaginal_rings_dapivirine_csv_row.csv`](examples/vaginal_rings_dapivirine_csv_row.csv)
+- Writeup: [`examples/vaginal_rings_dapivirine.md`](examples/vaginal_rings_dapivirine.md)
+- BOTEC (readable reference): [`examples/vaginal_rings_dapivirine_botec.md`](examples/vaginal_rings_dapivirine_botec.md)
+- BOTEC (build script): [`examples/build_vaginal_rings_dapivirine_botec.py`](examples/build_vaginal_rings_dapivirine_botec.py) — generates the `.xlsx`
+- BOTEC (spreadsheet): [`examples/vaginal_rings_dapivirine_botec.xlsx`](examples/vaginal_rings_dapivirine_botec.xlsx)
 
 **What to notice:**
 - The "What is this" section is short — 2 bullets, not a full literature review. This is just to provide context for the reader!
