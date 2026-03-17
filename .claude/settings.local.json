@@ -1,0 +1,51 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch",
+      "Bash",
+      "Write",
+      "Read",
+      "Glob",
+      "Grep",
+      "mcp__hardened-workspace__search_gmail_messages",
+      "mcp__hardened-workspace__get_gmail_message_content",
+      "mcp__hardened-workspace__get_gmail_messages_content_batch",
+      "mcp__hardened-workspace__get_gmail_attachment_content",
+      "mcp__hardened-workspace__get_gmail_thread_content",
+      "mcp__hardened-workspace__get_gmail_threads_content_batch",
+      "mcp__hardened-workspace__list_gmail_labels",
+      "mcp__hardened-workspace__list_gmail_filters",
+      "mcp__hardened-workspace__search_drive_files",
+      "mcp__hardened-workspace__get_drive_file_content",
+      "mcp__hardened-workspace__get_drive_file_download_url",
+      "mcp__hardened-workspace__list_drive_items",
+      "mcp__hardened-workspace__get_drive_file_permissions",
+      "mcp__hardened-workspace__check_drive_file_public_access",
+      "mcp__hardened-workspace__get_drive_shareable_link",
+      "mcp__hardened-workspace__search_docs",
+      "mcp__hardened-workspace__get_doc_content",
+      "mcp__hardened-workspace__list_docs_in_folder",
+      "mcp__hardened-workspace__inspect_doc_structure",
+      "mcp__hardened-workspace__read_document_comments",
+      "mcp__hardened-workspace__list_spreadsheets",
+      "mcp__hardened-workspace__get_spreadsheet_info",
+      "mcp__hardened-workspace__read_sheet_values",
+      "mcp__hardened-workspace__read_spreadsheet_comments",
+      "mcp__hardened-workspace__get_form",
+      "mcp__hardened-workspace__list_form_responses",
+      "mcp__hardened-workspace__get_form_response",
+      "mcp__hardened-workspace__get_presentation",
+      "mcp__hardened-workspace__get_page",
+      "mcp__hardened-workspace__get_page_thumbnail",
+      "mcp__hardened-workspace__read_presentation_comments",
+      "mcp__hardened-workspace__list_calendars",
+      "mcp__hardened-workspace__get_events"
+    ],
+    "deny": []
+  },
+  "enabledMcpjsonServers": [
+    "gdrive"
+  ],
+  "enableAllProjectMcpServers": true
+}
