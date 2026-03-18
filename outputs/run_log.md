@@ -35,4 +35,34 @@
 
 ---
 
-## Next session: Start from next intervention in master list (all 3 in current list are complete).
+## Session: 2026-03-17
+
+### Changes: QA pipeline + format migration
+
+- **Added QA scripts** (`qa/run_qa.py`, `qa/validate_botec.py`, `qa/validate_structure.py`, `qa/extract_citations.py`). QA now runs automatically after each Stage 2 output.
+- **Migrated BOTEC format** from multi-sheet (Parameters + Calculation + Notes) to single-sheet (Parameter | Value | Source/notes), matching the example in `docs/examples/`.
+- **Updated methodology.md**: new single-sheet BOTEC instructions, Stage 2b QA section, `[Note]` convention for commentary footnotes.
+- **Updated CLAUDE.md**: QA step in execution rules, `qa/` and `outputs/qa_reports/` in file structure.
+
+### QEA 1 (redo): Rheumatic Heart Disease Prevention — COMPLETE
+
+- Regenerated writeup with proper `[^N]` footnotes (10 citations, including 1 `[Note]`)
+- Regenerated BOTEC in single-sheet format (24 rows, formulas reference cell B values)
+- QA: **PASS** (0 errors, 0 warnings)
+- Old files preserved as `_old` suffix for comparison
+
+### QEA 2 (redo): Uterotonics for PPH — COMPLETE
+
+- Regenerated writeup with proper `[^N]` footnotes (12 citations, including 3 `[Note]`)
+- Regenerated BOTEC in single-sheet format with two sections (TXA + HSC, 24 rows)
+- QA: **PASS** (0 errors, 0 warnings)
+- Old files preserved as `_old` suffix for comparison
+
+### QEA 3: ProCCM — CSV VALIDATED
+
+- Low rating, no writeup/BOTEC needed
+- CSV row validated: PASS
+
+---
+
+## Next session: All 3 QEAs on the test list are complete and QA-passing. Awaiting expanded master list.

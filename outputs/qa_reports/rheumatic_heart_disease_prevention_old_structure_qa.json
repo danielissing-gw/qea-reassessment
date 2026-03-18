@@ -1,0 +1,25 @@
+{
+  "intervention": "rheumatic_heart_disease_prevention_old",
+  "status": "fail",
+  "errors": [
+    {
+      "check": "csv_no_row",
+      "severity": "error",
+      "message": "No row found in tracker CSV for 'rheumatic_heart_disease_prevention_old'."
+    }
+  ],
+  "warnings": [
+    {
+      "check": "filename_mismatch",
+      "severity": "warning",
+      "present": {
+        "writeup": "C:\\Users\\Daniel Issing\\Documents\\claudecode\\qea-reassessment\\outputs\\writeups\\rheumatic_heart_disease_prevention_old.md",
+        "botec": "C:\\Users\\Daniel Issing\\Documents\\claudecode\\qea-reassessment\\outputs\\botecs\\rheumatic_heart_disease_prevention_old.xlsx"
+      },
+      "missing": {
+        "build_script": "C:\\Users\\Daniel Issing\\Documents\\claudecode\\qea-reassessment\\outputs\\botecs\\build_rheumatic_heart_disease_prevention_old_botec.py"
+      },
+      "message": "Inconsistent filenames: present=['writeup', 'botec'], missing=['build_script']. Expected all files to use stem 'rheumatic_heart_disease_prevention_old'."
+    }
+  ]
+}

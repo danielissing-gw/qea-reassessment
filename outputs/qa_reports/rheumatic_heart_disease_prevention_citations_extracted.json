@@ -1,0 +1,125 @@
+{
+  "file": "C:\\Users\\Daniel Issing\\Documents\\claudecode\\qea-reassessment\\outputs\\writeups\\rheumatic_heart_disease_prevention.md",
+  "status": "pass",
+  "total_citations": 10,
+  "citations": [
+    {
+      "type": "footnote",
+      "number": 1,
+      "body": "\"Children, adolescents and adults with sore throat and a positive diagnostic test for GAS pharyngitis should be treated with antibiotics to prevent RF/RHD.\" (Strong recommendation, moderate certainty evidence) https://www.ncbi.nlm.nih.gov/books/NBK609692/",
+      "urls": [
+        "https://www.ncbi.nlm.nih.gov/books/NBK609692/"
+      ],
+      "quotes": [
+        "Children, adolescents and adults with sore throat and a positive diagnostic test for GAS pharyngitis should be treated with antibiotics to prevent RF/RHD."
+      ],
+      "issues": []
+    },
+    {
+      "type": "footnote",
+      "number": 2,
+      "body": "\"In populations at moderate to high risk of RF and RHD and where diagnostic testing to confirm GAS (with either POC testing or microbial confirmation) is not available, children and adolescents with clinically-suspected GAS pharyngitis should be treated with antibiotics to prevent RF/RHD.\" (Strong recommendation, very low certainty evidence) https://www.ncbi.nlm.nih.gov/books/NBK609692/",
+      "urls": [
+        "https://www.ncbi.nlm.nih.gov/books/NBK609692/"
+      ],
+      "quotes": [
+        "In populations at moderate to high risk of RF and RHD and where diagnostic testing to confirm GAS (with either POC testing or microbial confirmation) is not available, children and adolescents with clinically-suspected GAS pharyngitis should be treated with antibiotics to prevent RF/RHD."
+      ],
+      "issues": []
+    },
+    {
+      "type": "footnote",
+      "number": 3,
+      "body": "\"IM benzathine benzylpenicillin is the preferred first-line approach to prevent recurrence of RF in patients with prior RF or RHD.\" (Strong recommendation, moderate certainty evidence) https://www.ncbi.nlm.nih.gov/books/NBK609692/",
+      "urls": [
+        "https://www.ncbi.nlm.nih.gov/books/NBK609692/"
+      ],
+      "quotes": [
+        "IM benzathine benzylpenicillin is the preferred first-line approach to prevent recurrence of RF in patients with prior RF or RHD."
+      ],
+      "issues": []
+    },
+    {
+      "type": "footnote",
+      "number": 4,
+      "body": "\"India had an estimated 166,017 RHD deaths in 2021\" \u2014 reported in an AHA Circulation 2023 abstract on trends in RHD mortality in India using GBD 2021 data. I could not verify this against the raw GBD database. https://www.ahajournals.org/doi/10.1161/circ.150.suppl_1.4144731",
+      "urls": [
+        "https://www.ahajournals.org/doi/10.1161/circ.150.suppl_1.4144731"
+      ],
+      "quotes": [
+        "India had an estimated 166,017 RHD deaths in 2021"
+      ],
+      "issues": []
+    },
+    {
+      "type": "footnote",
+      "number": 5,
+      "body": "\"South Asia experienced an age-standardized mortality rate of 14.88 per 100,000, representing 3.3 times the global average.\" https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2025.1674434/full",
+      "urls": [
+        "https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2025.1674434/full"
+      ],
+      "quotes": [
+        "South Asia experienced an age-standardized mortality rate of 14.88 per 100,000, representing 3.3 times the global average."
+      ],
+      "issues": []
+    },
+    {
+      "type": "footnote",
+      "number": 6,
+      "body": "\"A combination of secondary and tertiary prevention strategies, which had an incremental cost of \u20b923,051 (US$30) per QALY gained, was the most cost-effective strategy for the prevention and control of rheumatic fever and rheumatic heart disease in India.\" I was unable to access the full paper \u2014 this quote is sourced from a secondary review. https://www.sciencedirect.com/science/article/pii/S2214109X22005526",
+      "urls": [
+        "https://www.sciencedirect.com/science/article/pii/S2214109X22005526"
+      ],
+      "quotes": [
+        "A combination of secondary and tertiary prevention strategies, which had an incremental cost of \u20b923,051 (US$30) per QALY gained, was the most cost-effective strategy for the prevention and control of rheumatic fever and rheumatic heart disease in India."
+      ],
+      "issues": []
+    },
+    {
+      "type": "note",
+      "number": 7,
+      "body": "[Note] The original BOTEC math checks out: 89% effect x 0.7 IV x 0.7 EV = 43.6% reduction. 1,500 lifetime RHD deaths per 100k x 43.6% = 654 deaths averted. 654 x 52.5 units/death = 34,342 units of value. Cost per 100k = $170,277; units per $100k = 20,168; vs GiveDirectly 344 units/$100k \u2192 58.6x.",
+      "urls": [],
+      "quotes": [],
+      "issues": []
+    },
+    {
+      "type": "footnote",
+      "number": 8,
+      "body": "\"I think the benefits estimate is plausible (although uncertain), but I am skeptical of the cost estimate.\" and \"I am concerned that the cost estimate (from the academic lit) may be an underestimate, possibly a gross one\" https://docs.google.com/document/d/1siZVFAA3E3SLWroQ_oQqTuxUBMfEYvM_z8tL6eOp2Y8/edit",
+      "urls": [
+        "https://docs.google.com/document/d/1siZVFAA3E3SLWroQ_oQqTuxUBMfEYvM_z8tL6eOp2Y8/edit"
+      ],
+      "quotes": [
+        "I think the benefits estimate is plausible (although uncertain), but I am skeptical of the cost estimate.",
+        "I am concerned that the cost estimate (from the academic lit) may be an underestimate, possibly a gross one"
+      ],
+      "issues": []
+    },
+    {
+      "type": "footnote",
+      "number": 9,
+      "body": "\"a well-structured medical assistance system with free and easy accessibility to medical care and treatment for the whole population\" \u2014 cited in original QEA from the Cuba intervention paper. https://docs.google.com/document/d/1siZVFAA3E3SLWroQ_oQqTuxUBMfEYvM_z8tL6eOp2Y8/edit",
+      "urls": [
+        "https://docs.google.com/document/d/1siZVFAA3E3SLWroQ_oQqTuxUBMfEYvM_z8tL6eOp2Y8/edit"
+      ],
+      "quotes": [
+        "a well-structured medical assistance system with free and easy accessibility to medical care and treatment for the whole population"
+      ],
+      "issues": []
+    },
+    {
+      "type": "footnote",
+      "number": 10,
+      "body": "\"the principal heart disease seen in pregnant women\" \u2014 from WHO RHD page, cited in the original QEA. https://docs.google.com/document/d/1siZVFAA3E3SLWroQ_oQqTuxUBMfEYvM_z8tL6eOp2Y8/edit",
+      "urls": [
+        "https://docs.google.com/document/d/1siZVFAA3E3SLWroQ_oQqTuxUBMfEYvM_z8tL6eOp2Y8/edit"
+      ],
+      "quotes": [
+        "the principal heart disease seen in pregnant women"
+      ],
+      "issues": []
+    }
+  ],
+  "issues": []
+}

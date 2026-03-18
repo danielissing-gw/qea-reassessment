@@ -23,12 +23,20 @@ Reassesses GiveWell's past quick evidence assessments (QEAs) to identify interve
     background.md          # GiveWell context, what makes a QEA worth revisiting
     methodology.md         # Stage 1 and Stage 2 instructions
     examples.md            # Example outputs (Low and Medium interventions)
+./qa/
+    run_qa.py              # Orchestrator: runs all QA checks for an intervention
+    validate_botec.py      # BOTEC checks: circular refs, formulas, hyperlinks, structure
+    validate_structure.py  # Output checks: writeup sections, CSV row, filenames
+    extract_citations.py   # Citation parser: extracts quotes + URLs for verification
 ./outputs/
     qea_reassessment_tracker.csv
     run_log.md
     summary.md
     writeups/{intervention_name}.md
     botecs/{intervention_name}.xlsx
+    qa_reports/{intervention_name}_botec_qa.json
+    qa_reports/{intervention_name}_structure_qa.json
+    qa_reports/{intervention_name}_citations_extracted.json
 ```
 
 ## Execution rules
@@ -37,7 +45,8 @@ Reassesses GiveWell's past quick evidence assessments (QEAs) to identify interve
 - **Save after each QEA.** Append to the CSV and write any Stage 2 files immediately.
 - Log progress to `run_log.md` after each QEA.
 - **Start a new session every 3 QEAs** (or sooner if context feels degraded). Each QEA involves reading source documents, running web searches, and generating outputs — this fills the context window. Starting fresh avoids compression artifacts. Check `run_log.md` at the start of each session to see where to pick up.
-- See `./docs/methodology.md` for Stage 1 and Stage 2 instructions.
+- **After completing Stage 2 outputs, run `python qa/run_qa.py {intervention_name}`** and fix any errors before proceeding. See `docs/methodology.md` Stage 2b for details.
+- See `./docs/methodology.md` for Stage 1, Stage 2, and Stage 2b (QA) instructions.
 - See `./docs/examples.md` for example outputs at each promisingness level.
 
 ## Core guidelines

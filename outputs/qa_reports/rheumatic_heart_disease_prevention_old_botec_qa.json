@@ -1,0 +1,126 @@
+{
+  "file": "outputs\\botecs\\rheumatic_heart_disease_prevention_old.xlsx",
+  "status": "fail",
+  "errors": [
+    {
+      "check": "circular_reference",
+      "severity": "error",
+      "cycle": [
+        "CALCULATION!C11",
+        "CALCULATION!C11"
+      ],
+      "message": "Circular reference detected: CALCULATION!C11 -> CALCULATION!C11"
+    },
+    {
+      "check": "circular_reference",
+      "severity": "error",
+      "cycle": [
+        "CALCULATION!C12",
+        "CALCULATION!C12"
+      ],
+      "message": "Circular reference detected: CALCULATION!C12 -> CALCULATION!C12"
+    },
+    {
+      "check": "circular_reference",
+      "severity": "error",
+      "cycle": [
+        "CALCULATION!D12",
+        "CALCULATION!D12"
+      ],
+      "message": "Circular reference detected: CALCULATION!D12 -> CALCULATION!D12"
+    },
+    {
+      "check": "circular_reference",
+      "severity": "error",
+      "cycle": [
+        "CALCULATION!C10",
+        "CALCULATION!C10"
+      ],
+      "message": "Circular reference detected: CALCULATION!C10 -> CALCULATION!C10"
+    },
+    {
+      "check": "circular_reference",
+      "severity": "error",
+      "cycle": [
+        "CALCULATION!D11",
+        "CALCULATION!D11"
+      ],
+      "message": "Circular reference detected: CALCULATION!D11 -> CALCULATION!D11"
+    },
+    {
+      "check": "circular_reference",
+      "severity": "error",
+      "cycle": [
+        "CALCULATION!D6",
+        "CALCULATION!D6"
+      ],
+      "message": "Circular reference detected: CALCULATION!D6 -> CALCULATION!D6"
+    },
+    {
+      "check": "circular_reference",
+      "severity": "error",
+      "cycle": [
+        "CALCULATION!D10",
+        "CALCULATION!D10"
+      ],
+      "message": "Circular reference detected: CALCULATION!D10 -> CALCULATION!D10"
+    },
+    {
+      "check": "circular_reference",
+      "severity": "error",
+      "cycle": [
+        "CALCULATION!D4",
+        "CALCULATION!D4"
+      ],
+      "message": "Circular reference detected: CALCULATION!D4 -> CALCULATION!D4"
+    },
+    {
+      "check": "circular_reference",
+      "severity": "error",
+      "cycle": [
+        "CALCULATION!C9",
+        "CALCULATION!C9"
+      ],
+      "message": "Circular reference detected: CALCULATION!C9 -> CALCULATION!C9"
+    },
+    {
+      "check": "circular_reference",
+      "severity": "error",
+      "cycle": [
+        "CALCULATION!D9",
+        "CALCULATION!D9"
+      ],
+      "message": "Circular reference detected: CALCULATION!D9 -> CALCULATION!D9"
+    },
+    {
+      "check": "circular_reference",
+      "severity": "error",
+      "cycle": [
+        "CALCULATION!C6",
+        "CALCULATION!C6"
+      ],
+      "message": "Circular reference detected: CALCULATION!C6 -> CALCULATION!C6"
+    },
+    {
+      "check": "circular_reference",
+      "severity": "error",
+      "cycle": [
+        "CALCULATION!C4",
+        "CALCULATION!C4"
+      ],
+      "message": "Circular reference detected: CALCULATION!C4 -> CALCULATION!C4"
+    }
+  ],
+  "warnings": [
+    {
+      "check": "multiple_sheets",
+      "severity": "warning",
+      "sheets": [
+        "Parameters",
+        "Calculation",
+        "Notes"
+      ],
+      "message": "BOTEC has 3 sheets (Parameters, Calculation, Notes). Expected single-sheet format."
+    }
+  ]
+}

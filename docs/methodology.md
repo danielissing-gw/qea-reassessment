@@ -18,6 +18,8 @@ Run for every QEA.
     *[^1]: "18 (1·9%) HIV-1 infections were confirmed during DVR use, resulting in an incidence of 1·8 per 100 person-years, 62% lower than the simulated placebo rate." ([DREAM study, 2021](url))*
   - ✗ Bad: *The DREAM study found a 62% reduction in HIV incidence. ([link](url))*
 - **Explicitly label assumptions and guesses.** Whenever a value, estimate, or claim is not directly backed by a cited source — including extrapolations, gap-fills, or judgment calls — flag it clearly inline: "I'm assuming that...", "My estimate is...", "I haven't verified this, but...", etc. Do not present guesses as established facts.
+- **Commentary footnotes.** Not every footnote is a citation. For footnotes that contain commentary, calculations, or editorial notes (rather than sourced claims), start the footnote body with `[Note]`. These are exempt from the QA requirement for a URL and verbatim quote.
+  - ✓ `[^8]: [Note] Looking only at costs per infection prevented, we're guessing ~$4.7k now vs ~$9.5k then.`
 
 ---
 
@@ -83,14 +85,35 @@ Save to `./outputs/writeups/{intervention_name}.md`.
 
 What we want is a simple BOTEC, not a full model. Save to `./outputs/botecs/{intervention_name}.xlsx` using `openpyxl`.
 
-**Layout:** Use a "Parameters" sheet with columns:
-| A: Parameter | B: Original value | C: Updated value | D: Source | E: Notes |
+**Layout:** Single sheet ("BOTEC") with three columns:
 
-- Put numeric values in B and C as numbers, not text, so they can be referenced in formulas.
-- **D (Source):** "original", a URL to the new source, or "assumption".
-- **E (Notes):** Brief explanation of why the parameter changed (or "unchanged").
+| A: Parameter | B: Value | C: Source / notes |
 
-Add a "Calculation" sheet that computes the final CE estimate using **cell formulas that reference the Parameters sheet** (e.g., `=Parameters!C2 * Parameters!C3`). This makes the logic auditable and avoids rounding errors from pre-computed values. The Calculation sheet should clearly show:
-- The step-by-step calculation (one operation per row where practical)
-- The final result in multiples of cash transfers, labeled clearly
-- Which cells are inputs vs. computed
+- **Column A:** Parameter labels, grouped under bold section headers (e.g., **Costs**, **Infections prevented**, **Benefits**, **Final CE**).
+- **Column B:** Numeric inputs or cell formulas (e.g., `=B3*B4`, `=SUM(B17:B21)*B15`). Put numeric values as numbers, not text, so they can be referenced in formulas. Rows that compute derived quantities should use formulas, not pre-computed values.
+- **Column C:** Source URL (as a hyperlink), "Calculation", or a brief note explaining the value. Add `openpyxl.comments.Comment` with verbatim quotes from sources for key assumptions.
+
+See `docs/examples/build_vaginal_rings_dapivirine_botec.py` for the reference implementation.
+
+---
+
+### Stage 2b: Quality Assurance
+
+Run after completing Stage 2 outputs (writeup + BOTEC) for each intervention.
+
+```
+python qa/run_qa.py {intervention_name}
+```
+
+This runs three checks:
+
+1. **BOTEC validation** (`qa/validate_botec.py`): Detects circular references, formula errors (unbalanced parens, unknown functions, references to non-existent sheets), hyperlink issues, and structural problems (missing section headers, no formulas, no labels).
+
+2. **Structure validation** (`qa/validate_structure.py`): Checks that the writeup has all required H2 sections, footnote citations, and URLs; that the CSV tracker row is complete with valid values; that the BOTEC file exists and contains formulas; and that filenames are consistent.
+
+3. **Citation extraction** (`qa/extract_citations.py`): Parses all footnote and blockquote citations, extracts quoted text and URLs. Flags citations missing URLs or verbatim quotes. Outputs a JSON file for the main session to verify via WebFetch (comparing quoted text against fetched page content).
+
+**Process:**
+- Fix any errors flagged by the QA scripts. Re-run until the report is clean (exit code 0).
+- After the deterministic checks pass, review the citation extraction report. For key claims, fetch the source URL and verify the quoted text appears on the page.
+- Only proceed to the next QEA after QA passes.
