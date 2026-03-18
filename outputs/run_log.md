@@ -65,4 +65,37 @@
 
 ---
 
-## Next session: All 3 QEAs on the test list are complete and QA-passing. Awaiting expanded master list.
+## Session: 2026-03-18
+
+### QA review feedback: methodology + RHD + PPH fixes
+
+**Methodology updates** (`docs/methodology.md`):
+- Added BOTEC best-guess requirement: BOTEC must represent best-guess CE; subjective adjustments go in the BOTEC, not as writeup overrides
+- Added standard BOTEC calculation flow (10-step structure: grant → cost → burden → effect → IV/EV → deaths averted → UoV → ad-hoc adjustments → final CE)
+- Tightened citation rules: verbatim means exact (use `[...]` for elisions); basic context claims need sources; CE ranges must be derivable from BOTEC
+- Added vaccine/technology pipeline to "Search for updates" checklist
+
+**RHD fixes** (`outputs/writeups/rheumatic_heart_disease_prevention.md`, `outputs/botecs/`):
+- Fixed "first-ever" WHO guidelines → "first formal clinical guideline (GRADE methodology), superseding 1988 and 2004 Technical Reports"
+- Sourced basic context claims (WHO fact sheet: ~360k deaths/year; World Heart Federation: leading acquired heart disease under 25)
+- Fixed inexact quote in footnote [^2] (added missing parenthetical about POC testing)
+- Added Strep A vaccine pipeline section (Griffith Phase 1 complete, SAVAC $10M from Wellcome/CEPI)
+- Rebuilt BOTEC: added 3x subjective cost multiplier, +30% morbidity uplift, +15% perinatal uplift. CE: **~26x** (range 16-54x). Previous BOTEC was ~54x with no cost adjustment.
+- Updated writeup CE section to reference BOTEC directly
+- QA: PASS
+
+**PPH fixes** (`outputs/writeups/uterotonics_pph_prevention.md`, `outputs/botecs/`):
+- Rebuilt BOTEC from scratch using standard GW CE model structure ($1M grant → births covered → HSC + TXA deaths averted with explicit IV/EV → UoV → morbidity/treatment adjustments → CE)
+- CE: **~3.3x** at $2/birth (range ~2x at $3/birth to ~6.5x at $1/birth). Previous claim of 8-15x was a judgment call not derivable from any BOTEC.
+- Fixed TXA prevention clarification: not recommended for prevention in ANY delivery mode (not just vaginal birth)
+- Fixed broken Ferring HSC link (now points to Ferring's official statement)
+- Updated Lancet meta-analysis footnote with actual pooled OR (0.77) and sample size (54,404 women)
+- Added E-MOTIVE trial as context (NEJM 2023, RR 0.40 for bundled detection + treatment)
+- Updated recommended next steps (replaced "build separate HSC model" with E-MOTIVE implementation investigation)
+- QA: PASS
+
+**CSV tracker updated** for both interventions.
+
+---
+
+## Next session: Awaiting expanded master list.

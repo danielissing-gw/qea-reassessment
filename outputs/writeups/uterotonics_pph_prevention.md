@@ -16,7 +16,7 @@
 
 At the time of the original QEA (mid-2017), the WOMAN trial had just published results showing that death due to bleeding was significantly reduced with TXA, with a risk ratio of 0.81 (95% CI 0.65–1.00), and a stronger effect when given within 3 hours (RR 0.69, 95% CI 0.52–0.91).[^2]
 
-Since then, a 2024 Lancet individual patient data meta-analysis further confirmed that early administration of TXA within three hours of PPH onset significantly reduces maternal mortality by 31%.[^3] WHO added TXA to its PPH treatment guidelines in 2017 and confirmed its treatment role in the 2025 consolidated guidelines, recommending it for PPH treatment but explicitly not for prevention at vaginal birth.[^4]
+Since then, a 2024 Lancet individual patient data meta-analysis of 54,404 women from 5 RCTs found that TXA reduces life-threatening postpartum bleeding (a composite of death, laparotomy, embolisation, uterine compression sutures, or arterial ligation) with a pooled odds ratio of 0.77 (95% CI 0.63–0.93).[^3] WHO added TXA to its PPH treatment guidelines in 2017 and confirmed its treatment role in the 2025 consolidated guidelines. TXA is not recommended for PPH prevention in any delivery mode — a 2025 Cochrane review excluded all prior prevention trials on data integrity grounds, and the two largest cesarean prevention trials (TRAAP2 and Myles et al.) both failed to show benefit on clinically meaningful endpoints.[^4]
 
 However, scale-up remains constrained by the 3-hour administration window, which requires rapid PPH diagnosis and TXA availability at the point of care.
 
@@ -42,13 +42,18 @@ No errors in the cost data visible; the issue is the BOTEC is incomplete rather 
 
 ## New CE estimate
 
-**~8–15x cash** (highly uncertain). See BOTEC at `./outputs/botecs/uterotonics_pph_prevention.xlsx`.
+**~3x cash** (best guess; highly uncertain — range ~2x to ~7x depending on program costs). See BOTEC at `./outputs/botecs/uterotonics_pph_prevention.xlsx`.
 
-This estimate is based on TXA treatment and heat-stable carbetocin rather than misoprostol (the original focus). For TXA: drug cost ~$3/course (generic, off-patent), with a 10x program cost multiplier, yields ~$30/PPH case treated. With an absolute risk reduction of ~0.4 percentage points per case, cost per death averted is ~$8,300 — roughly 0.5x cash. This is low because TXA only reduces mortality among women who already have PPH, so the per-case impact is small.
+The BOTEC models a bundled facility-based PPH program (HSC for prevention + TXA for treatment) using the standard GW CE model structure: $1M grant → births covered → deaths averted (with explicit IV and EV adjustments for each component) → UoV via moral weights → ad-hoc morbidity/treatment-cost adjustments → multiples of benchmark.
 
-For heat-stable carbetocin: $0.31/birth drug cost, with 5 lives saved per 100,000 facility births (per the India modeling study). Drug cost alone is ~$6,200/life saved; with full program costs (I'm assuming 20x drug cost), ~$124,000/life — roughly 0.04x cash.[^11]
+At an estimated $2 per facility birth covered (including drugs, training, supply chain, and monitoring), the grant covers 500,000 births. HSC averts ~19 deaths (5 per 100k, adjusted) and TXA averts ~88 deaths (from 6% PPH rate × 1.9% case fatality × 19% relative risk reduction, adjusted). With morbidity (+75%) and treatment cost (+25%) uplifts, the total yields ~3.3x cash.
 
-The combined bundled program is more promising because the infrastructure for one product (facility births, trained staff) serves all products. I'm settling on ~8–15x as a plausible central estimate for a well-run bundled PPH program, but confidence is Low — the program cost assumptions drive everything and are rough guesses.
+The CE is extremely sensitive to the per-birth cost assumption — the single most important unknown:
+- At $1/birth (marginal cost of adding HSC+TXA to existing facilities): ~6.5x
+- At $2/birth (central estimate): ~3.3x
+- At $3/birth (full program cost): ~2.2x
+
+This is below the 8x bar on the central estimate. However, the E-MOTIVE trial (NEJM 2023) demonstrated that a bundled PPH detection + treatment approach can reduce severe PPH outcomes by 60% in LMIC facility settings,[^em] which suggests the bundled approach has substantial value. The AMPLI-PPHI program should produce real cost data by mid-2026 that would resolve the key uncertainty.
 
 Note: the original misoprostol-focused program is effectively off the table — WHO 2025 designates it as a last resort when no injectable options are available.[^12]
 
@@ -75,7 +80,7 @@ Note: the original misoprostol-focused program is effectively off the table — 
 
 2. **Get full program cost data from AMPLI-PPHI's implementation evidence.** The program is generating cost-effectiveness evidence as one of its explicit objectives (by July 2026). If early results are available, they would resolve the biggest uncertainty in the CE estimate. Requesting this from Jhpiego or PATH would be far more reliable than the 2011 Tanzania cost data.
 
-3. **Build a separate CE model for heat-stable carbetocin** using the 2023 India modeling data and the $0.31/ampoule Ferring price. The original BOTEC focused on misoprostol/TXA and did not model HSC at all. Given WHO's recommendation and the $0.31 price point, HSC for cold-chain-deficient settings may be the most cost-effective component of the PPH bundle and deserves its own model.
+3. **Investigate the E-MOTIVE bundle as a delivery model.** The E-MOTIVE trial (NEJM 2023) showed a 60% reduction in severe PPH outcomes using a bundled detection + treatment approach (calibrated drape + first-response treatment including TXA). WHO has incorporated the MOTIVE bundle into its 2025 guidelines. Understanding the per-birth cost of implementing MOTIVE at scale — particularly whether it reduces the effective cost below $2/birth assumed in our BOTEC — would substantially sharpen the CE estimate. **Dr. Ioannis Gallos** (University of Birmingham), the MOTIVE trial lead, would be the key contact.
 
 ---
 
@@ -83,13 +88,13 @@ Note: the original misoprostol-focused program is effectively off the table — 
 
 [^2]: "Death due to bleeding was significantly reduced in women given tranexamic acid (155 [1.5%] of 10 036 patients vs 191 [1.9%] of 9985 in the placebo group, risk ratio [RR] 0.81, 95% CI 0.65–1.00; p=0.045), especially in women given treatment within 3 h of giving birth (89 [1.2%] in the tranexamic acid group vs 127 [1.7%] in the placebo group, RR 0.69, 95% CI 0.52–0.91; p=0.008)." http://www.thelancet.com/journals/lancet/article/PIIS0140-6736(17)30638-4/fulltext
 
-[^3]: "early administration of TXA within three hours of PPH onset significantly reduces maternal mortality by 31%" — from a secondary source summarizing the 2024 Lancet individual patient data meta-analysis. I could not access the full paper. https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(24)02102-0/fulltext
+[^3]: "Life-threatening bleeding occurred in 178 (0.65%) of 27,300 women in the tranexamic acid group versus 230 (0.85%) of 27,093 women in the placebo group (pooled odds ratio [OR] 0.77 [95% CI 0.63–0.93]; p=0.008)." Individual patient data meta-analysis of 54,404 women from 5 RCTs. Note: endpoint is a composite (death + surgical interventions), not mortality alone. https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(24)02102-0/fulltext
 
-[^4]: "Tranexamic acid is not recommended for the prevention of postpartum haemorrhage at vaginal birth" but remains recommended for treatment within 3 hours. https://www.ncbi.nlm.nih.gov/books/NBK619236/
+[^4]: "Tranexamic acid is not recommended for the prevention of postpartum haemorrhage at vaginal birth." TXA is also not recommended for prevention at cesarean delivery — the 2025 Cochrane review excluded all prior vaginal-birth prevention trials on data integrity grounds, and the two largest cesarean prevention trials (TRAAP2, NEJM 2021; Myles et al., NEJM 2023) both failed to show benefit on clinically meaningful endpoints. TXA is recommended for treatment only. https://www.ncbi.nlm.nih.gov/books/NBK619236/
 
 [^5]: "Heat-stable carbetocin (100 μg intramuscularly/intravenously) is the recommended choice for the prevention of postpartum haemorrhage in settings where the oxytocin cold chain cannot be consistently maintained." https://www.ncbi.nlm.nih.gov/books/NBK619236/
 
-[^6]: "Ferring Pharmaceuticals makes HSC available at $0.31 per ampoule for LMIC public sector facilities." https://www.ghsupplychain.org/sites/default/files/2023-07/HSC_20230630.pdf
+[^6]: "This price is a subsidised price of $0.31 +/- 10% per ampoule of 100 ug Carbetocin Ferring, Ex Works." https://www.ferring.com/ferring-statement-on-subsidised-pricing-of-heat-stable-carbetocin-for-the-prevention-of-postpartum-haemorrhage-in-low-and-lower-middle-income-countries/
 
 [^7]: "prevent about 5,500 additional PPH cases and save five maternal lives per 100,000 births when priced comparably to oxytocin" — from a PMC review citing the 2023 India modeling study. I could not access the original study. https://pmc.ncbi.nlm.nih.gov/articles/PMC12145113/
 
@@ -99,6 +104,8 @@ Note: the original misoprostol-focused program is effectively off the table — 
 
 [^10]: [Note] The misoprostol CE in the original QEA was presented as a "naive" $700/life saved with the explicit caveat that there was no direct mortality evidence.
 
-[^11]: [Note] The per-product CE estimates look low because they don't capture the bundled value of the infrastructure: a facility capable of administering HSC for prevention can also use TXA for treatment, and the fixed costs (training, supply chain) are shared. The 8–15x range is my estimate for the bundled program, not any single product.
+[^11]: [Note] The BOTEC models HSC and TXA as a bundled program with shared infrastructure costs ($2/birth). The per-component estimates are low individually (HSC saves ~3.8 lives per 100k after validity adjustments; TXA saves ~17.5 per 100k). The bundled program CE of ~3x reflects the combined benefit at realistic program costs.
+
+[^em]: "A primary-outcome event occurred in 1.6% of the patients in the intervention group, as compared with 4.3% of those in the usual-care group (risk ratio, 0.40; 95% confidence interval [CI], 0.32 to 0.50; P<0.001)." E-MOTIVE trial (Gallos et al., NEJM 2023): bundled early detection + treatment approach, 210,132 women across 80 hospitals in Kenya, Nigeria, South Africa, and Tanzania. https://www.nejm.org/doi/full/10.1056/NEJMoa2303966
 
 [^12]: "Misoprostol should be used as a last resort when other recommended uterotonics are not available." https://www.ncbi.nlm.nih.gov/books/NBK619236/

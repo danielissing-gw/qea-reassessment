@@ -30,24 +30,24 @@
     {
       "type": "footnote",
       "number": 3,
-      "body": "\"early administration of TXA within three hours of PPH onset significantly reduces maternal mortality by 31%\" \u2014 from a secondary source summarizing the 2024 Lancet individual patient data meta-analysis. I could not access the full paper. https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(24)02102-0/fulltext",
+      "body": "\"Life-threatening bleeding occurred in 178 (0.65%) of 27,300 women in the tranexamic acid group versus 230 (0.85%) of 27,093 women in the placebo group (pooled odds ratio [OR] 0.77 [95% CI 0.63\u20130.93]; p=0.008).\" Individual patient data meta-analysis of 54,404 women from 5 RCTs. Note: endpoint is a composite (death + surgical interventions), not mortality alone. https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(24)02102-0/fulltext",
       "urls": [
         "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(24"
       ],
       "quotes": [
-        "early administration of TXA within three hours of PPH onset significantly reduces maternal mortality by 31%"
+        "Life-threatening bleeding occurred in 178 (0.65%) of 27,300 women in the tranexamic acid group versus 230 (0.85%) of 27,093 women in the placebo group (pooled odds ratio [OR] 0.77 [95% CI 0.63\u20130.93]; p=0.008)."
       ],
       "issues": []
     },
     {
       "type": "footnote",
       "number": 4,
-      "body": "\"Tranexamic acid is not recommended for the prevention of postpartum haemorrhage at vaginal birth\" but remains recommended for treatment within 3 hours. https://www.ncbi.nlm.nih.gov/books/NBK619236/",
+      "body": "\"Tranexamic acid is not recommended for the prevention of postpartum haemorrhage at vaginal birth.\" TXA is also not recommended for prevention at cesarean delivery \u2014 the 2025 Cochrane review excluded all prior vaginal-birth prevention trials on data integrity grounds, and the two largest cesarean prevention trials (TRAAP2, NEJM 2021; Myles et al., NEJM 2023) both failed to show benefit on clinically meaningful endpoints. TXA is recommended for treatment only. https://www.ncbi.nlm.nih.gov/books/NBK619236/",
       "urls": [
         "https://www.ncbi.nlm.nih.gov/books/NBK619236/"
       ],
       "quotes": [
-        "Tranexamic acid is not recommended for the prevention of postpartum haemorrhage at vaginal birth"
+        "Tranexamic acid is not recommended for the prevention of postpartum haemorrhage at vaginal birth."
       ],
       "issues": []
     },
@@ -66,12 +66,12 @@
     {
       "type": "footnote",
       "number": 6,
-      "body": "\"Ferring Pharmaceuticals makes HSC available at $0.31 per ampoule for LMIC public sector facilities.\" https://www.ghsupplychain.org/sites/default/files/2023-07/HSC_20230630.pdf",
+      "body": "\"This price is a subsidised price of $0.31 +/- 10% per ampoule of 100 ug Carbetocin Ferring, Ex Works.\" https://www.ferring.com/ferring-statement-on-subsidised-pricing-of-heat-stable-carbetocin-for-the-prevention-of-postpartum-haemorrhage-in-low-and-lower-middle-income-countries/",
       "urls": [
-        "https://www.ghsupplychain.org/sites/default/files/2023-07/HSC_20230630.pdf"
+        "https://www.ferring.com/ferring-statement-on-subsidised-pricing-of-heat-stable-carbetocin-for-the-prevention-of-postpartum-haemorrhage-in-low-and-lower-middle-income-countries/"
       ],
       "quotes": [
-        "Ferring Pharmaceuticals makes HSC available at $0.31 per ampoule for LMIC public sector facilities."
+        "This price is a subsidised price of $0.31 +/- 10% per ampoule of 100 ug Carbetocin Ferring, Ex Works."
       ],
       "issues": []
     },
@@ -122,9 +122,13 @@
     {
       "type": "note",
       "number": 11,
-      "body": "[Note] The per-product CE estimates look low because they don't capture the bundled value of the infrastructure: a facility capable of administering HSC for prevention can also use TXA for treatment, and the fixed costs (training, supply chain) are shared. The 8\u201315x range is my estimate for the bundled program, not any single product.",
-      "urls": [],
-      "quotes": [],
+      "body": "[Note] The BOTEC models HSC and TXA as a bundled program with shared infrastructure costs ($2/birth). The per-component estimates are low individually (HSC saves ~3.8 lives per 100k after validity adjustments; TXA saves ~17.5 per 100k). The bundled program CE of ~3x reflects the combined benefit at realistic program costs.\n\n[^em]: \"A primary-outcome event occurred in 1.6% of the patients in the intervention group, as compared with 4.3% of those in the usual-care group (risk ratio, 0.40; 95% confidence interval [CI], 0.32 to 0.50; P<0.001).\" E-MOTIVE trial (Gallos et al., NEJM 2023): bundled early detection + treatment approach, 210,132 women across 80 hospitals in Kenya, Nigeria, South Africa, and Tanzania. https://www.nejm.org/doi/full/10.1056/NEJMoa2303966",
+      "urls": [
+        "https://www.nejm.org/doi/full/10.1056/NEJMoa2303966"
+      ],
+      "quotes": [
+        "A primary-outcome event occurred in 1.6% of the patients in the intervention group, as compared with 4.3% of those in the usual-care group (risk ratio, 0.40; 95% confidence interval [CI], 0.32 to 0.50; P<0.001)."
+      ],
       "issues": []
     },
     {

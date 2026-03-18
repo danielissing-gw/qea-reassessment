@@ -6,9 +6,10 @@
     {
       "type": "footnote",
       "number": 1,
-      "body": "\"Children, adolescents and adults with sore throat and a positive diagnostic test for GAS pharyngitis should be treated with antibiotics to prevent RF/RHD.\" (Strong recommendation, moderate certainty evidence) https://www.ncbi.nlm.nih.gov/books/NBK609692/",
+      "body": "\"Children, adolescents and adults with sore throat and a positive diagnostic test for GAS pharyngitis should be treated with antibiotics to prevent RF/RHD.\" (Strong recommendation, moderate certainty evidence) https://www.ncbi.nlm.nih.gov/books/NBK609692/\n\n[^1a]: [Note] WHO published Technical Report Series 764 (1988) and Technical Report Series 923 (2004) on RF/RHD, but the 2024 publication is the first formal clinical guideline developed using GRADE methodology and the WHO Guidelines Review Committee process. See https://www.who.int/publications/i/item/9789240100077",
       "urls": [
-        "https://www.ncbi.nlm.nih.gov/books/NBK609692/"
+        "https://www.ncbi.nlm.nih.gov/books/NBK609692/",
+        "https://www.who.int/publications/i/item/9789240100077"
       ],
       "quotes": [
         "Children, adolescents and adults with sore throat and a positive diagnostic test for GAS pharyngitis should be treated with antibiotics to prevent RF/RHD."
@@ -18,12 +19,12 @@
     {
       "type": "footnote",
       "number": 2,
-      "body": "\"In populations at moderate to high risk of RF and RHD and where diagnostic testing to confirm GAS (with either POC testing or microbial confirmation) is not available, children and adolescents with clinically-suspected GAS pharyngitis should be treated with antibiotics to prevent RF/RHD.\" (Strong recommendation, very low certainty evidence) https://www.ncbi.nlm.nih.gov/books/NBK609692/",
+      "body": "\"In populations at moderate to high risk of RF and RHD and where diagnostic testing to confirm GAS (either point-of-care (POC) testing or microbial confirmation) is not available, children and adolescents with clinically-suspected GAS pharyngitis should be treated with antibiotics to prevent RF/RHD.\" (Strong recommendation, very low certainty evidence) https://www.ncbi.nlm.nih.gov/books/NBK609692/",
       "urls": [
         "https://www.ncbi.nlm.nih.gov/books/NBK609692/"
       ],
       "quotes": [
-        "In populations at moderate to high risk of RF and RHD and where diagnostic testing to confirm GAS (with either POC testing or microbial confirmation) is not available, children and adolescents with clinically-suspected GAS pharyngitis should be treated with antibiotics to prevent RF/RHD."
+        "In populations at moderate to high risk of RF and RHD and where diagnostic testing to confirm GAS (either point-of-care (POC) testing or microbial confirmation) is not available, children and adolescents with clinically-suspected GAS pharyngitis should be treated with antibiotics to prevent RF/RHD."
       ],
       "issues": []
     },
@@ -111,12 +112,23 @@
     {
       "type": "footnote",
       "number": 10,
-      "body": "\"the principal heart disease seen in pregnant women\" \u2014 from WHO RHD page, cited in the original QEA. https://docs.google.com/document/d/1siZVFAA3E3SLWroQ_oQqTuxUBMfEYvM_z8tL6eOp2Y8/edit",
+      "body": "\"the principal heart disease seen in pregnant women\" \u2014 from WHO RHD page, cited in the original QEA. https://docs.google.com/document/d/1siZVFAA3E3SLWroQ_oQqTuxUBMfEYvM_z8tL6eOp2Y8/edit\n\n[^b1]: \"RHD is the most commonly acquired heart disease in people under the age of 25.\" https://world-heart-federation.org/what-we-do/rheumatic-heart-disease/\n\n[^b2]: \"Rheumatic heart disease affects an estimated 55 million people worldwide and claims approximately 360 000 lives each year \u2014 the large majority in low- or middle-income countries.\" https://www.who.int/news-room/fact-sheets/detail/rheumatic-heart-disease\n\n[^v1]: \"Both vaccines were safe, with no high-grade adverse events attributed to vaccination. Both demonstrated strong immunogenicity in all participants. Vaccine-induced antibodies bound to the surface of multiple Strep A strains for up to 6 months post-vaccination.\" https://trialsjournal.biomedcentral.com/articles/10.1186/s13063-024-08634-4\n\n[^v2]: [Note] Griffith University has received approval for a world-first human challenge trial for a Strep A vaccine, in collaboration with the Murdoch Children's Research Institute. See https://www.griffith.edu.au/research/impact/strep-a-rheumatic-heart-disease-vaccine-trial\n\n[^v3]: [Note] StreptAnova (30-valent M-protein vaccine) completed Phase 1 but Phase 2 has been delayed due to funding constraints. See https://www.nature.com/articles/s41541-023-00730-x\n\n[^v4]: [Note] The University of Queensland / Moderna collaboration published a preclinical mRNA vaccine encoding five conserved GAS antigens in Nature Communications (2025), demonstrating protection in mouse models. See https://www.nature.com/articles/s41467-025-60580-0\n\n[^v5]: \"SAVAC received a $10 million grant from Wellcome and CEPI\" for a three-year program to build clinical trial readiness in LMICs. https://savac.ivi.int/documents",
       "urls": [
-        "https://docs.google.com/document/d/1siZVFAA3E3SLWroQ_oQqTuxUBMfEYvM_z8tL6eOp2Y8/edit"
+        "https://docs.google.com/document/d/1siZVFAA3E3SLWroQ_oQqTuxUBMfEYvM_z8tL6eOp2Y8/edit",
+        "https://world-heart-federation.org/what-we-do/rheumatic-heart-disease/",
+        "https://www.who.int/news-room/fact-sheets/detail/rheumatic-heart-disease",
+        "https://trialsjournal.biomedcentral.com/articles/10.1186/s13063-024-08634-4",
+        "https://www.griffith.edu.au/research/impact/strep-a-rheumatic-heart-disease-vaccine-trial",
+        "https://www.nature.com/articles/s41541-023-00730-x",
+        "https://www.nature.com/articles/s41467-025-60580-0",
+        "https://savac.ivi.int/documents"
       ],
       "quotes": [
-        "the principal heart disease seen in pregnant women"
+        "the principal heart disease seen in pregnant women",
+        "RHD is the most commonly acquired heart disease in people under the age of 25.",
+        "Rheumatic heart disease affects an estimated 55 million people worldwide and claims approximately 360 000 lives each year \u2014 the large majority in low- or middle-income countries.",
+        "Both vaccines were safe, with no high-grade adverse events attributed to vaccination. Both demonstrated strong immunogenicity in all participants. Vaccine-induced antibodies bound to the surface of multiple Strep A strains for up to 6 months post-vaccination.",
+        "SAVAC received a $10 million grant from Wellcome and CEPI"
       ],
       "issues": []
     }
