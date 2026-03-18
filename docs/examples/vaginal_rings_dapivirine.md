@@ -6,8 +6,8 @@
 
 ## What is this (basic context)
 
-- **What is the problem?** HIV infections among women, particularly in sub-Saharan Africa, remain high. Existing prevention methods (condoms, oral PrEP) can be difficult to adhere to or may not be within women's control.
-- **What is the program?** Dapivirine rings are monthly vaginal rings containing the antiretroviral drug dapivirine, worn continuously and replaced each month. The ring delivers a sustained prophylactic dose of antiretrovirals to reduce the risk of HIV infection during vaginal sex.
+- **What is the problem?** HIV infections among women, particularly in sub-Saharan Africa, remain high.[^14] Existing prevention methods (condoms, oral PrEP) can be difficult to adhere to or may not be within women's control.
+- **What is the program?** Dapivirine rings are monthly vaginal rings containing the antiretroviral drug dapivirine, worn continuously and replaced each month.[^15] The ring delivers a sustained prophylactic dose of antiretrovirals to reduce the risk of HIV infection during vaginal sex.
 - **Why did we deprioritize this?** A combination of low cost-effectiveness (1/4th as CE as VMMC, though I'm not sure what the CE estimate for VMMC was) and lack of concrete funding opportunities.
 
 ## Key updates
@@ -75,3 +75,7 @@ See [vaginal_rings_dapivirine_botec.md](./vaginal_rings_dapivirine_botec.md) for
 [^12]: "The International Partnership for Microbicides (IPM) developed the Dapivirine Vaginal Ring (DapiRing or DVR), a long-acting, user-controlled vaginal ring to reduce the risk of HIV transmission during vaginal sex. The Population Council acquired the DapiRing and other assets from IPM in 2022, including a key subset of the DapiRing development team." https://popcouncil.org/project/the-dapivirine-vaginal-ring-for-hiv-prevention/
 
 [^13]: "The Children's Investment Fund Foundation (CIFF), in partnership with the Global Fund to Fight AIDS, Tuberculosis and Malaria (the Global Fund), announced on 21 July at the 25th International AIDS Conference an initiative of up to US$2 million over the 2024-2025 period for the purchase of approximately 150,000 dapivirine vaginal rings in countries that implement Global Fund grants to fight HIV and AIDS." https://www.theglobalfund.org/en/news/2024/2024-07-21-ciff-propel-prep-revolution-usd2-million-immediate-access-prep-rings/
+
+[^14]: "In 2023, there were an estimated 1.9 million [1.1 million–2.5 million] adolescent girls and young women aged 15–24 years living with HIV...In sub-Saharan Africa overall, there were 160 000 [98 000 - 220 000] new HIV infections among adolescent girls and young women." (https://www.unaids.org/sites/default/files/media_asset/2024-unaids-global-aids-update-adolescent-girls-young-women_en.pdf)
+
+[^15]: "The dapivirine vaginal ring is a flexible vaginal ring made of silicone that slowly releases an antiretroviral medication (ARV) called dapivirine over the course of one month to reduce the risk of HIV infection. [...] Vaginal rings provide controlled release of drugs over extended periods of time. IPM's ring is a novel formulation made of flexible silicone with 25mg of the ARV drug dapivirine dispersed uniformly throughout its matrix (56mm outer diameter, 7.7mm cross-sectional diameter). The ring slowly delivers the drug directly to the site of potential infection over a month, with low systemic exposure, which could help minimize side effects." (https://www.iapac.org/fact-sheet/dapivirine-vaginal-ring/)

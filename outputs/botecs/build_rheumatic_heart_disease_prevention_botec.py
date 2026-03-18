@@ -230,3 +230,6 @@ for row in ws.iter_rows(min_row=1, max_row=31, min_col=3, max_col=3):
 out_path = os.path.join(os.path.dirname(__file__), "rheumatic_heart_disease_prevention.xlsx")
 wb.save(out_path)
 print(f"Saved: {out_path}")
+
+from export_csv import save_csv
+save_csv(ws, out_path.replace(".xlsx", ".csv"))

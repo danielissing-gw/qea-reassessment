@@ -296,3 +296,6 @@ out_path = os.path.join(os.path.dirname(__file__),
                         "uterotonics_pph_prevention.xlsx")
 wb.save(out_path)
 print(f"Saved: {out_path}")
+
+from export_csv import save_csv
+save_csv(ws, out_path.replace(".xlsx", ".csv"))

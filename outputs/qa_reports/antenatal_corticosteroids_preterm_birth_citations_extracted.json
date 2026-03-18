@@ -1,0 +1,98 @@
+{
+  "file": "C:\\Users\\Daniel Issing\\Documents\\claudecode\\qea-reassessment\\outputs\\writeups\\antenatal_corticosteroids_preterm_birth.md",
+  "status": "pass",
+  "total_citations": 8,
+  "citations": [
+    {
+      "type": "footnote",
+      "number": 1,
+      "body": "\"Sub-Saharan Africa has a neonatal mortality rate of 27/1000 live births, the highest rate in the world and is responsible for 43% of all infant fatalities.\" ([Asaye et al., PLOS ONE 2024](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0306297))",
+      "urls": [
+        "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0306297"
+      ],
+      "quotes": [
+        "Sub-Saharan Africa has a neonatal mortality rate of 27/1000 live births, the highest rate in the world and is responsible for 43% of all infant fatalities."
+      ],
+      "issues": []
+    },
+    {
+      "type": "note",
+      "number": 2,
+      "body": "[Note] Save the Children's 2013 State of the World's Mothers report stated ACS costs \"as little as 51 cents per treatment.\" The drug (dexamethasone) is on the WHO Essential Medicines List and is widely available. The $0.51 figure likely covers only the drug cost, not delivery.",
+      "urls": [],
+      "quotes": [
+        "as little as 51 cents per treatment."
+      ],
+      "issues": []
+    },
+    {
+      "type": "footnote",
+      "number": 3,
+      "body": "\"Furthermore, despite nearly half of the less-than-5th-percentile infants receiving antenatal corticosteroids, neonatal mortality did not decrease in this subgroup. Among the entire population, the intervention resulted in a significant increase in neonatal deaths of 3.5 per 1000 livebirths and an increase in perinatal deaths of 5.1 per 1000 births.\" ([Althabe et al., Lancet 2015](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(14)61651-2/fulltext))",
+      "urls": [
+        "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(14"
+      ],
+      "quotes": [
+        "Furthermore, despite nearly half of the less-than-5th-percentile infants receiving antenatal corticosteroids, neonatal mortality did not decrease in this subgroup. Among the entire population, the intervention resulted in a significant increase in neonatal deaths of 3.5 per 1000 livebirths and an increase in perinatal deaths of 5.1 per 1000 births."
+      ],
+      "issues": []
+    },
+    {
+      "type": "footnote",
+      "number": 4,
+      "body": "\"Neonatal death occurred in 278 of 1417 infants (19.6%) in the dexamethasone group, as compared with 331 of 1406 infants (23.5%) in the placebo group (relative risk, 0.84; 95% CI, 0.72 to 0.97; P=0.03).\" ([WHO ACTION-I Investigators, NEJM 2020](https://www.nejm.org/doi/full/10.1056/NEJMoa2022398))",
+      "urls": [
+        "https://www.nejm.org/doi/full/10.1056/NEJMoa2022398"
+      ],
+      "quotes": [
+        "Neonatal death occurred in 278 of 1417 infants (19.6%) in the dexamethasone group, as compared with 331 of 1406 infants (23.5%) in the placebo group (relative risk, 0.84; 95% CI, 0.72 to 0.97; P=0.03)."
+      ],
+      "issues": []
+    },
+    {
+      "type": "footnote",
+      "number": 5,
+      "body": "\"Possible maternal bacterial infection occurred in 68 of 1416 women (4.8%) in the dexamethasone group and 89 of 1412 women (6.3%) in the placebo group (relative risk, 0.76; 95% CI, 0.56 to 1.03; P=0.002 for noninferiority).\" ([WHO ACTION-I Investigators, NEJM 2020](https://www.nejm.org/doi/full/10.1056/NEJMoa2022398))",
+      "urls": [
+        "https://www.nejm.org/doi/full/10.1056/NEJMoa2022398"
+      ],
+      "quotes": [
+        "Possible maternal bacterial infection occurred in 68 of 1416 women (4.8%) in the dexamethasone group and 89 of 1412 women (6.3%) in the placebo group (relative risk, 0.76; 95% CI, 0.56 to 1.03; P=0.002 for noninferiority)."
+      ],
+      "issues": []
+    },
+    {
+      "type": "note",
+      "number": 6,
+      "body": "[Note] WHO updated its ACS recommendations in September 2022, superseding the 2015 guidelines. The updated recommendation is based on 27 efficacy trials plus the ACTION-I trial, and maintains the requirement for gestational age assessment, imminent preterm birth, no maternal infection, and adequate childbirth and newborn care. Source: WHO recommendations on antenatal corticosteroids for improving preterm birth outcomes (2022).",
+      "urls": [],
+      "quotes": [],
+      "issues": []
+    },
+    {
+      "type": "footnote",
+      "number": 7,
+      "body": "\"Administration of dexamethasone averted 38 neonatal deaths per 1000 woman\u2013baby units and 1132 DALYs per 1000 woman\u2013baby units [...] dexamethasone was more effective and cost less compared with no treatment, making antenatal dexamethasone for early preterm birth cost-saving when used in hospitals in low-resource countries.\" ([Salehi et al., Lancet Global Health 2022](https://www.sciencedirect.com/science/article/pii/S2214109X22003400))",
+      "urls": [
+        "https://www.sciencedirect.com/science/article/pii/S2214109X22003400"
+      ],
+      "quotes": [
+        "Administration of dexamethasone averted 38 neonatal deaths per 1000 woman\u2013baby units and 1132 DALYs per 1000 woman\u2013baby units [...] dexamethasone was more effective and cost less compared with no treatment, making antenatal dexamethasone for early preterm birth cost-saving when used in hospitals in low-resource countries."
+      ],
+      "issues": []
+    },
+    {
+      "type": "footnote",
+      "number": 8,
+      "body": "\"Only a median of 10.7% (range = 6.7\u201335.2%) of facilities had provided ACS across eight countries with comparable sampling strategies.\" ([Brizuela et al., JOGH 2025](https://jogh.org/2025/jogh-15-04149/))",
+      "urls": [
+        "https://jogh.org/2025/jogh-15-04149/"
+      ],
+      "quotes": [
+        "Only a median of 10.7% (range = 6.7\u201335.2%) of facilities had provided ACS across eight countries with comparable sampling strategies."
+      ],
+      "issues": []
+    }
+  ],
+  "issues": []
+}

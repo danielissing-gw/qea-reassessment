@@ -1,0 +1,96 @@
+{
+  "file": "C:\\Users\\Daniel Issing\\Documents\\claudecode\\qea-reassessment\\outputs\\writeups\\oral_azithromycin_during_labor.md",
+  "status": "pass",
+  "total_citations": 8,
+  "citations": [
+    {
+      "type": "footnote",
+      "number": 1,
+      "body": "\"Globally, 10\u00b77% (5\u00b79\u201318\u00b76) of maternal deaths were attributable to maternal sepsis and other maternal infections.\" ([Say et al., Lancet Global Health 2014](https://www.thelancet.com/journals/langlo/article/PIIS2214-109X(14)70227-X/fulltext))",
+      "urls": [
+        "https://www.thelancet.com/journals/langlo/article/PIIS2214-109X(14"
+      ],
+      "quotes": [
+        "Globally, 10\u00b77% (5\u00b79\u201318\u00b76) of maternal deaths were attributable to maternal sepsis and other maternal infections."
+      ],
+      "issues": []
+    },
+    {
+      "type": "note",
+      "number": 2,
+      "body": "[Note] UNICEF estimate cited in the original QEA; I have not independently verified the most recent figure. The 2019 estimate was 2.4 million neonatal deaths.",
+      "urls": [],
+      "quotes": [],
+      "issues": []
+    },
+    {
+      "type": "footnote",
+      "number": 3,
+      "body": "\"The incidence of the primary outcome of maternal sepsis or death was lower in the azithromycin group than in the placebo group (1.6% vs. 2.4%; relative risk, 0.67; 95% CI, 0.56 to 0.79; P<0.001).\" ([Tita et al., NEJM 2023](https://www.nejm.org/doi/full/10.1056/NEJMoa2212111))",
+      "urls": [
+        "https://www.nejm.org/doi/full/10.1056/NEJMoa2212111"
+      ],
+      "quotes": [
+        "The incidence of the primary outcome of maternal sepsis or death was lower in the azithromycin group than in the placebo group (1.6% vs. 2.4%; relative risk, 0.67; 95% CI, 0.56 to 0.79; P<0.001)."
+      ],
+      "issues": []
+    },
+    {
+      "type": "footnote",
+      "number": 4,
+      "body": "\"The incidence of the co-primary outcome of neonatal sepsis, stillbirth, or death was similar in the azithromycin group and placebo group (10.5% vs. 10.3%; relative risk, 1.02; 95% CI, 0.95 to 1.09).\" ([Tita et al., NEJM 2023](https://www.nejm.org/doi/full/10.1056/NEJMoa2212111))",
+      "urls": [
+        "https://www.nejm.org/doi/full/10.1056/NEJMoa2212111"
+      ],
+      "quotes": [
+        "The incidence of the co-primary outcome of neonatal sepsis, stillbirth, or death was similar in the azithromycin group and placebo group (10.5% vs. 10.3%; relative risk, 1.02; 95% CI, 0.95 to 1.09)."
+      ],
+      "issues": []
+    },
+    {
+      "type": "footnote",
+      "number": 5,
+      "body": "\"The overall incidence of the primary composite endpoint was similar in the azithromycin and in the placebo arm (2.0% vs 1.9%, p=0.70); as was the incidence of neonatal mortality (0.8% vs 0.8%, p=0.80) and neonatal sepsis (1.3% vs 1.3%, p=0.92).\" ([Roca et al., JAMA 2023](https://pubmed.ncbi.nlm.nih.gov/36881034/))",
+      "urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/36881034/"
+      ],
+      "quotes": [
+        "The overall incidence of the primary composite endpoint was similar in the azithromycin and in the placebo arm (2.0% vs 1.9%, p=0.70); as was the incidence of neonatal mortality (0.8% vs 0.8%, p=0.80) and neonatal sepsis (1.3% vs 1.3%, p=0.92)."
+      ],
+      "issues": []
+    },
+    {
+      "type": "footnote",
+      "number": 6,
+      "body": "\"Using mean health-care costs across the A-PLUS sites, intrapartum azithromycin resulted in net savings of US$32,661 [...] per 100,000 pregnancies and 13.2 disability-adjusted life-years (DALYs) averted.\" ([Swanson et al., Lancet Global Health 2025](https://pmc.ncbi.nlm.nih.gov/articles/PMC11950424/))",
+      "urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11950424/"
+      ],
+      "quotes": [
+        "Using mean health-care costs across the A-PLUS sites, intrapartum azithromycin resulted in net savings of US$32,661 [...] per 100,000 pregnancies and 13.2 disability-adjusted life-years (DALYs) averted."
+      ],
+      "issues": []
+    },
+    {
+      "type": "footnote",
+      "number": 7,
+      "body": "\"Prevalence of azithromycin-resistant E. coli was higher in the azithromycin arm at day 6 and day 28.\" ([Getanda et al., Clin Infect Dis 2024](https://academic.oup.com/cid/article/79/6/1338/7674988))",
+      "urls": [
+        "https://academic.oup.com/cid/article/79/6/1338/7674988"
+      ],
+      "quotes": [
+        "Prevalence of azithromycin-resistant E. coli was higher in the azithromycin arm at day 6 and day 28."
+      ],
+      "issues": []
+    },
+    {
+      "type": "note",
+      "number": 8,
+      "body": "[Note] The SANTE trial enrolled 50,000+ pregnant women with a 2\u00d72 factorial design testing antenatal/intrapartum azithromycin and infant azithromycin. The infant MDA component (published NEJM 2025) found no effect on infant mortality. The intrapartum component results have not been separately published as of March 2026.",
+      "urls": [],
+      "quotes": [],
+      "issues": []
+    }
+  ],
+  "issues": []
+}

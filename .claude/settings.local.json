@@ -40,12 +40,23 @@
       "mcp__hardened-workspace__get_page_thumbnail",
       "mcp__hardened-workspace__read_presentation_comments",
       "mcp__hardened-workspace__list_calendars",
-      "mcp__hardened-workspace__get_events"
+      "mcp__hardened-workspace__get_events",
+      "WebFetch(domain:www.givewell.org)",
+      "WebFetch(domain:blog.givewell.org)",
+      "WebFetch(domain:www.miraclefeet.org)",
+      "WebFetch(domain:rethinkpriorities.org)",
+      "WebFetch(domain:www.thelancet.com)",
+      "WebFetch(domain:www.nejm.org)",
+      "WebFetch(domain:www.nih.gov)",
+      "WebFetch(domain:pmc.ncbi.nlm.nih.gov)",
+      "WebFetch(domain:www.who.int)",
+      "WebFetch(domain:pubmed.ncbi.nlm.nih.gov)",
+      "WebFetch(domain:www.nature.com)"
     ],
     "deny": []
   },
+  "enableAllProjectMcpServers": true,
   "enabledMcpjsonServers": [
     "gdrive"
-  ],
-  "enableAllProjectMcpServers": true
+  ]
 }

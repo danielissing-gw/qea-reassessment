@@ -1,0 +1,31 @@
+Parameter,Value,Source / notes
+Costs,Value,Source / notes
+Grant amount,1000000,
+Drug cost per dose (2g oral azithromycin),0.91,Lancet Global Health 2025 CEA: $0.91 per 2g dose
+Incremental delivery cost per pregnancy (integration into facility care),2.09,"Assumption: ~$2 incremental cost for adding one oral tablet to existing delivery care. Original QEA used $7 based on analogy to other facility-based interventions, but this overstates cost since no new patient visits are required."
+Total cost per pregnancy covered,=B3+B4,Calculation
+Number of pregnancies covered,=B2/B5,Calculation
+Burden & effect (modeled for Nigeria),,
+"Baseline facility-birth maternal mortality ratio (per 100,000)",735.1,"From original QEA BOTEC, adjusted for facility births"
+Maternal deaths in cohort (baseline),=B6*B9/100000,Calculation
+RR for maternal sepsis/death (azithromycin vs placebo),0.67,A-PLUS trial (NEJM 2023)
+Mortality reduction (1 - RR),=1-B11,Calculation
+Internal validity adjustment,0.95,"Large multicenter RCT (n=29,278), 7 LMIC sites. Minor discount for single trial."
+External validity adjustment,0.85,Trial covered 7 LMICs including Nigeria. Discount for variation in facility quality and MMR composition.
+Adjusted maternal deaths averted,=B10*B12*B13*B14,Calculation
+Neonatal mortality (null result),,
+Neonatal deaths averted,0,A-PLUS: RR 1.02 (null). PregnAnZI-2: also null. No neonatal benefit.
+Benefits,,
+Moral weight per maternal death averted (UoV),125,From original QEA BOTEC (GiveWell standard)
+UoV from maternal deaths averted,=B15*B21,Calculation
+Ad-hoc: morbidity averted (maternal infections reduced),0.15,A-PLUS also found RR 0.75 for maternal infection. Morbidity uplift for non-fatal infections averted.
+Ad-hoc: reduced healthcare costs (facility readmissions averted),0.05,Lancet CEA: 248.5 readmissions averted per 100k pregnancies. Small offset.
+Total UoV from program,=B22*(1+B23+B24),Calculation
+Final CE,,
+Value per dollar spent on benchmark (GiveDirectly),0.00344,
+CE (multiples of cash),=B25/B2/B28,Calculation
+Sensitivity (CE at different costs per pregnancy),,
+CE at $1.50/pregnancy (drug + minimal integration),=(B9/100000*(1-B11)*B13*B14*B21*(1+B23+B24))/(1.5*B28),Scenario: drug cost + very low integration overhead
+CE at $3/pregnancy (best guess),=(B9/100000*(1-B11)*B13*B14*B21*(1+B23+B24))/(3*B28),Scenario: moderate integration cost (= main BOTEC)
+CE at $7/pregnancy (original QEA assumption),=(B9/100000*(1-B11)*B13*B14*B21*(1+B23+B24))/(7*B28),Scenario: full original QEA cost assumption
+CE at $3/pregnancy in Pakistan (MMR 124.7),=(124.7/100000*(1-B11)*B13*B14*B21*(1+B23+B24))/(3*B28),Lower-MMR setting: Pakistan (from original BOTEC)
