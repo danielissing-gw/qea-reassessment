@@ -1,0 +1,133 @@
+{
+  "file": "C:\\Users\\Daniel Issing\\Documents\\claudecode\\qea-reassessment\\outputs\\writeups\\arsenic_in_wells.md",
+  "status": "pass",
+  "total_citations": 11,
+  "citations": [
+    {
+      "type": "footnote",
+      "number": 1,
+      "body": "\"Arsenic exposures to concentrations >50 ug/L and 10\u201350 ug/L account for an annual 24,000 and perhaps as many as 19,000 adult deaths [...] representing about 5.6% of all deaths\" in Bangladesh. ([Flanagan et al., Bulletin of the WHO 2012](https://pmc.ncbi.nlm.nih.gov/articles/PMC3506399/))",
+      "urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC3506399/"
+      ],
+      "quotes": [
+        "Arsenic exposures to concentrations >50 ug/L and 10\u201350 ug/L account for an annual 24,000 and perhaps as many as 19,000 adult deaths [...] representing about 5.6% of all deaths"
+      ],
+      "issues": []
+    },
+    {
+      "type": "footnote",
+      "number": 2,
+      "body": "\"Arsenic in groundwater (\u226550 ug/L) was associated with: spontaneous abortion OR = 1.98, stillbirth OR = 1.77, neonatal mortality OR = 1.51, infant mortality OR = 1.35.\" ([Rahman et al., meta-analysis](https://pmc.ncbi.nlm.nih.gov/articles/PMC4421764/))",
+      "urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4421764/"
+      ],
+      "quotes": [
+        "Arsenic in groundwater (\u226550 ug/L) was associated with: spontaneous abortion OR = 1.98, stillbirth OR = 1.77, neonatal mortality OR = 1.51, infant mortality OR = 1.35."
+      ],
+      "issues": []
+    },
+    {
+      "type": "footnote",
+      "number": 3,
+      "body": "\"People whose urinary arsenic levels fell from high to low had mortality rates that matched those who had consistently low exposure for the entire study [...] 54% reduced risk of death from any chronic disease, 57% reduction for cardiovascular disease, and 49% reduction for cancer.\" ([HEALS 20-year follow-up, JAMA 2025](https://www.nih.gov/news-events/nih-research-matters/arsenic-reduction-linked-lower-risk-death))",
+      "urls": [
+        "https://www.nih.gov/news-events/nih-research-matters/arsenic-reduction-linked-lower-risk-death"
+      ],
+      "quotes": [
+        "People whose urinary arsenic levels fell from high to low had mortality rates that matched those who had consistently low exposure for the entire study [...] 54% reduced risk of death from any chronic disease, 57% reduction for cardiovascular disease, and 49% reduction for cancer."
+      ],
+      "issues": []
+    },
+    {
+      "type": "footnote",
+      "number": 4,
+      "body": "\"60% of the people who realized they were using contaminated well switched to a safe well within 1 year.\" ([Jameel et al., 2021](https://pmc.ncbi.nlm.nih.gov/articles/PMC8670558/))",
+      "urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8670558/"
+      ],
+      "quotes": [
+        "60% of the people who realized they were using contaminated well switched to a safe well within 1 year."
+      ],
+      "issues": []
+    },
+    {
+      "type": "footnote",
+      "number": 5,
+      "body": "\"Overall, 53% of respondents using As contaminated wells, relative to the Bangladesh As standard of 50 ug/L, at baseline switched after receiving the intervention.\" ([George et al. 2012, cluster RCT](https://pmc.ncbi.nlm.nih.gov/articles/PMC3506475/))",
+      "urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC3506475/"
+      ],
+      "quotes": [
+        "Overall, 53% of respondents using As contaminated wells, relative to the Bangladesh As standard of 50 ug/L, at baseline switched after receiving the intervention."
+      ],
+      "issues": []
+    },
+    {
+      "type": "footnote",
+      "number": 6,
+      "body": "\"37% of households who received the intervention (Groups A1 and A2) reported changing their water source or treatment\" vs. only 10% in the control group. ([Barnwal et al. 2023, PNAS Nexus](https://pmc.ncbi.nlm.nih.gov/articles/PMC10042277/))",
+      "urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10042277/"
+      ],
+      "quotes": [
+        "37% of households who received the intervention (Groups A1 and A2) reported changing their water source or treatment"
+      ],
+      "issues": []
+    },
+    {
+      "type": "footnote",
+      "number": 7,
+      "body": "\"Not only was 2003\u20132005 switching highly persistent, but also new switching by 2008 doubled the share of households at unsafe wells who had switched.\" ([Pfaff et al. 2017](https://pmc.ncbi.nlm.nih.gov/articles/PMC6449151/))",
+      "urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC6449151/"
+      ],
+      "quotes": [
+        "Not only was 2003\u20132005 switching highly persistent, but also new switching by 2008 doubled the share of households at unsafe wells who had switched."
+      ],
+      "issues": []
+    },
+    {
+      "type": "note",
+      "number": 8,
+      "body": "[Note] The Bangladesh ARRP (2021\u20132023) tested 6.3 million wells using a digital/smartphone system. However, the program used Bangladesh's national standard of 50 ug/L \u2014 5x the WHO guideline of 10 ug/L \u2014 meaning many wells that are unsafe by international standards were classified as safe. The program was primarily a testing exercise, not a sustained behavioral change intervention.",
+      "urls": [],
+      "quotes": [],
+      "issues": []
+    },
+    {
+      "type": "footnote",
+      "number": 9,
+      "body": "\"Less than USD 10 per household\" for a comprehensive informational intervention including lab testing, with potential to be \"lowered by 30 to 40% if certain field test kits were used.\" ([Barnwal et al. 2023](https://pmc.ncbi.nlm.nih.gov/articles/PMC10042277/))",
+      "urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10042277/"
+      ],
+      "quotes": [
+        "Less than USD 10 per household",
+        "lowered by 30 to 40% if certain field test kits were used."
+      ],
+      "issues": []
+    },
+    {
+      "type": "footnote",
+      "number": 10,
+      "body": "\"The most recent testing probably led about 132,000 inhabitants to switch away from their high As well. This remarkable change was obtained at a cost of US$0.90 per person.\" ([van Geen et al. 2019](https://pmc.ncbi.nlm.nih.gov/articles/PMC6535723/))",
+      "urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC6535723/"
+      ],
+      "quotes": [
+        "The most recent testing probably led about 132,000 inhabitants to switch away from their high As well. This remarkable change was obtained at a cost of US$0.90 per person."
+      ],
+      "issues": []
+    },
+    {
+      "type": "note",
+      "number": 11,
+      "body": "[Note] The Arsenic 4M project (May 2023\u2013April 2024) piloted the first rapid digital cloud-connected arsenic test in Bangladesh, producing real-time maps of contamination levels. This technology could enable targeted well-testing programs focused on areas with the highest contamination and the greatest density of nearby safe alternatives.",
+      "urls": [],
+      "quotes": [],
+      "issues": []
+    }
+  ],
+  "issues": []
+}

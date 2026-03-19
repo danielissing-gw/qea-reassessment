@@ -1,0 +1,31 @@
+Parameter,Value,Source / notes
+Costs,Value,Source / notes
+Grant amount,"$1,000,000",
+Cost per patient treated (all-in: drugs + diagnostics + monitoring),"$1,500","Mid-range of $996-$2,573 across 4 LMICs (Pakistan, Philippines, SA, Ukraine)"
+Patients treated,667,Calculation
+Treatment effect,,
+Treatment success rate (BPaLM),89%,TB-PRACTECAL trial (Lancet Resp Med 2023)
+Mortality during treatment (1 - success - other failures),6%,Assumption: ~6% die during treatment (remainder relapse/lost to follow-up)
+Counterfactual 5-year mortality without MDR-TB-specific treatment,50%,Conservative estimate; Tiemersma 2011 found 70% 10-year TB mortality
+Marginal lives saved per patient treated,44%,Calculation: counterfactual mortality - treatment mortality
+Adjustments,,
+Internal validity adjustment,90%,"Multiple Phase 3 RCTs — high IV, minor discount for open-label designs"
+External validity adjustment,80%,"Trial sites (SA, Uzbekistan, India) may differ from scaled programs"
+Adjusted lives saved per patient treated,32%,Calculation
+Total deaths averted,211.2,Calculation
+Benefits,,
+Mean age of MDR-TB death,39,"GBD 2021 MDR-TB demographics: mean age ~39, 62.6% under 40"
+Moral weight per MDR-TB death averted (UoV),40,Working-age adults dying at ~39; remaining LE ~30-35 years in LMIC
+UoV from deaths averted,"8,448",Calculation
+"Ad-hoc: morbidity averted (reduced treatment duration, fewer side effects)",10%,Assumption: 10% uplift for non-mortality benefits
+Ad-hoc: transmission prevention (cured patients don't spread MDR-TB),15%,Assumption: 15% uplift for averted secondary cases
+Total UoV from program,"10,560",Calculation
+Final CE,,
+Value per dollar spent on benchmark (GiveDirectly),0.00344,
+CE (multiples of cash),3.1,Calculation
+Sensitivity,,
+CE at $750/patient (drug procurement + basic support),6.1,Scenario: drugs ($310) + GeneXpert ($20) + monitoring ($420)
+"CE at $1,000/patient (lean program)",4.6,Scenario: low-end of country-level cost estimates (Pakistan)
+"CE at $1,500/patient (best guess)",3.1,= main BOTEC estimate
+"CE at $2,500/patient (full program with diagnostics)",1.8,Scenario: high-end country costs (Ukraine/South Africa)
+CE at $310/patient (drug procurement only),14.9,Scenario: filling acute drug stockouts from US funding cuts

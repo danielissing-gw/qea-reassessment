@@ -423,10 +423,239 @@
 
 **Batch 9 complete (QEAs 32–33). Both rated Low. All 33 QEAs from the master list are now complete.**
 
-**Final tally: H=1, M=6, L=26.**
+**Tally after 33 QEAs: H=1, M=6, L=26.**
+
+---
+
+## Session: 2026-03-18 (batch 10: QEAs 34–36 from updated master list)
+
+Master list updated with 9 new QEAs (8 new + 1 duplicate of QEA 9). Processing in batches of 3.
+
+### QEA 34: Midwifery school support — COMPLETE
+
+- Original QEA: https://docs.google.com/document/d/1Yv3Pz6MEYMgCEd2WoiSl710Bg1zONtEAMkYOrYiMpGo/
+- Original BOTEC: https://docs.google.com/spreadsheets/d/13m0wqCbot8-GucjIWwqdEFGgFa6PDaAYUTESq0LE7hg/
+- Year: 2022 | Rating: **Low**
+- Outputs: CSV row only
+- Key notes: No new direct RCTs linking midwife training to mortality. Evidence gap from 2022 persists. WHO released midwifery models of care position paper (2024) and implementation guidance (2025) — policy signals, not clinical evidence. 2023 Morocco CBA found 16:1 BCR but LiST-based and implies ~$5,290/life saved (above GW bar). Africa midwife workforce nearly doubled 2013–2022 (173k→334k) but 750k shortage remains by 2030. Amref continues small-scale e-learning programs. No at-scale training program identified. Original CE ~5.3x (with leverage/funging) already below 8x bar.
+
+### QEA 35: Manual water pumps for farming households — COMPLETE
+
+- Original QEA: https://docs.google.com/document/d/1SxRXdCPb4RU31TpRLonyOHzG7Mhv6Ld8Gnd8WSpoiFU/
+- Original BOTEC: https://docs.google.com/spreadsheets/d/1qLK2QQdjQ3ucDfGcZuk1XjAlkXR0DyC5oSpgkH9O1cU/
+- Year: 2022 | Rating: **Low**
+- Outputs: CSV row only
+- Key notes: Dyer & Shapiro study published in J Dev Econ (2023) — same results as working paper. Farm revenue +13% but offset by non-farm income loss → net negative. BOTEC: 1.7x (base), 4.2x (optimistic). No new RCTs on manual irrigation pumps. Solar irrigation gaining attention but different technology/price. Even optimistic 12yr lifespan scenario (5.6x) well below 8x bar.
+
+### QEA 36: Genetically modified eggplants (Bt brinjal) — COMPLETE
+
+- Original QEA: https://docs.google.com/document/d/1Gz-tNr1rtvBwWhdc_H7-sa591J7C8bGHwCnrV9RZcS4/
+- Original BOTEC: https://docs.google.com/spreadsheets/d/1EwzC3O6h9qLF_0a0LWJ5S1FYreELU4v0W5-cZiCmayA/
+- Year: 2022 | Rating: **Low**
+- Outputs: CSV row only
+- Key notes: No new experimental evidence since Ahmed et al 2020. Bangladesh adoption declined from 11.9% peak (2021) to 5.3% (2023). Philippines approved 2022 but Court of Appeals cease-and-desist April 2024. India moratorium remains. USAID primary funder ($10M to Cornell/IREP). CE at 3.1x well below 8x bar. No clear philanthropic funding gap.
+
+---
+
+**Batch 10 complete (QEAs 34–36). All three rated Low. Session should be refreshed before batch 11 (QEAs 37–39).**
+
+## Session: 2026-03-18 (batch 11: QEAs 37–39)
+
+### QEA 37: Commodity acquisition for iCCM (ORS/zinc + amoxicillin) — COMPLETE
+
+- Original QEA: https://docs.google.com/document/d/1xISuSRUyaFdKanjkafHhqiOd68Nv8dHhhtD4vs9r5-Q/
+- Original BOTEC: https://docs.google.com/spreadsheets/d/1OHxvt_Jf9zwrzSoiKAH0G57N1IENi47OeTUwOO0SN-A/
+- Year: 2022 | Rating: **Low** (already being pursued by GiveWell)
+- Outputs: CSV row only
+- Key notes: GiveWell has already validated and is funding this opportunity. CHAI received $8.07M (Sep 2023, increased) for ORS/zinc distribution in Bauchi, Nigeria (~1.5M children); GW estimates 17x cash (24x with RCT learning value). New Incentives received $4.8M (Oct 2024) for ORS/zinc alongside immunization. Clear Solutions pilot in Kano (Dec 2023). Active RCT measuring ORS usage impact; results expected mid-to-late 2025. The original QEA correctly identified the opportunity at 14x — close to GW's current 17x estimate. Notable success: one of the most validated QEA predictions across the entire set.
+
+### QEA 38: Deworming pregnant people — COMPLETE
+
+- Original QEA: https://docs.google.com/document/d/12O-jMYm3VNWHQyVfxt1MohJDt0mf0OwU0C--SrtgKEg/
+- Original BOTEC: https://docs.google.com/spreadsheets/d/1bvZSJpvLzeZEPKygUtrwIJA5AjNjab5TFmlA9t-Kb5A/
+- Year: 2022 | Rating: **Low**
+- Outputs: CSV row only
+- Key notes: No new RCTs since 2021 Cochrane review. Standalone CE (2-7x) below bar. Add-on scenario (28x at $0.10) attractive in theory but no implementer identified. Evidence Action pursued maternal syphilis in Liberia (exit grant April 2024) and expanded to Zambia/Cameroon but did not add deworming. A 2021 retrospective cohort found 14% NMR reduction from deworming during ANC but observational. The add-on question is operational, not evidence-based — needs a delivery platform to test.
+
+### QEA 39: Unconditional cash transfers for pregnant people — COMPLETE
+
+- Original QEA: https://docs.google.com/document/d/1EQPNi3lhr43O45jtDIoAVV4y0jWGNgqHaBft-4yCU_I/
+- Original BOTEC: https://docs.google.com/spreadsheets/d/1DYv4ASblHkUsEDfXiZxI8uzfzu6NR3onwikbPx7mfsg/
+- Year: 2022 | Rating: **Low**
+- Outputs: CSV row only
+- Key notes: Original CE ~1.7x. Major new evidence: 2025 Kenya GiveDirectly study (107,000+ births) found $1,000 UCT reduced infant mortality by 48%, neonatal by 63%. But this primarily raises GiveDirectly's baseline CEA (the comparison denominator), not the targeted pregnancy program's relative advantage. The original QEA predicted this: targeted UCTs would look even less relatively attractive if untargeted UCTs show mortality effects. Muralidharan India RCT (J-PAL) on UCTs for pregnant/lactating mothers still unpublished. Not worth revisiting.
+
+---
+
+**Batch 11 complete (QEAs 37–39). All three rated Low (though QEA 37 was a validated prediction — GiveWell already acting at 17x). Session should be refreshed before batch 12 (QEAs 40–41).**
+
+## Session: 2026-03-18 (batch 12: QEAs 40–41 — final batch)
+
+### QEA 40: Generic hepatitis C medication — COMPLETE
+
+- Original QEA: https://docs.google.com/document/d/1nYKc4F4mjVW9eMHwir22CG0NEuSzNiMGvatpZaKp-vY/
+- Original BOTEC: https://docs.google.com/spreadsheets/d/1EXKFtx_KrmGrHIEG1E_U2XOBYXLo6XZrp1DTuVwOLKk/
+- Year: 2021 | Rating: **Low**
+- Outputs: CSV row only
+- Key notes: Generic DAA prices continue falling ($39 India, $60 Rwanda vs $87-112 original). VIETNARMS trial (2024) validates cheapest regimen (SOF/DCV). WHO 2030 elimination targets off track. Even at $60/person, CE only ~2x in high-burden countries. Structural constraint: deaths concentrated in 60-69 age group (MW=54) + low annual mortality rate per infected person (~1%). Would need $15/person for 8x — not achievable.
+
+### QEA 41: Antiviral procurement for COVID-19 — COMPLETE
+
+- Original QEA: No writeup
+- Original BOTEC: https://docs.google.com/spreadsheets/d/1JojKTTfOeNRGFb9fM6jIkI9f97Ro4YMRGF2zLjvIS08/
+- Year: 2022 | Rating: **Low** (obsolete)
+- Outputs: CSV row only
+- Key notes: Intervention is essentially obsolete. COVID emergency ended May 2023; populations have natural/vaccine immunity; mortality plummeted. Original BOTEC assumed pandemic-era conditions (4x death multiplier, high CFRs, no immunity) that no longer hold. 2023 Ghana/Rwanda/Zambia CEA found neither antiviral cost-effective for general adult population. UK PANORAMIC trial found molnupiravir ineffective in vaccinated populations. African governments largely declined to procure. Generic Paxlovid available under $25/course but demand minimal.
+
+---
+
+**Batch 12 complete (QEAs 40–41). Both rated Low. All 41 QEAs from both master lists are now complete.**
+
+**FINAL TALLY: H=1, M=6, L=34 (+ 1 duplicate skipped).**
 
 | Rating | Count | Interventions |
 |--------|-------|---------------|
 | High | 1 | Rheumatic heart disease prevention |
 | Medium | 6 | Uterotonics for PPH, Oral azithromycin during labor, Antenatal corticosteroids for preterm birth, Non-pneumatic anti-shock garment (NASG), Sayana Press injectable contraceptive, MMS during pregnancy |
-| Low | 26 | All others |
+| Low | 34 | All others (including 1 already being pursued by GiveWell: iCCM commodity provision; and 1 obsolete: COVID antivirals) |
+
+### Notable patterns from the expanded list (QEAs 34–41):
+- **iCCM commodity provision (QEA 37)** was the standout: the original QEA correctly estimated 14x, and GiveWell is now funding the opportunity at an estimated 17x. Validates the QEA process.
+- **Agriculture/income interventions** (water pumps, GM eggplants) consistently fall below bar due to the income-to-UoV conversion lacking a mortality channel.
+- **Targeting UCTs to pregnant women** shows only modest incremental benefit over untargeted cash (~1.7x), even as the 2025 Kenya study demonstrates large mortality effects from untargeted UCTs.
+- **Pandemic-era interventions** (COVID antivirals) are time-sensitive and can become obsolete rapidly.
+
+## Session: 2026-03-18 (batch 13: QEAs 42–44 from updated master list)
+
+Master list updated with 10 new QEAs. Processing in batches of 3.
+
+### QEA 42: Community-based antibiotic delivery for PSBI management — COMPLETE
+
+- Original QEA: https://docs.google.com/document/d/1yZaMJLCNuMrMuORVv88LQsRuRC9zAyVjRxYpt4nSenc/
+- Original BOTEC: None (no BOTEC)
+- Year: 2020 | Rating: **Low**
+- Outputs: CSV row only
+- Key notes: Brief 2020 note said 4/5 Cochrane studies bundled antibiotics with other interventions; one standalone trial found no effect. Since then: WHO published comprehensive SBI guidelines (Dec 2024, 11 recommendations). Lancet Global Health 2025 RCT (n=7,001, 6 LMICs) showed outpatient non-inferior to inpatient for low-risk PSBI (7.7% vs 7.8% poor outcomes; significantly lower mortality in outpatient: 0.3% vs 0.7%). Treatment costs $20-43/infant; Ethiopia model $223/DALY averted. But CE by GW standards only ~2-4x. Program requires daily IM injections for 7 days. Space well-funded by WHO/UNICEF under ENAP. AMR growing concern.
+
+### QEA 43: Lymphoedema management to prevent ADLA in podoconiosis — COMPLETE
+
+- Original QEA: No writeup
+- Original BOTEC: https://docs.google.com/spreadsheets/d/1Fk84QD_Sj-jzE6PHyi6hoHMduDZeyxykEFjgOL1O0zQ/
+- Year: 2021 | Rating: **Low**
+- Outputs: CSV row only
+- Key notes: Consumption-based model from GoLBeT RCT (Negussie et al 2018). Lymphoedema management reduced ALA incidence 19% (IRR 0.81). At $50/person/year, CE = 1.7x GD. No mortality channel — morbidity/income only. ~4M people affected globally. EnDPoINT study (2025) showed integrated NTD care effective. WHO NTD Roadmap includes podoconiosis. But income-to-UoV conversion inherently limits CE; gap from 1.7x to 8x unbridgeable.
+
+### QEA 44: Cryptococcal antigen testing for people living with HIV — COMPLETE
+
+- Original QEA: No writeup
+- Original BOTEC: https://docs.google.com/spreadsheets/d/1eg10obinxlz_gyN5WO6TDhoAclpL9vR2Yp3LePxrOsE/
+- Year: 2020 | Rating: **Low**
+- Outputs: CSV row only
+- Key notes: BOTEC showed 27x (range 5-41x) but used 100 UoV per death averted — too high for adult HIV patients (~35 UoV appropriate). With corrected moral weights, CE drops to ~8-10x central, ~2x pessimistic. Cost per death averted $1,243. AMBITION trial (NEJM 2022) simplified CM treatment to single-dose liposomal amphotericin B. CrAg screening uptake only 57% in Africa. But space dominated by PEPFAR/Global Fund ($6.7B+/year). Target population (CD4<100) shrinking with ART expansion. PEPFAR 2025 freeze creates uncertainty but GW would be marginal funder.
+
+---
+
+**Batch 13 complete (QEAs 42–44). All three rated Low. Session should be refreshed before batch 14 (QEAs 45–47: oxygen therapy, statins/polypill, arsenic in wells).**
+
+## Session: 2026-03-18 (batch 14: QEAs 45–47)
+
+### QEA 45: Oxygen therapy for children — COMPLETE
+
+- Original QEA: https://docs.google.com/document/d/1daY7xgIBgTYEzQSSC5AzOdxnqqiPKAcvHyow-TvJvzU/
+- Original BOTEC: https://docs.google.com/spreadsheets/d/1163LXJ5FhMT3DWjhJb4IKdHnuEOWNnTlIrkYaLv8jJE/
+- Year: 2021 | Rating: **Medium**
+- Outputs:
+  - `outputs/writeups/oxygen_therapy_for_children.md`
+  - `outputs/botecs/oxygen_therapy_for_children.xlsx`
+  - Row appended to tracker CSV
+  - QA: **PASS** (0 errors, 8 citations)
+- Key notes: Evidence dramatically strengthened since 2021. The Uganda stepped-wedge RCT (Lancet 2024, n=2,405 hypoxaemic children) is the first randomized trial demonstrating mortality benefit from improving oxygen access — 48.7% reduction in fatal outcomes (adjusted RR 0.51). Consistent with Lam et al. 2021 systematic review (pooled OR 0.52). Lancet Global Health Oxygen Commission (Feb 2025) documents massive unmet need: 70% oxygen coverage gap in LMICs, only 9% in SSA. Cost-effectiveness highly favorable ($25-62/DALY averted across multiple analyses). TIMCI trial (2025) shows primary care pulse oximetry alone doesn't reduce mortality without hospital strengthening — full ecosystem needed. CE: ~10x at $30/patient (range 6x at $50 to 20x at $15). RFMF uncertain: CHAI ($100M), Unitaid ($22M), Global Fund all active, but US aid cuts creating new gaps. 88% of needed $34B remains unfunded.
+
+### QEA 46: Statins and/or polypill for CVD — COMPLETE
+
+- Original QEA: https://docs.google.com/document/d/1JJT4ZL8xM2bA8LRbbXRuSDoyRRHrk5raUhZxYyxZLZs/
+- Original BOTEC: https://docs.google.com/spreadsheets/d/1__LEGsfKO0gLH2Zunved56ba-8f0Sed7_GHu3XpwqnM/
+- Year: 2021 | Rating: **Low**
+- Outputs:
+  - CSV row only (Low rating)
+- Key notes: WHO added polypills to Essential Medicines List (July 2023) — landmark policy milestone. SECURE trial (NEJM 2022) found 24% MACE reduction in secondary prevention but European-only. 2025 meta-analysis (30 studies, 35,833 participants): MACE RR 0.78, CV death RR 0.75, all-cause mortality RR 0.88. But CE still only ~1-3x by GW standards. Fundamental constraints: chronic daily medication at $128/year in LMICs (ICER $5,767/QALY — an order of magnitude above GW bar); CVD deaths mainly in elderly (low MW); no large-scale primary prevention program ever implemented despite WHO EML; zero public pharmacy availability even in countries with market authorization; no implementer.
+
+### QEA 47: Arsenic in wells (Bangladesh) — COMPLETE
+
+- Original QEA: No writeup exists
+- Original BOTEC: https://docs.google.com/spreadsheets/d/1ATbZ61dmczX3GB3Mo-nwITfsMcTikpGmlzG-D83xu5Y/
+- Year: 2021 | Rating: **Medium**
+- Outputs:
+  - `outputs/writeups/arsenic_in_wells.md`
+  - `outputs/botecs/arsenic_in_wells.xlsx`
+  - Row appended to tracker CSV
+  - QA: **PASS** (0 errors, 11 citations)
+- Key notes: HEALS 20-year follow-up (JAMA 2025, n=10,977, 1,401 chronic disease deaths) provides strongest evidence yet that reducing arsenic exposure causally reduces mortality — 54% lower chronic disease mortality for those switching from high to low exposure. Original BOTEC's 18.4x was inflated by high moral weights (106 UoV for adults vs. GW standard ~50); with corrected MW, CE drops to ~8x at $5/well. Well-switching rates consistently higher than the original 35% (studies show 37-60%). Benefits persist 8-15 years (original assumed 5). Space is remarkably neglected — no major international programs despite 20M Bangladeshis still exposed to >50 ug/L. Key blockers: no implementer identified (Columbia University research group is main actor); all evidence observational (no mortality RCT); program cost uncertain ($3-10/well). If costs are $3-4/well (plausible via BRAC integration), CE rises to 10-13x.
+
+---
+
+**Batch 14 complete (QEAs 45–47). One rated Low (polypill), two rated Medium (oxygen therapy, arsenic in wells). Next: batch 15 (QEAs 48–50: aspirin for AMI, prophylactic antibiotics for C-sections, eggs for complementary feeding).**
+
+## Session: 2026-03-18 (batch 15: QEAs 48–50)
+
+### QEA 48: Aspirin for acute myocardial infarction — COMPLETE
+
+- Original QEA: https://docs.google.com/document/d/1vBv06CaLAM3zHacROcn8BLfpsc24bxHE_XEVpDFljvk/
+- Original BOTEC: https://docs.google.com/spreadsheets/d/1_cmqFfA7U3HyXAfd5GBI8Lc2-qXs7ZesrPUxJPk3YFA/
+- Year: 2021 | Rating: **Low**
+- Outputs: CSV row only
+- Key notes: Original CE 3.8x, well below 8x bar. No new placebo-controlled RCTs — ~10% mortality reduction (ATT 2009) remains best estimate. 2023 JAMA study confirms massive aspirin underuse in LMICs (16.6% in LICs, 24.5% in LMICs) but this is an implementation gap, not a CE improvement. WHO added polypill to EML (2023). HEARTS initiative expanding but hypertension-focused. Drug cost trivial (~$0.08/day) but health system infrastructure for post-MI patient identification/retention is the real cost. Adult CVD deaths get low moral weight (~30 UoV). No implementer. CE arithmetic unchanged.
+
+### QEA 49: Prophylactic antibiotics to reduce infections from caesarian sections — COMPLETE
+
+- Original QEA: No writeup
+- Original BOTEC: https://docs.google.com/spreadsheets/d/1TqR7MmPN8QBKcHg_NnxhSZhzQz-U5rLlTE7qcBKiN1c/
+- Year: 2020 | Rating: **Low**
+- Outputs: CSV row only
+- Key notes: Original CE of 10.6x is substantially overstated. The BOTEC assumed zero counterfactual prophylaxis coverage, but WHO Multicountry Survey finds ~87% of C-sections globally already receive antibiotics. Adjusting for ~60% counterfactual coverage in target SSA areas reduces CE to ~3-5x. Additional concerns: MW 113 is at the upper end for maternal deaths; $5/patient is a guess (drug cost <$1-2); the intervention is about health system quality improvement not drug distribution; growing AMR concerns. Cochrane review (2014, 95 studies) not updated but evidence base solid. C-section rates rising in LMICs (33.5M/year projected by 2030). WHO 2021 guideline confirms single-dose cephalosporin. No clear philanthropic entry point.
+
+### QEA 50: Eggs for early complementary feeding — COMPLETE
+
+- Original QEA: No writeup
+- Original BOTEC: https://docs.google.com/spreadsheets/d/1N8wVlL_UL2On7ZekWvCx8siOjf01N8ifJ4pwNKFaZEE/
+- Year: 2020 | Rating: **Low**
+- Outputs: CSV row only
+- Key notes: Evidence has actually weakened. The Ecuador Lulun effect (0.63 SD HAZ) completely disappeared at 2-year follow-up (Iannotti 2020) — both groups at -2.07 HAZ with 50% stunting. WHO pooled estimate for egg-specific HAZ effect is only 0.06 SD (95% CI -0.10 to 0.22) — not significant and dramatically lower than the 0.35 SD in the original BOTEC. Burkina Faso trial found no stunting effect. Malawi near zero (0.07 SD). Using updated WHO estimate would reduce CE by ~83% below the already-low 1.63x. The 40-year earnings pathway (87% of BOTEC value) is not defensible if height gains don't persist. SQ-LNS offers much stronger evidence at comparable costs. No implementer doing egg supplementation at scale.
+
+---
+
+**Batch 15 complete (QEAs 48–50). All three rated Low. Processing final QEA (51: MDR-TB treatment) in same session.**
+
+### QEA 51: Treatment for multi-drug resistant TB — COMPLETE
+
+- Original QEA: https://docs.google.com/document/d/1Hx5Z7Me6qidxQnohv38Eor-ZKez4opc9zEgD2NTMkII/
+- Original BOTEC: None (no BOTEC produced — evidence too thin)
+- Year: 2017 | Rating: **Medium**
+- Outputs:
+  - `outputs/writeups/mdr_tb_treatment.md`
+  - `outputs/botecs/mdr_tb_treatment.xlsx`
+  - `outputs/botecs/mdr_tb_treatment.csv`
+  - Row appended to tracker CSV
+  - QA: **PASS** (0 errors, 12 citations)
+- Key notes: The evidence gap that blocked the 2017 assessment has been comprehensively resolved. Multiple Phase 3 RCTs now demonstrate ~89-91% treatment success with BPaLM (6-month, all-oral): TB-PRACTECAL (Lancet Resp Med 2023, 89%), endTB (NEJM 2024, 90.4%), Nix-TB (NEJM 2020, 90%), ZeNix (NEJM 2022, 91%), STREAM Stage 2 (Lancet 2022, 91%). This replaces 18-24 month injectable regimens that had ~60% success. Drug costs dropped from $1,000+ to $310/course (BPaLM via Global Drug Facility). Total treatment costs: $996-$2,573 across 4 LMICs. 2025 US funding cuts creating acute gap (Global Fund cut $1.4B; USAID effectively ceased). 400,000 new cases/year, only 44% diagnosed/treated, ~150,000 deaths/year. CE at full programmatic cost ($1,500/patient) is only ~3x — below 8x bar. But at drug procurement cost ($310/patient, filling stockouts from US cuts), CE reaches ~15x. The pivotal question is whether there's a specific philanthropic entry point at the lower cost point.
+
+---
+
+**ALL 51 QEAs FROM THE MASTER LIST ARE NOW COMPLETE.**
+
+**FINAL TALLY: H=1, M=9, L=41.**
+
+| Rating | Count | Interventions |
+|--------|-------|---------------|
+| High | 1 | Rheumatic heart disease prevention |
+| Medium | 9 | Uterotonics for PPH, Oral azithromycin during labor, Antenatal corticosteroids for preterm birth, Non-pneumatic anti-shock garment (NASG), Sayana Press injectable contraceptive, MMS during pregnancy, Oxygen therapy for children, Arsenic in wells (Bangladesh), MDR-TB treatment |
+| Low | 41 | All others (including 1 already being pursued by GiveWell: iCCM commodity provision; 1 obsolete: COVID antivirals) |
+
+### Notable patterns from the complete set:
+
+- **Maternal/neonatal health cluster:** 5 of 9 Medium/High interventions are maternal or neonatal (uterotonics, azithromycin in labor, ACS for preterm birth, NASG, MMS). This is GiveWell's strongest domain for finding new opportunities.
+- **Evidence transformations:** MDR-TB treatment went from "no BOTEC possible" to a fully modeled opportunity, driven by 5+ Phase 3 RCTs. Oxygen therapy for children gained its first mortality RCT. Arsenic in wells gained 20-year longitudinal evidence.
+- **Funding crises create opportunities:** The 2025 US aid cuts may have created time-limited high-leverage opportunities in MDR-TB treatment (and potentially other Global Fund-dependent programs).
+- **Moral weight is the key structural constraint for NCD interventions:** Aspirin for AMI (3.8x), polypill (1-3x), salt substitution (2-4x), and hepatitis C (0.5-2x) all have strong evidence but fail the CE bar because adult/elderly CVD deaths get low moral weights.
+- **One validated prediction:** The iCCM commodity provision QEA (2022, estimated 14x) was validated by GiveWell's own investigation (estimated 17x) and subsequent $8M+ grant to CHAI. This suggests the QEA process can identify real opportunities.
+- **Contraception is a new frontier:** Sayana Press (~13x) benefited from GiveWell's 2025 contraception valuation framework (0.7 UoV/woman-year). This resolved the key blocker for multiple family planning interventions.

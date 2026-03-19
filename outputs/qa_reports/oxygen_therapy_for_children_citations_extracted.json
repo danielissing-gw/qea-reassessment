@@ -1,0 +1,102 @@
+{
+  "file": "C:\\Users\\Daniel Issing\\Documents\\claudecode\\qea-reassessment\\outputs\\writeups\\oxygen_therapy_for_children.md",
+  "status": "pass",
+  "total_citations": 8,
+  "citations": [
+    {
+      "type": "footnote",
+      "number": 1,
+      "body": "\"374 million people need medical oxygen annually (364 million acute, 9 million chronic) [...] In LMICs, only 30% of those needing acute oxygen receive it.\" ([Lancet Global Health Commission on Medical Oxygen, February 2025](https://pmc.ncbi.nlm.nih.gov/articles/PMC11865010/))",
+      "urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11865010/"
+      ],
+      "quotes": [
+        "374 million people need medical oxygen annually (364 million acute, 9 million chronic) [...] In LMICs, only 30% of those needing acute oxygen receive it."
+      ],
+      "issues": []
+    },
+    {
+      "type": "footnote",
+      "number": 2,
+      "body": "\"The median hypoxaemia prevalence of children with severe pneumonia requiring hospitalization was 13.3% (IQR 9.3\u201337.5%). [...] Patients with hypoxaemia had 4.84 times higher odds of death (95% CI 4.11\u20135.69).\" ([Hypoxaemia prevalence systematic review, Lancet Global Health 2025](https://pmc.ncbi.nlm.nih.gov/articles/PMC11783038/))",
+      "urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11783038/"
+      ],
+      "quotes": [
+        "The median hypoxaemia prevalence of children with severe pneumonia requiring hospitalization was 13.3% (IQR 9.3\u201337.5%). [...] Patients with hypoxaemia had 4.84 times higher odds of death (95% CI 4.11\u20135.69)."
+      ],
+      "issues": []
+    },
+    {
+      "type": "footnote",
+      "number": 3,
+      "body": "\"After adjustment for clustering and confounding, the relative risk of a fatal outcome was 0\u00b7513 (95% CI 0\u00b7285\u20130\u00b7915), consistent with a 48\u00b77% (8\u00b75\u201371\u00b75) reduction in risk of death.\" ([Nabwire et al., Lancet 2024](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(23)02502-3/abstract))",
+      "urls": [
+        "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(23"
+      ],
+      "quotes": [
+        "After adjustment for clustering and confounding, the relative risk of a fatal outcome was 0\u00b7513 (95% CI 0\u00b7285\u20130\u00b7915), consistent with a 48\u00b77% (8\u00b75\u201371\u00b75) reduction in risk of death."
+      ],
+      "issues": []
+    },
+    {
+      "type": "footnote",
+      "number": 4,
+      "body": "\"The pooled OR for oxygen systems reducing childhood pneumonia mortality was 0.52 (95% CI 0.39\u20130.70). Median cost-effectiveness: $62 per DALY averted (range $44\u2013$225).\" ([Lam et al., BMJ Global Health 2021](https://pmc.ncbi.nlm.nih.gov/articles/PMC8689120/))",
+      "urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8689120/"
+      ],
+      "quotes": [
+        "The pooled OR for oxygen systems reducing childhood pneumonia mortality was 0.52 (95% CI 0.39\u20130.70). Median cost-effectiveness: $62 per DALY averted (range $44\u2013$225)."
+      ],
+      "issues": []
+    },
+    {
+      "type": "footnote",
+      "number": 5,
+      "body": "\"Sub-Saharan Africa has the lowest coverage at 9% [...] Pulse oximetry available at 83% of tertiary hospitals, 54% of general hospitals, only 10% of primary facilities [...] 93% of primary facilities and 45% of general hospitals experience oxygen stockouts.\" ([Lancet Global Health Commission, February 2025](https://pmc.ncbi.nlm.nih.gov/articles/PMC11865010/))",
+      "urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11865010/"
+      ],
+      "quotes": [
+        "Sub-Saharan Africa has the lowest coverage at 9% [...] Pulse oximetry available at 83% of tertiary hospitals, 54% of general hospitals, only 10% of primary facilities [...] 93% of primary facilities and 45% of general hospitals experience oxygen stockouts."
+      ],
+      "issues": []
+    },
+    {
+      "type": "footnote",
+      "number": 6,
+      "body": "\"Oxygen therapy for childhood pneumonia costs $59 per DALY averted (range $21\u2013$225), matching routine childhood immunization ($64 per healthy life year gained).\" ([Lancet Global Health Commission, February 2025](https://pmc.ncbi.nlm.nih.gov/articles/PMC11865010/))",
+      "urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11865010/"
+      ],
+      "quotes": [
+        "Oxygen therapy for childhood pneumonia costs $59 per DALY averted (range $21\u2013$225), matching routine childhood immunization ($64 per healthy life year gained)."
+      ],
+      "issues": []
+    },
+    {
+      "type": "note",
+      "number": 7,
+      "body": "[Note] The TIMCI trial (Tools for Integrated Management of Childhood Illness) enrolled 157,677 children across 172 primary care facilities in India and Tanzania. The null finding on mortality is critical for program design \u2014 it shows that pulse oximetry at primary care level does not translate into health impact without concurrent strengthening of referral systems and hospital oxygen availability. Source: [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC12271772/)",
+      "urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12271772/"
+      ],
+      "quotes": [],
+      "issues": []
+    },
+    {
+      "type": "footnote",
+      "number": 8,
+      "body": "\"Full scale-up of pulse oximetry to 90% usage and oxygen to 80% availability would avert 71,000 DALYs per year [...] ICER of $35 per DALY averted ($33\u2013$36), or $924 per death averted.\" ([Lin et al. 2025, Lancet Global Health](https://www.sciencedirect.com/science/article/pii/S2214109X25002025))",
+      "urls": [
+        "https://www.sciencedirect.com/science/article/pii/S2214109X25002025"
+      ],
+      "quotes": [
+        "Full scale-up of pulse oximetry to 90% usage and oxygen to 80% availability would avert 71,000 DALYs per year [...] ICER of $35 per DALY averted ($33\u2013$36), or $924 per death averted."
+      ],
+      "issues": []
+    }
+  ],
+  "issues": []
+}

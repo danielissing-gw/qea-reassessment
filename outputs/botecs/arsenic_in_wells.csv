@@ -1,0 +1,53 @@
+Parameter,Value,Source / notes
+Costs,Value,Source / notes
+Grant amount,"$1,000,000",
+Cost per well tested (all-in: kit + labor + education + placard),$5,Assumption: field kit $0.17-1.00 + labor/logistics/education ~$4-5
+Wells tested,"200,000",Calculation
+People per well,11,From original BOTEC
+Total people covered by testing,"2,200,000",Calculation
+Contamination & behavioral response,,
+% of wells with As 50-150 ug/L,9%,From original BOTEC (Bangladesh distribution)
+% of wells with As 150+ ug/L,5%,From original BOTEC
+People exposed at 50-150 ug/L,"189,200",Calculation
+People exposed at 150+ ug/L,"105,600",Calculation
+Total people at high-exposure wells,"294,800",Calculation
+% of high-exposure population induced to switch to safe well,45%,Updated from 35% — multiple studies find 37-60%
+Adult mortality (ages 15-49),,
+"Annual mortality rate, ages 15-49 (Bangladesh)",0%,From original BOTEC (Bangladesh vital statistics)
+HR for As 50-150 ug/L (vs. <10 ug/L),1.09,"HEALS cohort (Argos et al., Lancet 2010)"
+HR for As 150+ ug/L (vs. <10 ug/L),1.68,"HEALS cohort (Argos et al., Lancet 2010)"
+IV adjustment (observational evidence only),70%,"No RCT on mortality; HEALS is strong observational (20yr, n=10,977)"
+Annual adult (15-49) deaths averted from switching (50-150 group),7.0,= N_exposed × switch_rate × mortality × (HR-1) × IV
+Annual adult (15-49) deaths averted from switching (150+ group),29.4,Calculation
+Total annual adult (15-49) deaths averted,36.4,Calculation
+Adult chronic disease mortality (ages 50+) — new benefit stream,,
+% of exposed population aged 50+,15%,Assumption: ~15% of Bangladesh population is 50+
+People aged 50+ at high-exposure wells,"44,220",Calculation
+"Annual chronic disease mortality rate (ages 50+, Bangladesh)",1%,Assumption: ~1.2% (60% of ~2% all-cause mortality is chronic disease)
+Reduction in chronic disease mortality from switching (from HEALS 2025),22%,HEALS 20-year follow-up (JAMA 2025)
+IV adjustment (same as above),70%,Same 70% observational evidence discount
+Annual deaths averted (50+ chronic disease),36.8,= N_50+ × switch_rate × mortality × reduction × IV
+Infant mortality,,
+"Birth rate per 1,000 people (Bangladesh, annual)",18.2,World Bank
+Births among high-exposure population (annual),"5,365",Calculation
+Infant mortality rate (Bangladesh),3%,From original BOTEC (World Bank 2019)
+OR for infant mortality with arsenic exposure (>=50 ug/L),1.35,Meta-analysis (Rahman et al.)
+IV adjustment for infant mortality (observational),70%,Same 70% discount as adult mortality
+Annual infant deaths averted from switching,15.1,= births × switch_rate × IMR × (OR-1) × IV
+Benefits,,
+Moral weight per adult (15-49) death averted (UoV),50,Adults dying at age ~30-50; remaining LE ~25-40 years
+Moral weight per adult (50+) death averted (UoV),20,Older adults; remaining LE ~10-20 years
+Moral weight per infant death averted (UoV),52.5,GiveWell standard for under-5 deaths
+Annual UoV from adult (15-49) deaths averted,"1,819",Calculation
+Annual UoV from adult (50+) deaths averted,735,Calculation
+Annual UoV from infant deaths averted,795,Calculation
+Duration of benefits (years),8,Updated from 5 — Araihazar data shows persistent switching over 8-15 years
+Total lifetime UoV from program,"26,795",Calculation
+Final CE,,
+Value per dollar spent on benchmark (GiveDirectly),0.00344,
+CE (multiples of cash),7.8,Calculation
+Sensitivity,,
+CE at $3/well (bare-minimum testing),13.0,Scenario: kit cost + minimal labor only
+CE at $5/well (best guess),7.8,= main BOTEC estimate
+CE at $10/well (full education program),3.9,Scenario: comprehensive intervention per Barnwal et al.
+"CE at $10/well, IV 50% (pessimistic)",2.8,Scenario: higher cost + heavier observational discount

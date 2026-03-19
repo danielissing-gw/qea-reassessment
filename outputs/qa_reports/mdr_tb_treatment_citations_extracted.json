@@ -1,0 +1,144 @@
+{
+  "file": "C:\\Users\\Daniel Issing\\Documents\\claudecode\\qea-reassessment\\outputs\\writeups\\mdr_tb_treatment.md",
+  "status": "pass",
+  "total_citations": 12,
+  "citations": [
+    {
+      "type": "footnote",
+      "number": 1,
+      "body": "\"In 2023, about 400 000 (95% UI: 355 000\u2013450 000) people developed multidrug-resistant or rifampicin-resistant TB (MDR/RR-TB) [...] In 2023, 175 923 people with MDR/RR-TB were enrolled on treatment globally (44% of the estimated 400 000 new cases).\" ([WHO Global TB Report 2024 \u2014 Drug-Resistant TB Treatment](https://www.who.int/teams/global-programme-on-tuberculosis-and-lung-health/tb-reports/global-tuberculosis-report-2024/tb-diagnosis-and-treatment/2-4-drug-resistant-tb-treatment))",
+      "urls": [
+        "https://www.who.int/teams/global-programme-on-tuberculosis-and-lung-health/tb-reports/global-tuberculosis-report-2024/tb-diagnosis-and-treatment/2-4-drug-resistant-tb-treatment"
+      ],
+      "quotes": [
+        "In 2023, about 400 000 (95% UI: 355 000\u2013450 000) people developed multidrug-resistant or rifampicin-resistant TB (MDR/RR-TB) [...] In 2023, 175 923 people with MDR/RR-TB were enrolled on treatment globally (44% of the estimated 400 000 new cases)."
+      ],
+      "issues": []
+    },
+    {
+      "type": "footnote",
+      "number": 2,
+      "body": "\"A shorter all-oral bedaquiline-containing regimen of 6 months for treatment of MDR/RR-TB (the BPaLM/BPaL regimen) is recommended in eligible patients with MDR/RR-TB aged \u226514 years, in preference to 9-month and 18-month or longer regimens.\" ([WHO treatment guidelines for drug-resistant TB, 2022 update](https://www.who.int/publications/i/item/9789240063129))",
+      "urls": [
+        "https://www.who.int/publications/i/item/9789240063129"
+      ],
+      "quotes": [
+        "A shorter all-oral bedaquiline-containing regimen of 6 months for treatment of MDR/RR-TB (the BPaLM/BPaL regimen) is recommended in eligible patients with MDR/RR-TB aged \u226514 years, in preference to 9-month and 18-month or longer regimens."
+      ],
+      "issues": []
+    },
+    {
+      "type": "footnote",
+      "number": 3,
+      "body": "\"Treatment success was achieved in 89% of participants randomised to BPaLM [...] compared with 52%-75% in the standard-of-care group [...] The study was terminated early on the recommendation of the independent data safety monitoring board for benefit.\" ([TB-PRACTECAL, Lancet Respiratory Medicine 2023](https://www.thelancet.com/journals/lanres/article/PIIS2213-2600(23)00389-2/fulltext))",
+      "urls": [
+        "https://www.thelancet.com/journals/lanres/article/PIIS2213-2600(23"
+      ],
+      "quotes": [
+        "Treatment success was achieved in 89% of participants randomised to BPaLM [...] compared with 52%-75% in the standard-of-care group [...] The study was terminated early on the recommendation of the independent data safety monitoring board for benefit."
+      ],
+      "issues": []
+    },
+    {
+      "type": "footnote",
+      "number": 4,
+      "body": "\"Three of the five experimental regimens showed non-inferiority to the control in the per-protocol population [...] Regimen 2 [bedaquiline, delamanid, linezolid, levofloxacin] showed superiority in the modified intention-to-treat population, with 90.4% favourable outcomes.\" ([endTB trial, NEJM 2024](https://endtb.org/endtb-clinical-trial-results))",
+      "urls": [
+        "https://endtb.org/endtb-clinical-trial-results"
+      ],
+      "quotes": [
+        "Three of the five experimental regimens showed non-inferiority to the control in the per-protocol population [...] Regimen 2 [bedaquiline, delamanid, linezolid, levofloxacin] showed superiority in the modified intention-to-treat population, with 90.4% favourable outcomes."
+      ],
+      "issues": []
+    },
+    {
+      "type": "footnote",
+      "number": 5,
+      "body": "\"A favorable outcome at 6 months after the end of treatment occurred in 98 of 109 patients (90%) [...] including 63 of 71 patients (89%) with extensively drug-resistant tuberculosis.\" ([Nix-TB, NEJM 2020](https://www.nejm.org/doi/full/10.1056/NEJMoa1901814))",
+      "urls": [
+        "https://www.nejm.org/doi/full/10.1056/NEJMoa1901814"
+      ],
+      "quotes": [
+        "A favorable outcome at 6 months after the end of treatment occurred in 98 of 109 patients (90%) [...] including 63 of 71 patients (89%) with extensively drug-resistant tuberculosis."
+      ],
+      "issues": []
+    },
+    {
+      "type": "footnote",
+      "number": 6,
+      "body": "\"At 26 weeks of treatment, the proportion of participants with a favorable outcome was [...] 91% with linezolid at a dose of 600 mg for 26 weeks [...] with significantly reduced peripheral neuropathy and myelosuppression.\" ([ZeNix, NEJM 2022](https://www.nejm.org/doi/full/10.1056/NEJMoa2119430))",
+      "urls": [
+        "https://www.nejm.org/doi/full/10.1056/NEJMoa2119430"
+      ],
+      "quotes": [
+        "At 26 weeks of treatment, the proportion of participants with a favorable outcome was [...] 91% with linezolid at a dose of 600 mg for 26 weeks [...] with significantly reduced peripheral neuropathy and myelosuppression."
+      ],
+      "issues": []
+    },
+    {
+      "type": "footnote",
+      "number": 7,
+      "body": "\"91.0% (95% CI 82.6-95.6) of participants had a favourable status [...] in the 6-month bedaquiline-containing regimen.\" ([STREAM Stage 2, Lancet 2022](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(22)02078-5/fulltext))",
+      "urls": [
+        "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(22"
+      ],
+      "quotes": [
+        "91.0% (95% CI 82.6-95.6) of participants had a favourable status [...] in the 6-month bedaquiline-containing regimen."
+      ],
+      "issues": []
+    },
+    {
+      "type": "footnote",
+      "number": 8,
+      "body": "\"Stop TB's Global Drug Facility (GDF) announces [...] a 47% decrease in the price of the BPaLM regimen [...] The full BPaLM treatment course is now available for USD $310.\" ([Stop TB Partnership, GDF price announcement](https://www.stoptb.org/news/stop-tbs-global-drug-facility-announces-38-price-decrease-bpalm-regimen-and-newly-available))",
+      "urls": [
+        "https://www.stoptb.org/news/stop-tbs-global-drug-facility-announces-38-price-decrease-bpalm-regimen-and-newly-available"
+      ],
+      "quotes": [
+        "Stop TB's Global Drug Facility (GDF) announces [...] a 47% decrease in the price of the BPaLM regimen [...] The full BPaLM treatment course is now available for USD $310."
+      ],
+      "issues": []
+    },
+    {
+      "type": "note",
+      "number": 9,
+      "body": "[Note] Total treatment costs (drug + health system costs) estimated at $996-$2,573 across Pakistan, Philippines, South Africa, and Ukraine, based on country-level costing studies. BPaLM was found to be cost-saving compared to older regimens in all four countries.",
+      "urls": [],
+      "quotes": [],
+      "issues": []
+    },
+    {
+      "type": "footnote",
+      "number": 10,
+      "body": "\"Thirteen of USAID's 24 priority countries for TB depended on U.S. bilateral funding for at least 20% of their respective TB programs [...] The Global Fund grant cycle was cut by $1.4 billion (11%).\" ([WHO Global TB Report 2025 \u2014 Impact of Funding Cuts](https://www.who.int/teams/global-programme-on-tuberculosis-and-lung-health/tb-reports/global-tuberculosis-report-2025/featured-topics/Impact-of-2025-funding-cuts))",
+      "urls": [
+        "https://www.who.int/teams/global-programme-on-tuberculosis-and-lung-health/tb-reports/global-tuberculosis-report-2025/featured-topics/Impact-of-2025-funding-cuts"
+      ],
+      "quotes": [
+        "Thirteen of USAID's 24 priority countries for TB depended on U.S. bilateral funding for at least 20% of their respective TB programs [...] The Global Fund grant cycle was cut by $1.4 billion (11%)."
+      ],
+      "issues": []
+    },
+    {
+      "type": "footnote",
+      "number": 11,
+      "body": "\"Modeling suggests that if all U.S. bilateral TB activities were discontinued in 2025 for the 15 months of the 2025 U.S. government fiscal year and then resumed at 2024 levels, an additional 2.5 million pediatric TB cases and 340,000 pediatric TB deaths could occur over the 2025-2034 decade.\" ([PMC \u2014 Deadly Equation of US Funding Cuts](https://pmc.ncbi.nlm.nih.gov/articles/PMC12422474/))",
+      "urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12422474/"
+      ],
+      "quotes": [
+        "Modeling suggests that if all U.S. bilateral TB activities were discontinued in 2025 for the 15 months of the 2025 U.S. government fiscal year and then resumed at 2024 levels, an additional 2.5 million pediatric TB cases and 340,000 pediatric TB deaths could occur over the 2025-2034 decade."
+      ],
+      "issues": []
+    },
+    {
+      "type": "note",
+      "number": 12,
+      "body": "[Note] WHO Global TB Report 2024 states that 58 countries were using BPaLM/BPaL by end of 2023, with 5,646 patients started on these regimens globally in 2023 \u2014 out of approximately 176,000 MDR/RR-TB patients enrolled in treatment that year.",
+      "urls": [],
+      "quotes": [],
+      "issues": []
+    }
+  ],
+  "issues": []
+}
