@@ -1,0 +1,34 @@
+Parameter,Value,Source / notes
+Burden & effect,Value,Source / notes
+Counterfactual mortality rate among women with obstetric hemorrhage,0.016,"RCT control group mortality 2.3% (Miller et al. 2013), adjusted down 31% for country-level maternal hemorrhage mortality reductions between 2010-2019 (GBD). Result: 1.6%."
+Mortality reduction from NASG (pooled non-experimental),0.48,Pooled RR 0.52 (95% CI 0.36-0.77) from random effects meta-analysis of 5 observational/pre-post studies (Pileggi-Castro et al. 2015 systematic review).
+Internal validity (IV) adjustment,0.66,"Evidence is mostly observational (4 pre/post + 1 fully observational study). One underpowered RCT (OR 0.36, NS). Potential confounding from differences in care quality between study phases. Original QEA applied 66%."
+External validity (EV) adjustment,0.75,Implementation likely better quality in study settings than real-world. Scale-up data from Zimbabwe (90% usage) is encouraging. Original QEA applied 75%.
+Combined IV/EV-adjusted mortality reduction,0.00792,Calculation: 48% × 66% × 75% = ~24%
+Deaths averted per woman treated,0.0001267,Calculation: 1.6% mortality × 24% adjusted reduction = ~0.38%
+Mortality benefit,,
+Units of value per maternal death averted (GW moral weights),109.5,GiveWell moral weights for adult female death at average age 27-30. Used in original BOTEC.
+UoV from mortality per woman treated,0.01388,Calculation
+Ad-hoc benefit adjustments (subjective),,
+Morbidity uplift (% of mortality UoV),0.15,I'm assuming +15%. NASG reduces severe anemia at discharge and speeds recovery from shock (165 min vs 209 min in RCT). Also reduces need for emergency hysterectomy. Rough guess.
+Infant mortality uplift (% of mortality UoV),0.1,I'm assuming +10%. Maternal death during/after delivery substantially increases infant mortality. Observational evidence suggests 4-25x higher infant mortality when mothers die. This is a rough guess — not formally modeled.
+Total UoV per woman treated (with adjustments),0.01734,Calculation: mortality UoV × (1 + morbidity + infant)
+Costs,,
+Grant size ($),1000000,Standard GW hypothetical grant
+Cost per woman treated — best guess ($),12,"I'm assuming $12 as midpoint. Device cost ~$1/use (amortized over 72 uses). Training ~$1.62/use. Additional logistics, supervision, return-and-exchange system. Original QEA guessed $8; CHAI Zimbabwe suggests higher total costs when including broader programmatic activities."
+Women with obstetric hemorrhage treated,8.333e+04,Calculation
+Results,,
+Deaths averted (adjusted),10.56,Calculation
+Total UoV from grant,1445,Calculation
+GiveWell benchmark (UoV per $ spent),0.00344,1x cash = 0.003355 UoV/$ (from CE bar of 8x). I'm using 0.00344 as approximate benchmark.
+CE as multiples of GiveDirectly,0.4202,Calculation
+Sensitivity analysis,,
+CE at $8/woman (optimistic),0.6303,If original guess of $8/woman is correct
+CE at $12/woman (best guess),0.4202,Same as main estimate
+CE at $25/woman (conservative),0.2017,If programmatic costs are substantially higher than device + training costs alone
+CE at $50/woman (pessimistic — full treatment cost),0.1008,"Original BOTEC noted mean treatment cost of $54.56/woman across both RCT groups (including blood transfusion, uterotonics). This would represent NASG as part of full hemorrhage treatment, not incremental NASG cost."
+Key assumptions and caveats,,
+1. Mortality rate uses RCT control group,,"The 1.6% counterfactual mortality is based on the RCT control group in Zambia/Zimbabwe, adjusted for time trends. Actual mortality among hemorrhaging women varies substantially by setting (higher in Nigeria, lower in India)."
+2. NASG reaches all hemorrhaging women at facilities,,BOTEC assumes 100% coverage of women with obstetric hemorrhage at participating facilities. Zimbabwe pilot achieved 90%. Women hemorrhaging before facility arrival are not covered.
+3. Evidence is observational,,"The pooled RR 0.52 comes from non-experimental studies. The 50% IV/EV adjustment attempts to account for this, but the true effect is uncertain. The RCT point estimate (OR 0.36) is actually larger but is not significant (n=15 deaths)."
+4. Cost per woman excludes ART-like ongoing costs,,"Unlike HIV interventions, NASG is a one-time device application with no ongoing treatment costs. The garment itself is reusable. This makes the cost-effectiveness calculation simpler but the upfront cost ($57-100/garment) must be amortized over actual (not theoretical) reuses."

@@ -1,32 +1,32 @@
 Parameter,Value,Source / notes
 Burden & effect,Value,Source / notes
-Effect size: % reduction in RHD risk with prevention program,0.89,From Cuba observational study (Pinar del Rio 1986-1996)
-Internal validity (IV) adjustment,0.7,"Evidence base is observational, not RCT. Unchanged from original."
-External validity (EV) adjustment,0.7,Cuba→India extrapolation. Cuba has universal free healthcare; India does not. Unchanged from original.
-Combined validity-adjusted effect,=B2*B3*B4,Calculation
-% of over-20 deaths caused by RHD in India,0.0166,"GBD 2021: ~166,017 India RHD deaths / ~10M all-cause deaths. Original used 1.50% (129k deaths)."
-"Lifetime RHD deaths per cohort of 100,000",=B6*100000,Calculation
-"Lifetime deaths averted per 100,000 with prevention program",=B5*B7,Calculation
+Effect size: % reduction in RHD risk with prevention program,89%,From Cuba observational study (Pinar del Rio 1986-1996)
+Internal validity (IV) adjustment,70%,"Evidence base is observational, not RCT. Unchanged from original."
+External validity (EV) adjustment,70%,Cuba→India extrapolation. Cuba has universal free healthcare; India does not. Unchanged from original.
+Combined validity-adjusted effect,44%,Calculation
+% of over-20 deaths caused by RHD in India,2%,"GBD 2021: ~166,017 India RHD deaths / ~10M all-cause deaths. Original used 1.50% (129k deaths)."
+"Lifetime RHD deaths per cohort of 100,000","1,660",Calculation
+"Lifetime deaths averted per 100,000 with prevention program",723.9,Calculation
 Mortality benefit,,
 Units of value per RHD death averted (GW moral weights),52.5,GiveWell moral weights for LMIC adult death. Unchanged.
-"UoV from mortality per 100,000 cohort",=B8*B10,Calculation
+"UoV from mortality per 100,000 cohort","38,006",Calculation
 Ad-hoc benefit adjustments (subjective),,
-Morbidity uplift: YLDs averted from RHD (% of mortality UoV),0.3,"I'm assuming +30%. RHD causes chronic heart failure, reduced exercise tolerance, and need for lifelong secondary prophylaxis. This is a rough guess — not verified against GBD YLD data."
-Perinatal outcomes uplift (% of mortality UoV),0.15,I'm assuming +15%. RHD is 'the principal heart disease seen in pregnant women' per WHO; causes maternal and perinatal morbidity/mortality. Rough guess.
-"Total UoV per 100,000 cohort (with adjustments)",=B11*(1+B13+B14),Calculation: mortality UoV x (1 + morbidity + perinatal)
+Morbidity uplift: YLDs averted from RHD (% of mortality UoV),30%,"I'm assuming +30%. RHD causes chronic heart failure, reduced exercise tolerance, and need for lifelong secondary prophylaxis. This is a rough guess — not verified against GBD YLD data."
+Perinatal outcomes uplift (% of mortality UoV),15%,I'm assuming +15%. RHD is 'the principal heart disease seen in pregnant women' per WHO; causes maternal and perinatal morbidity/mortality. Rough guess.
+"Total UoV per 100,000 cohort (with adjustments)","55,109",Calculation: mortality UoV x (1 + morbidity + perinatal)
 Costs,,
-Annual program cost in 2010 USD (Watkins et al. 2015),20289,From Cuba study. No new cost data found. GiveWell considered this 'possibly a gross underestimate'.
+Annual program cost in 2010 USD (Watkins et al. 2015),"$20,289",From Cuba study. No new cost data found. GiveWell considered this 'possibly a gross underestimate'.
 CPI inflation factor (2010 → 2026),1.46,I'm estimating ~1.46 for 2010→2026. Should verify with BLS CPI calculator.
-Annual program cost in 2026 USD (pre-adjustment),=B17*B18,Calculation
+Annual program cost in 2026 USD (pre-adjustment),"$29,622",Calculation
 Subjective cost multiplier,3,"I'm assuming 3x. Cuba has universal free healthcare with existing primary care infrastructure; India would need to build screening, treatment, and referral systems. 3x is moderate — at 5x the CE is still ~16x (above bar). At 1x (original) CE is ~54x (almost certainly too high)."
-Adjusted annual program cost in 2026 USD,=B19*B20,Calculation
-Number covered by program annually (Watkins et al. 2015),273933,From original Cuba study
-Adjusted annual cost per beneficiary,=B21/B22,Calculation
+Adjusted annual program cost in 2026 USD,"$88,866",Calculation
+Number covered by program annually (Watkins et al. 2015),"273,933",From original Cuba study
+Adjusted annual cost per beneficiary,$0.32,Calculation
 Duration of intervention per beneficiary (years),19,Covers ages 5-24. Unchanged from original.
-Total cost per beneficiary (lifetime),=B23*B24,Calculation
-"Total cost per 100,000 cohort",=B25*100000,Calculation
+Total cost per beneficiary (lifetime),$6.16,Calculation
+"Total cost per 100,000 cohort","$616,374",Calculation
 Final CE estimate,,
-"Units of value per $100,000 donated",=B15/B26*100000,Calculation
+"Units of value per $100,000 donated","8,941",Calculation
 "GiveDirectly units of value per $100,000",344,GW benchmark
-Cost per death averted,=B26/B8,Calculation (mortality only; does not include morbidity/perinatal)
-CE (multiples of cash),=B28/B29,Best-guess estimate. Includes 3x cost multiplier and ad-hoc benefit adjustments. At 5x cost multiplier → ~16x. Confidence: Low (cost is pivotal unknown).
+Cost per death averted,$851,Calculation (mortality only; does not include morbidity/perinatal)
+CE (multiples of cash),26.0,Best-guess estimate. Includes 3x cost multiplier and ad-hoc benefit adjustments. At 5x cost multiplier → ~16x. Confidence: Low (cost is pivotal unknown).

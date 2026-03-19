@@ -120,6 +120,17 @@ Single sheet ("BOTEC") with three columns:
 
 See `docs/examples/build_vaginal_rings_dapivirine_botec.py` for the reference implementation.
 
+#### CSV export
+
+Every build script must also export a CSV version of the BOTEC for GitHub browsability. Add these lines at the end of each `build_*.py`:
+
+```python
+from export_csv import save_csv
+save_csv(ws, out_path.replace(".xlsx", ".csv"))
+```
+
+The CSV contains the same three columns (Parameter | Value | Source/notes) but with **formulas resolved to computed values** so the numbers are readable without opening Excel. The shared helper `outputs/botecs/export_csv.py` handles formula evaluation and number formatting.
+
 ---
 
 ### Stage 2b: Quality Assurance

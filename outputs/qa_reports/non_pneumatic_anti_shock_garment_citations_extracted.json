@@ -1,0 +1,133 @@
+{
+  "file": "C:\\Users\\Daniel Issing\\Documents\\claudecode\\qea-reassessment\\outputs\\writeups\\non_pneumatic_anti_shock_garment.md",
+  "status": "pass",
+  "total_citations": 11,
+  "citations": [
+    {
+      "type": "footnote",
+      "number": 1,
+      "body": "\"Obstetric haemorrhage is the leading cause of maternal mortality. It constitutes 35% of all maternal deaths.\" ([WHO, Postpartum haemorrhage](https://www.who.int/docs/default-source/mca-documents/nbh/brief-postpartum-haemorrhage))",
+      "urls": [
+        "https://www.who.int/docs/default-source/mca-documents/nbh/brief-postpartum-haemorrhage"
+      ],
+      "quotes": [
+        "Obstetric haemorrhage is the leading cause of maternal mortality. It constitutes 35% of all maternal deaths."
+      ],
+      "issues": []
+    },
+    {
+      "type": "footnote",
+      "number": 2,
+      "body": "\"It takes less than four hours from the onset of hemorrhage, on average, to die, but the condition can only be treated in hospital.\" ([CHAI blog, Anti-shock garment prevents maternal deaths in rural Zimbabwe](https://www.clintonhealthaccess.org/blog/anti-shock-garment-prevents-maternal-deaths-in-rural-zimbabwe/))",
+      "urls": [
+        "https://www.clintonhealthaccess.org/blog/anti-shock-garment-prevents-maternal-deaths-in-rural-zimbabwe/"
+      ],
+      "quotes": [
+        "It takes less than four hours from the onset of hemorrhage, on average, to die, but the condition can only be treated in hospital."
+      ],
+      "issues": []
+    },
+    {
+      "type": "footnote",
+      "number": 3,
+      "body": "\"The device costs USD 57.50 from one manufacturer in Hong Kong, and can be re-used at least 72 times.\" and \"After training, any trained birth attendant can rapidly apply the NASG on a hemorrhaging woman.\" ([Barriers and facilitators to scaling up NASG, cited in original QEA](https://docs.google.com/document/d/10ALE72O0VS6rkxrybbckYk_YBFNYAXnKdM0gAbobRBU/edit))",
+      "urls": [
+        "https://docs.google.com/document/d/10ALE72O0VS6rkxrybbckYk_YBFNYAXnKdM0gAbobRBU/edit"
+      ],
+      "quotes": [
+        "The device costs USD 57.50 from one manufacturer in Hong Kong, and can be re-used at least 72 times.",
+        "After training, any trained birth attendant can rapidly apply the NASG on a hemorrhaging woman."
+      ],
+      "issues": []
+    },
+    {
+      "type": "footnote",
+      "number": 4,
+      "body": "\"CHAI introduced the NASG in 34 health facilities in the Hurungwe District in Mashonaland West Province and conducted a three-month evaluation. The results were significant: the NASG was used in 90 percent of potential applications and there were 50 percent fewer maternal deaths compared to the same time period a year earlier \u2013 including no deaths from postpartum hemorrhage.\" ([CHAI, Anti-shock garment prevents maternal deaths in rural Zimbabwe](https://www.clintonhealthaccess.org/blog/anti-shock-garment-prevents-maternal-deaths-in-rural-zimbabwe/))",
+      "urls": [
+        "https://www.clintonhealthaccess.org/blog/anti-shock-garment-prevents-maternal-deaths-in-rural-zimbabwe/"
+      ],
+      "quotes": [
+        "CHAI introduced the NASG in 34 health facilities in the Hurungwe District in Mashonaland West Province and conducted a three-month evaluation. The results were significant: the NASG was used in 90 percent of potential applications and there were 50 percent fewer maternal deaths compared to the same time period a year earlier \u2013 including no deaths from postpartum hemorrhage."
+      ],
+      "issues": []
+    },
+    {
+      "type": "footnote",
+      "number": 5,
+      "body": "\"Following these results, the MOHCC, with support from CHAI, used the results of the study to enable the roll out of the NASG to the rest of the 176 facilities in the province, as well as five central hospitals. The MOHCC has since adopted the NASG as part of the package for management of third stage labor complications, which will be rolled out nationally in the coming months.\" ([CHAI, Anti-shock garment prevents maternal deaths in rural Zimbabwe](https://www.clintonhealthaccess.org/blog/anti-shock-garment-prevents-maternal-deaths-in-rural-zimbabwe/))",
+      "urls": [
+        "https://www.clintonhealthaccess.org/blog/anti-shock-garment-prevents-maternal-deaths-in-rural-zimbabwe/"
+      ],
+      "quotes": [
+        "Following these results, the MOHCC, with support from CHAI, used the results of the study to enable the roll out of the NASG to the rest of the 176 facilities in the province, as well as five central hospitals. The MOHCC has since adopted the NASG as part of the package for management of third stage labor complications, which will be rolled out nationally in the coming months."
+      ],
+      "issues": []
+    },
+    {
+      "type": "note",
+      "number": 6,
+      "body": "[Note] Published in BMC Health Services Research (2023): \"Operational demonstration and process evaluation of non-pneumatic anti-shock garment (NASG) introduction to the public health system of Northern Province, Zambia\" (PMC10687818). I have not read the full paper but the publication confirms operational feasibility was documented.",
+      "urls": [],
+      "quotes": [
+        "Operational demonstration and process evaluation of non-pneumatic anti-shock garment (NASG) introduction to the public health system of Northern Province, Zambia"
+      ],
+      "issues": []
+    },
+    {
+      "type": "footnote",
+      "number": 7,
+      "body": "\"There was no evidence of statistically significant differences between earlier and later NASG application across mortality and morbidity outcomes. The odds of death in the early application group were 64% lower (OR 0.36 (95% CI: 0.08 \u2013 1.53) than the later application group.\" ([Miller et al. 2013, PLOS ONE](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0076477))",
+      "urls": [
+        "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0076477"
+      ],
+      "quotes": [
+        "There was no evidence of statistically significant differences between earlier and later NASG application across mortality and morbidity outcomes. The odds of death in the early application group were 64% lower (OR 0.36 (95% CI: 0.08 \u2013 1.53) than the later application group."
+      ],
+      "issues": []
+    },
+    {
+      "type": "footnote",
+      "number": 8,
+      "body": "\"Given the increasing global practice of prophylactic uterotonics and improved management of early PPH, we feel that obtaining a sample size adequate to demonstrate a statistically significant decrease in maternal mortality, even with the large effect size of the NASG, in a cluster randomized trial, is unattainable.\" ([Miller et al. 2013, PLOS ONE](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0076477))",
+      "urls": [
+        "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0076477"
+      ],
+      "quotes": [
+        "Given the increasing global practice of prophylactic uterotonics and improved management of early PPH, we feel that obtaining a sample size adequate to demonstrate a statistically significant decrease in maternal mortality, even with the large effect size of the NASG, in a cluster randomized trial, is unattainable."
+      ],
+      "issues": []
+    },
+    {
+      "type": "note",
+      "number": 9,
+      "body": "[Note] Random effects meta-analysis of Pileggi-Castro et al. 2015 systematic review: 5 non-experimental studies, pooled RR 0.52 (95% CI 0.36\u20130.77). Studies: Miller 2006, Miller 2010, Ojengbede 2011, Magwali 2012, Maknikar 2012.",
+      "urls": [],
+      "quotes": [],
+      "issues": []
+    },
+    {
+      "type": "footnote",
+      "number": 10,
+      "body": "\"The incidence of the primary outcome was lower in the E-MOTIVE group than in the usual-care group (5859 of 106,021 women [5.5%] vs. 9221 of 104,111 [8.9%]; relative risk, 0.60; 95% confidence interval [CI], 0.51 to 0.71; P<0.001).\" ([Gallos et al., NEJM 2023](https://www.nejm.org/doi/full/10.1056/NEJMoa2303966))",
+      "urls": [
+        "https://www.nejm.org/doi/full/10.1056/NEJMoa2303966"
+      ],
+      "quotes": [
+        "The incidence of the primary outcome was lower in the E-MOTIVE group than in the usual-care group (5859 of 106,021 women [5.5%] vs. 9221 of 104,111 [8.9%]; relative risk, 0.60; 95% confidence interval [CI], 0.51 to 0.71; P<0.001)."
+      ],
+      "issues": []
+    },
+    {
+      "type": "note",
+      "number": 11,
+      "body": "[Note] From original QEA correspondence with Andrew Storey at CHAI: \"$750,000 for national scale-up of NASG in Zimbabwe. Does not include broader programmatic activities or CHAI staff time and expenses, and assumes that CHAI is able to layer activities onto existing projects.\" Duration: 5 years.",
+      "urls": [],
+      "quotes": [
+        "$750,000 for national scale-up of NASG in Zimbabwe. Does not include broader programmatic activities or CHAI staff time and expenses, and assumes that CHAI is able to layer activities onto existing projects."
+      ],
+      "issues": []
+    }
+  ],
+  "issues": []
+}

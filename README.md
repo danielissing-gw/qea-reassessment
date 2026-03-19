@@ -19,8 +19,9 @@ See `docs/methodology.md` for full instructions.
 | `docs/background.md` | Context on what QEAs are and why revisit them |
 | `docs/examples/` | Reference outputs (vaginal rings / dapivirine example) |
 | `outputs/qea_reassessment_tracker.csv` | Master tracker with one row per intervention |
-| `outputs/writeups/{name}.md` | Per-intervention writeups |
-| `outputs/botecs/{name}.xlsx` | Per-intervention BOTEC spreadsheets |
+| `outputs/writeups/{name}.md` | Per-intervention writeups (renders natively on GitHub) |
+| `outputs/botecs/{name}.xlsx` | Per-intervention BOTEC spreadsheets (download or open in Google Drive to view) |
+| `outputs/botecs/{name}.csv` | BOTEC summary with computed values (renders natively on GitHub) |
 | `outputs/run_log.md` | Session-by-session progress log |
 | `qa/run_qa.py` | Run all QA checks for an intervention |
 | `CLAUDE.md` | Instructions for Claude Code sessions |

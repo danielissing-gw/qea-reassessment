@@ -1,0 +1,104 @@
+{
+  "file": "C:\\Users\\Daniel Issing\\Documents\\claudecode\\qea-reassessment\\outputs\\writeups\\sayana_press.md",
+  "status": "pass",
+  "total_citations": 9,
+  "citations": [
+    {
+      "type": "footnote",
+      "number": 1,
+      "body": "\"In 2019, an estimated 218 million women of reproductive age in developing countries had an unmet need for modern methods of family planning, and 111 million unintended pregnancies occurred in low- and middle-income countries.\" (https://www.guttmacher.org/fact-sheet/adding-it-up-investing-in-sexual-reproductive-health)",
+      "urls": [
+        "https://www.guttmacher.org/fact-sheet/adding-it-up-investing-in-sexual-reproductive-health"
+      ],
+      "quotes": [
+        "In 2019, an estimated 218 million women of reproductive age in developing countries had an unmet need for modern methods of family planning, and 111 million unintended pregnancies occurred in low- and middle-income countries."
+      ],
+      "issues": []
+    },
+    {
+      "type": "footnote",
+      "number": 2,
+      "body": "\"Sayana\u00ae Press is a three-month, progestin-only, all-in-one injectable contraceptive that combines the drug and needle in the Uniject\u2122 injection system. Sayana Press is small, light, easy to use, and requires minimal training, making it especially suitable for community-based distribution \u2014 and for women to administer themselves through self-injection.\" (https://www.path.org/our-impact/articles/dmpa-sc/)",
+      "urls": [
+        "https://www.path.org/our-impact/articles/dmpa-sc/"
+      ],
+      "quotes": [
+        "Sayana\u00ae Press is a three-month, progestin-only, all-in-one injectable contraceptive that combines the drug and needle in the Uniject\u2122 injection system. Sayana Press is small, light, easy to use, and requires minimal training, making it especially suitable for community-based distribution \u2014 and for women to administer themselves through self-injection."
+      ],
+      "issues": []
+    },
+    {
+      "type": "footnote",
+      "number": 3,
+      "body": "\"GiveWell estimates that providing one year of modern contraception in low- and middle-income countries generates approximately 0.7 units of value (with a 25th-75th percentile range of 0.3-1.1 units).\" (https://www.givewell.org/how-we-work/our-criteria/cost-effectiveness/valuing-contraception)",
+      "urls": [
+        "https://www.givewell.org/how-we-work/our-criteria/cost-effectiveness/valuing-contraception"
+      ],
+      "quotes": [
+        "GiveWell estimates that providing one year of modern contraception in low- and middle-income countries generates approximately 0.7 units of value (with a 25th-75th percentile range of 0.3-1.1 units)."
+      ],
+      "issues": []
+    },
+    {
+      "type": "footnote",
+      "number": 4,
+      "body": "\"The product is now available in nearly 55 countries worldwide, with nearly 35 countries offering self-injection.\" (https://launchandscalefaster.org/intervention/sayanar-press)",
+      "urls": [
+        "https://launchandscalefaster.org/intervention/sayanar-press"
+      ],
+      "quotes": [
+        "The product is now available in nearly 55 countries worldwide, with nearly 35 countries offering self-injection."
+      ],
+      "issues": []
+    },
+    {
+      "type": "note",
+      "number": 5,
+      "body": "[Note] Meta-analysis of three RCTs comparing self-injection with provider administration found RR 1.27 (95% CI 1.16-1.39) for 12-month continuation, and three cohort studies found RR 1.18 (95% CI 1.10-1.26). Summarized from multiple sources.",
+      "urls": [],
+      "quotes": [],
+      "issues": []
+    },
+    {
+      "type": "footnote",
+      "number": 6,
+      "body": "\"The 12-month continuation rate for 561 women self-injecting DMPA-SC was 0.81 (95% CI 0.78-0.84), and for 600 women receiving DMPA-IM from a health worker, it was 0.65 (95% CI 0.61-0.69).\" (https://pubmed.ncbi.nlm.nih.gov/29654751/)",
+      "urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/29654751/"
+      ],
+      "quotes": [
+        "The 12-month continuation rate for 561 women self-injecting DMPA-SC was 0.81 (95% CI 0.78-0.84), and for 600 women receiving DMPA-IM from a health worker, it was 0.65 (95% CI 0.61-0.69)."
+      ],
+      "issues": []
+    },
+    {
+      "type": "note",
+      "number": 7,
+      "body": "[Note] GW's family planning investigation includes the FEM grant ($500k, March 2023), contraception valuation publication (April 2025), and a podcast episode (August 2025). These suggest an active pipeline, though the status of Sayana Press specifically is unclear from public materials.",
+      "urls": [],
+      "quotes": [],
+      "issues": []
+    },
+    {
+      "type": "note",
+      "number": 8,
+      "body": "[Note] This is an assumption I have not verified against actual program data. The original Guttmacher estimate ($9.14/year including commodity and delivery) is from 2012. Self-injection should reduce the delivery cost component, but how much depends on program design. My estimate of $8/year for delivery assumes a moderately lean self-injection program with CHW training, supply chain, and minimal demand generation.",
+      "urls": [],
+      "quotes": [],
+      "issues": []
+    },
+    {
+      "type": "footnote",
+      "number": 9,
+      "body": "\"A multicenter, international Phase 3 study evaluated pharmacokinetics, efficacy, and safety of Sayana Press when administered subcutaneously at 4-month intervals... Contraceptive efficacy over the 12-month treatment period was 99.0% (95% CI: 97.5, 99.5).\" (https://pmc.ncbi.nlm.nih.gov/articles/PMC8804165/)",
+      "urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8804165/"
+      ],
+      "quotes": [
+        "A multicenter, international Phase 3 study evaluated pharmacokinetics, efficacy, and safety of Sayana Press when administered subcutaneously at 4-month intervals... Contraceptive efficacy over the 12-month treatment period was 99.0% (95% CI: 97.5, 99.5)."
+      ],
+      "issues": []
+    }
+  ],
+  "issues": []
+}

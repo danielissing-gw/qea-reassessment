@@ -1,30 +1,30 @@
 Parameter,Value,Source / notes
 Costs,Value,Source / notes
-Grant amount,1000000,
-"Drug cost per course (dexamethasone, 4x6mg IM)",0.51,Save the Children 2013: 'as little as 51 cents per treatment'
-"Incremental program cost per woman treated (training, ultrasound, supervision)",29.49,Assumption: ~$30 total cost per woman in hospitals with adequate neonatal care.
-Total cost per woman treated,=B3+B4,Calculation
-Number of women treated,=B2/B5,Calculation
+Grant amount,"$1,000,000",
+"Drug cost per course (dexamethasone, 4x6mg IM)",$0.51,Save the Children 2013: 'as little as 51 cents per treatment'
+"Incremental program cost per woman treated (training, ultrasound, supervision)",$29.49,Assumption: ~$30 total cost per woman in hospitals with adequate neonatal care.
+Total cost per woman treated,$30.00,Calculation
+Number of women treated,"33,333",Calculation
 Burden & effect,,
-Baseline neonatal mortality among women at risk of early preterm birth,0.235,ACTION-I placebo arm: 331/1406 = 23.5%
+Baseline neonatal mortality among women at risk of early preterm birth,24%,ACTION-I placebo arm: 331/1406 = 23.5%
 RR for neonatal death (dexamethasone vs placebo),0.84,ACTION-I trial (NEJM 2020): RR 0.84 (95% CI 0.72-0.97)
-Mortality reduction (1 - RR),=1-B10,Calculation
-Baseline neonatal deaths in cohort,=B6*B9,Calculation
-Internal validity adjustment,0.9,"Single large RCT (n=2852), stopped early for benefit. Minor discount for early stopping bias."
-External validity adjustment,0.8,Trial in selected hospitals with adequate neonatal care; real-world implementation may be less targeted.
-Adjusted neonatal deaths averted,=B12*B11*B13*B14,Calculation
+Mortality reduction (1 - RR),16%,Calculation
+Baseline neonatal deaths in cohort,7833.3,Calculation
+Internal validity adjustment,90%,"Single large RCT (n=2852), stopped early for benefit. Minor discount for early stopping bias."
+External validity adjustment,80%,Trial in selected hospitals with adequate neonatal care; real-world implementation may be less targeted.
+Adjusted neonatal deaths averted,902.4,Calculation
 Benefits,,
 Moral weight per neonatal death averted (UoV),52.5,GiveWell standard: under-5 death averted
-UoV from neonatal deaths averted,=B15*B18,Calculation
-"Ad-hoc: morbidity reduction (reduced RDS, IVH, NEC among survivors)",0.15,"ACS reduces RDS (RR 0.66), IVH (RR 0.55), NEC (RR 0.50) per Cochrane 2017."
-Ad-hoc: reduced healthcare costs (shorter NICU stays),0.1,ACTION-I CEA: intervention was cost-saving in all 5 countries.
-Total UoV from program,=B19*(1+B20+B21),Calculation
+UoV from neonatal deaths averted,"47,376",Calculation
+"Ad-hoc: morbidity reduction (reduced RDS, IVH, NEC among survivors)",15%,"ACS reduces RDS (RR 0.66), IVH (RR 0.55), NEC (RR 0.50) per Cochrane 2017."
+Ad-hoc: reduced healthcare costs (shorter NICU stays),10%,ACTION-I CEA: intervention was cost-saving in all 5 countries.
+Total UoV from program,"59,220",Calculation
 Final CE,,
 Value per dollar spent on benchmark (GiveDirectly),0.00344,
-CE (multiples of cash),=B22/B2/B25,Calculation
+CE (multiples of cash),17.2,Calculation
 Sensitivity (CE at different program costs per woman),,
-CE at $10/woman (drug + minimal training overhead),=(B9*(1-B10)*B13*B14*B18*(1+B20+B21))/(10*B25),Scenario: hospitals already have ultrasound and neonatal care; only need drug supply + minimal training
-CE at $30/woman (best guess),=(B9*(1-B10)*B13*B14*B18*(1+B20+B21))/(30*B25),Scenario: moderate program (training + drug supply + supervision in equipped hospitals)
-CE at $50/woman (includes some capacity building),=(B9*(1-B10)*B13*B14*B18*(1+B20+B21))/(50*B25),Scenario: hospitals need some additional neonatal care capacity
-CE at $100/woman (substantial capacity building),=(B9*(1-B10)*B13*B14*B18*(1+B20+B21))/(100*B25),Scenario: hospitals need significant neonatal care upgrades + training + equipment
-"CE at $30/woman with ACTION-III benefit (late preterm also effective, 3x eligible population)",=B30,"If ACTION-III shows benefit for 34-36 week births, CE unchanged per woman but eligible pool triples."
+CE at $10/woman (drug + minimal training overhead),51.6,Scenario: hospitals already have ultrasound and neonatal care; only need drug supply + minimal training
+CE at $30/woman (best guess),17.2,Scenario: moderate program (training + drug supply + supervision in equipped hospitals)
+CE at $50/woman (includes some capacity building),10.3,Scenario: hospitals need some additional neonatal care capacity
+CE at $100/woman (substantial capacity building),5.2,Scenario: hospitals need significant neonatal care upgrades + training + equipment
+"CE at $30/woman with ACTION-III benefit (late preterm also effective, 3x eligible population)",17.2,"If ACTION-III shows benefit for 34-36 week births, CE unchanged per woman but eligible pool triples."

@@ -1,0 +1,31 @@
+Parameter,Value,Source / notes
+Costs,Value,Source / notes
+Grant amount,"$1,000,000",Arbitrary anchor
+Commodity cost per dose (Sayana Press),$1.00,Pfizer/Gates/CIFF agreement: $1/dose for 69 poorest countries
+Doses per year,4,Quarterly injection (every 3 months)
+Commodity cost per woman-year,$4.00,Calculation
+Delivery cost per woman-year (self-injection program),$8.00,Estimate; original Guttmacher 2012 total was $9.14/year (incl. commodity)
+Total cost per woman-year of contraception,$12.00,Calculation
+Woman-years of contraception provided by grant,"83,333",Calculation
+Benefits (GW contraception valuation),,
+UoV per woman-year of modern contraception (GW estimate),0.7,GW April 2025 contraception valuation
+"UoV per woman-year (low estimate, 25th percentile)",0.3,GW April 2025 contraception valuation
+"UoV per woman-year (high estimate, 75th percentile)",1.1,GW April 2025 contraception valuation
+Adjustments,,
+Self-injection continuation rate uplift,100%,Meta-analysis: RR 1.27 for 12-month continuation. Already partially captured in GW's UoV estimate; not double-counting.
+IV adjustment,100%,No IV adjustment: GW's valuation already incorporates evidence quality
+EV adjustment,100%,"No EV adjustment: GW's valuation is for LMICs broadly, matching target context"
+Total benefits,,
+Total UoV generated (best guess),"58,333",Calculation
+Total UoV generated (low),"25,000",Calculation (25th percentile UoV)
+Total UoV generated (high),"91,667",Calculation (75th percentile UoV)
+Final CE,,
+GW benchmark (UoV per dollar at 1x),0.003355,0.003355 UoV/$ = 1x cash transfers (344 UoV per $100k)
+CE (best guess),17.4,Calculation: total UoV / grant / benchmark
+CE (low),7.5,Calculation (25th percentile)
+CE (high),27.3,Calculation (75th percentile)
+Sensitivity: CE at different costs per woman-year,,
+CE at $6/woman-year (lean self-injection),34.8,
+CE at $12/woman-year (moderate self-injection),17.4,
+CE at $20/woman-year (provider-administered + demand gen),10.4,
+CE at $30/woman-year (comprehensive program),7.0,

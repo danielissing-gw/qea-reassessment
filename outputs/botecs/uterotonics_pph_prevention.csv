@@ -1,35 +1,35 @@
 Parameter,Value,Source / notes
 Grant & coverage,Value,Source / notes
-Grant amount,1000000,Arbitrary anchor for calculation
-Cost per facility birth (bundled PPH program),2.0,"I'm assuming $2/birth. Includes: HSC drug ($0.31), prorated TXA drug ($0.18), training increment ($0.70), supply chain ($0.35), monitoring ($0.35). Highly uncertain — at $1/birth CE roughly doubles; at $3/birth CE drops to ~2x. AMPLI-PPHI cost data (expected mid-2026) would resolve this."
-Facility births covered by grant,=B2/B3,Calculation
+Grant amount,"$1,000,000",Arbitrary anchor for calculation
+Cost per facility birth (bundled PPH program),$2.00,"I'm assuming $2/birth. Includes: HSC drug ($0.31), prorated TXA drug ($0.18), training increment ($0.70), supply chain ($0.35), monitoring ($0.35). Highly uncertain — at $1/birth CE roughly doubles; at $3/birth CE drops to ~2x. AMPLI-PPHI cost data (expected mid-2026) would resolve this."
+Facility births covered by grant,"500,000",Calculation
 HSC prevention: deaths averted,,
 "Maternal lives saved per 100,000 facility births with HSC",5,"India modeling study (2023), cited in PMC review. Compares HSC to settings without reliable uterotonic (cold-chain failure). I could not access the original study."
-IV adjustment (HSC),0.85,"Modeling study, not direct RCT in the target setting. Based on CHAMPION trial (HSC non-inferior to oxytocin) plus assumptions about cold-chain failure rates."
-EV adjustment (HSC),0.9,India model applied to broader LMIC settings. Cold-chain reliability varies across settings.
-"Adjusted lives saved per 100,000 births",=B7*B8*B9,Calculation
-Deaths averted from HSC,=B4/100000*B10,Calculation
+IV adjustment (HSC),85%,"Modeling study, not direct RCT in the target setting. Based on CHAMPION trial (HSC non-inferior to oxytocin) plus assumptions about cold-chain failure rates."
+EV adjustment (HSC),90%,India model applied to broader LMIC settings. Cold-chain reliability varies across settings.
+"Adjusted lives saved per 100,000 births",3.83,Calculation
+Deaths averted from HSC,19.1,Calculation
 TXA treatment: deaths averted,,
-PPH rate among facility births,0.06,~6% is standard WHO estimate for PPH incidence (blood loss >= 500ml after birth).
-PPH cases from grant,=B4*B14,Calculation
-Mortality rate among PPH cases (standard care),0.019,"WOMAN trial placebo arm: 191/9,985 = 1.91%"
-Relative risk reduction from TXA (1 - RR),0.19,WOMAN trial: RR 0.81 (95% CI 0.65-1.00) for death from bleeding. Using WOMAN trial as primary source for mortality. 2024 Lancet IPD meta-analysis (OR 0.77 for life-threatening bleeding composite) is confirmatory.
-IV adjustment (TXA),0.95,"Large, high-quality multi-country RCT (WOMAN trial). Confirmed by 2024 IPD meta-analysis. Small discount for field vs. trial conditions."
-EV adjustment (TXA),0.85,"WOMAN trial included LMIC sites, but TXA requires rapid PPH diagnosis and IV/IM administration within 3 hours. Effectiveness in field conditions may be lower than trial."
-Adjusted deaths averted per PPH case treated,=B16*B17*B18*B19,Calculation: CFR x RRR x IV x EV
-Deaths averted from TXA,=B15*B20,Calculation
+PPH rate among facility births,6%,~6% is standard WHO estimate for PPH incidence (blood loss >= 500ml after birth).
+PPH cases from grant,"30,000",Calculation
+Mortality rate among PPH cases (standard care),2%,"WOMAN trial placebo arm: 191/9,985 = 1.91%"
+Relative risk reduction from TXA (1 - RR),19%,WOMAN trial: RR 0.81 (95% CI 0.65-1.00) for death from bleeding. Using WOMAN trial as primary source for mortality. 2024 Lancet IPD meta-analysis (OR 0.77 for life-threatening bleeding composite) is confirmatory.
+IV adjustment (TXA),95%,"Large, high-quality multi-country RCT (WOMAN trial). Confirmed by 2024 IPD meta-analysis. Small discount for field vs. trial conditions."
+EV adjustment (TXA),85%,"WOMAN trial included LMIC sites, but TXA requires rapid PPH diagnosis and IV/IM administration within 3 hours. Effectiveness in field conditions may be lower than trial."
+Adjusted deaths averted per PPH case treated,0%,Calculation: CFR x RRR x IV x EV
+Deaths averted from TXA,87.5,Calculation
 Total benefits,,
-Total deaths averted (HSC + TXA),=B11+B21,"Calculation. Slight overcount: HSC prevents some PPH, reducing TXA treatment pool. Effect is small (~10%)."
+Total deaths averted (HSC + TXA),106.6,"Calculation. Slight overcount: HSC prevents some PPH, reducing TXA treatment pool. Effect is small (~10%)."
 UoV per maternal death averted (GW moral weights),52.5,GiveWell standard moral weight for LMIC adult death. Maternal deaths are women aged 15-49.
-UoV from mortality,=B24*B25,Calculation
-Morbidity uplift (% of mortality UoV),0.75,"I'm assuming +75%. PPH causes severe anemia, need for blood transfusion, surgical interventions (hysterectomy, laparotomy), and long-term disability. For every PPH death, many women survive with significant morbidity. Rough guess."
-Treatment costs averted uplift (% of mortality UoV),0.25,I'm assuming +25%. Blood transfusions are scarce and expensive in LMICs; surgical interventions carry high cost. Rough guess.
-Total UoV from grant,=B26*(1+B27+B28),Calculation: mortality UoV x (1 + morbidity + treatment)
+UoV from mortality,"5,595",Calculation
+Morbidity uplift (% of mortality UoV),75%,"I'm assuming +75%. PPH causes severe anemia, need for blood transfusion, surgical interventions (hysterectomy, laparotomy), and long-term disability. For every PPH death, many women survive with significant morbidity. Rough guess."
+Treatment costs averted uplift (% of mortality UoV),25%,I'm assuming +25%. Blood transfusions are scarce and expensive in LMICs; surgical interventions carry high cost. Rough guess.
+Total UoV from grant,"11,191",Calculation: mortality UoV x (1 + morbidity + treatment)
 Final CE estimate,,
-"UoV per $100,000 donated",=B29/B2*100000,Calculation
+"UoV per $100,000 donated","1,119",Calculation
 "GiveDirectly units of value per $100,000",344,GW benchmark (1x cash transfers)
-Cost per death averted,=B2/B24,Calculation (mortality only; morbidity benefits additional)
-CE (multiples of cash),=B32/B33,Best-guess estimate. Highly sensitive to cost/birth: at $1/birth -> ~6.5x; at $3/birth -> ~2.2x. Confidence: Low.
+Cost per death averted,"$9,383",Calculation (mortality only; morbidity benefits additional)
+CE (multiples of cash),3.3,Best-guess estimate. Highly sensitive to cost/birth: at $1/birth -> ~6.5x; at $3/birth -> ~2.2x. Confidence: Low.
 Context & notes,,
 E-MOTIVE trial (bundled detection + treatment),,"NEJM 2023: bundled PPH early detection + treatment reduced composite outcome (severe PPH, laparotomy, or death) by 60% (RR 0.40, 95% CI 0.32-0.50). Supports the bundled approach modeled above but uses a different intervention package."
 Misoprostol: off the table,,WHO 2025: misoprostol is 'last resort' when no injectable options are available

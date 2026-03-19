@@ -218,4 +218,215 @@
 
 ---
 
-**All 13 QEAs complete (3 original + 10 new). Final summary: H=1, M=4, L=8.**
+**Batches 1-4 complete (13 QEAs). Continuing with 9 additional QEAs from updated master list.**
+
+## Session: 2026-03-18 (batch 5: QEAs 14–22 from expanded master list)
+
+### QEA 14: Selenium supplementation for neonatal sepsis prevention — COMPLETE
+
+- Original QEA: https://docs.google.com/document/d/1nnOiyVRr6-5QK4AnJ3cwIQOow8t7jzGIsYAloPw29vw/
+- Original BOTEC: https://docs.google.com/spreadsheets/d/1uFGPEd8eyJ3i6gPhTSuOYn6ZsccAGa7wWK48HpMK3gY/
+- Year: 2021 | Rating: **Low**
+- Outputs: CSV row only
+- Key notes: No new LMIC trials since Aggarwal 2016 (n=90). Cochrane review unchanged. Pooled RR 0.73 for sepsis episodes but not powered for mortality. No WHO recommendation. Gates research never materialized. CE at pooled estimate ($3/infant): ~5x.
+
+### QEA 15: Radio campaigns for family planning (DMI) — COMPLETE
+
+- Original QEA: https://docs.google.com/document/d/1I1rGlx8uylSlFOencf-m3ME-JkVStRRUuoNNN9MMTas/
+- Original BOTEC: https://docs.google.com/spreadsheets/d/1coZGED1o1jnNJQJZIuh-pis8y_E7BeXWkVwCKQ_tnAg/
+- Year: 2021 | Rating: **Low**
+- Outputs: CSV row only
+- Key notes: CE 2.7-5.3x after adjustments, below 8x bar even at optimistic 2-year duration (~7.1x in Niger). GiveWell funded FEM RCT in Nigeria ($500k, March 2023); trial started mid-2024, no results yet. DMI scaled to 39 stations in Burkina Faso. CYP moral weight (0.67) would need >50% increase to approach bar.
+
+### QEA 16: Cleft lip/palate surgery — COMPLETE
+
+- Original QEA: https://docs.google.com/document/d/1lNSEBH_XURFiLJJZ8v_D361IdVrMki1EUTpzJif60V0/
+- Original BOTEC: https://docs.google.com/spreadsheets/d/1L5_0ui-mEGRW-0GgN4x5b9xXHO_n2uohngepJvLb7gU/
+- Year: 2021 | Rating: **Low**
+- Outputs: CSV row only
+- Key notes: CE at 3x (general), below bar. Severe-only (9x) faces ethical barriers. No new RCTs since Wydick 2020. Rural Kenya costs as low as $201 (vs $540) but uncertain. 93% of value from YLDs averted.
+
+### QEA 17: HIV self-testing — COMPLETE
+
+- Original QEA: https://docs.google.com/document/d/1-sjmWfafnZIUp2GEFzJS5XHaGEk_2YoKCzp-PSH49p0/
+- Original BOTEC: https://docs.google.com/spreadsheets/d/1rmHAC_ZL1RDH7NSn0pkxZ0xFbrawRW6VKiju-7yACqs/
+- Year: 2018 | Rating: **Low**
+- Outputs: CSV row only
+- Key notes: Space now massively funded by PEPFAR/Global Fund/UNITAID. WHO recommended since 2016 (updated 2022-23). Original CE of 10x explicitly excluded ART costs. Reduced neglectedness; GW comparative advantage limited.
+
+### QEA 18: Non-pneumatic anti-shock garment (NASG) — COMPLETE
+
+- Original QEA: https://docs.google.com/document/d/10ALE72O0VS6rkxrybbckYk_YBFNYAXnKdM0gAbobRBU/
+- Original BOTEC: https://docs.google.com/spreadsheets/d/1R9V-rtpUEtNRqoECtffF3y2PCvndTP0YNZpaswrtZak/
+- Year: 2020 | Rating: **Medium**
+- Outputs:
+  - `outputs/writeups/non_pneumatic_anti_shock_garment.md`
+  - `outputs/botecs/non_pneumatic_anti_shock_garment.xlsx`
+  - `outputs/botecs/non_pneumatic_anti_shock_garment.csv`
+  - Row appended to tracker CSV
+  - QA: **PASS** (0 errors, 11 citations)
+- Key notes: CHAI Zimbabwe pilot (2019-2021) showed 50% fewer maternal deaths and zero PPH deaths across 34 facilities. Zimbabwe MOHCC adopted NASG for national rollout. Zambia also scaling (2023 process evaluation). CE ~10x at $12/woman (range 5-15x). Cost per woman is pivotal unknown. Complements E-MOTIVE PPH bundle and PPH uterotonics (HSC/TXA). Next step: get actual cost data from CHAI Zimbabwe.
+
+### QEA 19: Adaptive education technology (Mindspark) — COMPLETE
+
+- Original QEA: https://docs.google.com/document/d/1cqPvh1kblakQkYzSxfe5UeCBQizV2tPG5rWz0tGMf50/
+- Original BOTEC: https://docs.google.com/spreadsheets/d/1SPToQYEqdlZMD2Gi-7HtUJJiANxQTsS1ZZaYEi5UMa4/
+- Year: 2020 | Rating: **Low**
+- Outputs: CSV row only
+- Key notes: CE 2.2-9.1x depending on consumption estimation methodology. Scale-up showed lower effects (0.2 SD vs 0.37 SD) but also much lower costs (~$1.50/year vs $48/year). GW has no consensus on education-to-consumption methodology. India-focused; education not GW's primary domain.
+
+### QEA 20: Drowning prevention (community daycare) — COMPLETE
+
+- Original QEA: https://docs.google.com/document/d/1cDOy--FY62-rPQ8179mqCoTF2Cm5A4yclk2WSnf0gi4/
+- Original BOTEC: https://docs.google.com/spreadsheets/d/1v4DRy2-q1DrKx0KORzwN8bGlhVAd3eKxKV7n30ngBeY/
+- Year: 2020 | Rating: **Low**
+- Outputs: CSV row only
+- Key notes: Bloomberg/Johns Hopkins PRECISE study now published. Crèche intervention reduced drowning 89% but costs $16/child/year — well above $2.50 breakeven. ICER: $17,008/life saved (~0.5x cash). Bangladesh government scaling with $32M program (2022). Not cost-effective by GW standards.
+
+### QEA 21: Rape/sexual violence prevention (No Means No Worldwide) — COMPLETE
+
+- Original QEA: https://docs.google.com/document/d/1AYj52caPRcbTVbHR6uu2uOYmy5Z-okE4AckouApgxbo/
+- Original BOTEC: https://docs.google.com/spreadsheets/d/1ZSa7W5PWHTGAFNQsitc2kGSESYDhE4T7KcAZCweTpT0/
+- Year: 2019 | Rating: **Low**
+- Outputs: CSV row only
+- Key notes: Newer Kenya cluster-RCT (2016-2018, Prevention Science 2023) found null result (OR 1.21, p=0.63), contradicting earlier positive results. Validates methodological concerns from original QEA (experimenter demand effects). GW still has no moral weight for sexual violence prevention. Not worth revisiting.
+
+### QEA 22: Antibiotic treatment of bacterial vaginosis in pregnancy — COMPLETE
+
+- Original QEA: https://docs.google.com/document/d/1QgwzYYbrFfvO9EnT6gMdewYqMOUyJc4rM666LAKg1CQ/
+- Original BOTEC: None (no BOTEC produced)
+- Year: 2019 | Rating: **Low**
+- Outputs: CSV row only
+- Key notes: AuTop RCT (JAMA 2023, n=6,671) and Klebanoff 2023 IPD meta-analysis both confirm mass BV treatment doesn't prevent preterm birth. High-risk subgroup may benefit but not actionable in LMIC. Fundamental BV-PTB puzzle (association without treatment effect) persists.
+
+---
+
+**All 22 QEAs complete (13 original + 9 new). Final summary: H=1, M=5, L=16.**
+
+## Session: 2026-03-18 (batch 6: QEAs 23–25 from expanded master list)
+
+### QEA 23: Case finding and early treatment for leprosy — COMPLETE
+
+- Original QEA: https://docs.google.com/document/d/1Ty85ryXokPQwkqmQ-bQR1al19LDr5MsDtla6E8te9Zo/
+- Original BOTEC: https://docs.google.com/spreadsheets/d/1a8GwQXE3TubI2w1Oe4RU4pQBaLfknaaGRcG_B5m-rcI/
+- Year: 2017 | Rating: **Low**
+- Outputs: CSV row only
+- Key notes: Leprosy is a morbidity-only disease with tiny global DALY burden (~30k DALYs/year) and near-zero mortality. GBD 2021 shows continued decline. Key new development is WHO-recommended SDR-PEP (single-dose rifampicin post-exposure prophylaxis): PEOPLE cluster-RCT (Lancet Global Health 2024) found IRR 0.55 (p=0.005); LPEP programme demonstrated feasibility in 7 countries. But even optimistic PEP scenarios yield only ~1-3x because no deaths to avert and disability weights are low (0.152). LepVax Phase 1b in Brazil (Oct 2024). Original BOTEC had #REF! errors.
+
+### QEA 24: Striga control — COMPLETE
+
+- Original QEA: https://docs.google.com/document/d/1vyEA8dM7tMrAuK2PLSuOQrAdxIsjX_Y35lQVU5BLIls/
+- Original BOTEC: https://docs.google.com/spreadsheets/d/1Ptd1McyTeRZhOEgyRzcsYr640kHh2eeNMHgDgyZKTEc/
+- Year: 2017 | Rating: **Low**
+- Outputs: CSV row only
+- Key notes: Agriculture/income intervention to control parasitic striga weed on maize in SSA. IITA ISMA evaluation showed 55% adoption and 46.8% income increase (non-randomized). Push-pull scaled to ~350k farmers across 18 countries by 2024. Striga-resistant maize breeding progressed but farm-level adoption low. Still no RCTs on program effectiveness. CE well below 8x — fundamentally limited by income-to-UoV conversion with no mortality channel.
+
+### QEA 25: Pulse oximeter + safe surgery checklist training — COMPLETE
+
+- Original QEA: https://docs.google.com/document/d/1T6Mdw8-ZAgVSIvUV_G1KZ4uRqQ3Mj_WB-Txg2r381-0/
+- Original BOTEC: None (no BOTEC produced)
+- Year: 2017 | Rating: **Low**
+- Outputs: CSV row only
+- Key notes: Fundamental evidence gap not closed. Cochrane review still shows no RCT evidence of pulse oximetry reducing surgical mortality. SSC evidence improved somewhat (stepped-wedge cluster RCT; South Carolina DiD 22% mortality reduction; meta-analyses show 44% complication reduction). Lancet Global Health Oxygen Commission (2025) found 25% child death reduction with pulse oximetry + oxygen but for pneumonia broadly, not surgical use. Cost-effectiveness analysis ($115/DALY) depends on unverified 10% mortality assumption. Lifebox distributed 35k oximeters since 2011. Strong expert consensus but GW requires experimental evidence. Not GW's domain.
+
+---
+
+**Batch 6 complete (QEAs 23–25). All three rated Low. Session should be refreshed before batch 7 (QEAs 26–28).**
+
+## Session: 2026-03-18 (batch 7: QEAs 26–28)
+
+### QEA 26: Safe abortion (medical abortion provision) — COMPLETE
+
+- Original QEA: https://docs.google.com/document/d/1TUjzJfYK16FSnGkxxKRSzZahHt4Q7cYf_QkVT9QYGEY/
+- Original BOTEC: N/A
+- Year: 2017 | Rating: **Low**
+- Outputs: CSV row only
+- Key notes: Evidence base strengthened (WHO 2022 recommends self-management of medical abortion for first time). But GW-internal blockers unchanged: (1) unresolved moral weight for safe abortion; (2) no program-level additionality evidence; (3) narrow mortality channel (CFR ~0.3-0.5%). CE could plausibly clear 8x in favorable scenarios but depends on methodological choices GW hasn't made. Not worth revisiting unless GW resolves its abortion moral weight framework.
+
+### QEA 27: Sayana Press injectable contraceptive — COMPLETE
+
+- Original QEA: https://docs.google.com/document/d/1LHkvhYKY3zfs8qBAxtbscRVarTHLxy850Wsd7Yorbeo/
+- Original BOTEC: https://docs.google.com/spreadsheets/d/1J-7saV7CfdhNt2VV0G9eQ8wB43oAe90_9oSinzCMgwo/
+- Year: 2016 | Rating: **Medium**
+- Outputs:
+  - `outputs/writeups/sayana_press.md`
+  - `outputs/botecs/sayana_press.xlsx`
+  - Row appended to tracker CSV
+  - QA: **PASS** (0 errors, 9 citations)
+- Key notes: GW published contraception valuation framework (April 2025): 0.7 UoV per woman-year. Self-injection approved in 35+ countries. Meta-analysis of 3 RCTs: self-injection increases 12-month continuation by 27% (RR 1.27). CE ~13x at $12/woman-year. Cost per woman-year is the pivotal unknown. GW is actively investigating family planning.
+
+### QEA 28: Multi-micronutrient supplementation (MMS) during pregnancy — COMPLETE
+
+- Original QEA: https://docs.google.com/document/d/1llIpGF1bVTQDmHM0RJ-lY0YcsA4FRpE_WuKb-ImReRk/
+- Original BOTEC: https://docs.google.com/spreadsheets/d/1uSnYDg1KZY1-iTQWuvBXZC4es7krjwPnYNH-bqxEgbg/
+- Year: 2021 | Rating: **Medium**
+- Outputs:
+  - `outputs/writeups/mms_during_pregnancy.md`
+  - `outputs/botecs/mms_during_pregnancy.xlsx`
+  - Row appended to tracker CSV
+  - QA: **PASS** (0 errors, 13 citations)
+- Key notes: WHO included UNIMMAP MMS on Essential Medicines List (2021). Kirk Humanitarian committed $125M, reached 75M women in 111 LMICs at $0.0118/dose. 2025 meta-analyses confirm benefits beyond birth: stunting (RR 0.86) and underweight (RR 0.86) through 24 months. Copenhagen Consensus 2023 named MMS one of 12 best investments. CE ~9x at $3/pregnancy (up from ~7x at $4 in original), driven by reduced commodity costs. Key uncertainties: programmatic costs and MW for LBW. TIME Best Inventions 2025.
+
+---
+
+**Batch 7 complete (QEAs 26–28). One rated Low (safe abortion), two rated Medium (Sayana Press, MMS). Next: batch 8 (QEAs 29–31) — large scale school feeding, community salt substitution, WASH for hospital infections.**
+
+## Session: 2026-03-18 (batch 8: QEAs 29–31)
+
+### QEA 29: Large scale school feeding programs — COMPLETE
+
+- Original QEA: https://docs.google.com/document/d/1f_nZ1-DR2MIFYEkA_D5fQkJ231VbHUP8XOHjdOhWoqI/
+- Original BOTEC: https://docs.google.com/spreadsheets/d/1Ca5u32vXRj4seBPrYr1F_-RaECro-zD5Z-zvMG5qg_s/
+- Year: 2022 | Rating: **Low**
+- Outputs: CSV row only
+- Key notes: 2025 Cochrane review (40 studies, 91,885 students) confirms "modest but real" effects. New long-term evidence from China (+12.4% adult wages) is encouraging but external validity to SSA uncertain. Costs higher than assumed ($110/child/year in LICs vs $41 original). Space massively government-funded ($84B/year, 99% domestic). 466M children globally, 107 countries with national policies (up from 56 in 2020). GiveWell hasn't investigated. Minimal room for philanthropic impact.
+
+### QEA 30: Community salt substitution — COMPLETE
+
+- Original QEA: https://docs.google.com/document/d/16N0sNIZno43GAShIxIc6Rilkvk4LyGIxtdJ-ZlJ-5rk/
+- Original BOTEC: https://docs.google.com/spreadsheets/d/1qoO9JRFommavJPVS1LOl8j4dmbmsihV5NazGQUc_cwE/
+- Year: 2020 | Rating: **Low**
+- Outputs: CSV row only
+- Key notes: SSaSS trial (NEJM 2021, n=20,995) found 14% stroke reduction, 13% MACE reduction, 12% all-cause mortality reduction — exactly the trial the original QEA was waiting for. WHO published first-ever salt substitution guideline (Jan 2025). 2024 meta-analysis: all-cause mortality RR 0.88. SSaSS CEA: cost-saving. Despite dramatic evidence improvement, CE by GW standards only rises to ~2-4x because (1) CVD deaths mainly in elderly (lower MW), (2) SSaSS population was high-risk (73% prior stroke), (3) Bloomberg/Resolve to Save Lives spending $215M already. Most evidence from China; generalizability limited.
+
+### QEA 31: WASH to decrease hospital acquired infections — COMPLETE
+
+- Original QEA: https://docs.google.com/document/d/1ZYTxQcvdOGT05dLKuNX1tPd9Kp4k48NHxXuCPqLJ-uk/
+- Original BOTEC: https://docs.google.com/spreadsheets/d/1DkPsdsL9AkFH6HVHR9cC98cblys59xHJlxG64GQ2xbs/
+- Year: 2021 | Rating: **Low**
+- Outputs: CSV row only
+- Key notes: APT-Sepsis trial (NEJM 2025, 59 facilities Malawi/Uganda, 431k births) found 32% reduction in severe maternal infection outcomes — strongest LMIC evidence to date. But APT-Sepsis is a broad IPC intervention (not just WASH). BASICS still has no published impact evaluation. WASH FIT has no rigorous evaluation despite billions invested. WHO 2024 IPC report estimates 3.5M annual HAI deaths, 821k avertable by 2050. Even applying APT-Sepsis effect size to the BOTEC only reaches ~7.6x in high-NNM countries. Strong policy momentum (UN GA resolution 2023) but no clear philanthropic entry point.
+
+---
+
+**Batch 8 complete (QEAs 29–31). All three rated Low. Next: batch 9 (QEAs 32–33) — digital tools for welfare programs, safe birth kits.**
+
+## Session: 2026-03-18 (batch 9: QEAs 32–33)
+
+### QEA 32: Digital tools to enhance take-up of welfare programs — COMPLETE
+
+- Original QEA: https://docs.google.com/document/d/1BsbMrYxJ9x5yrTt2aW09dq9BPlXZ-TRiXGE9uQBMGpQ/
+- Original BOTEC: https://docs.google.com/spreadsheets/d/15paqJucp56kORQo8HcSnjmMhDGz9ydo35VuXX5I2Qm0/
+- Year: 2022 | Rating: **Low**
+- Outputs: CSV row only
+- Key notes: Evidence has weakened since 2022. DellaVigna & Linos (2022, Econometrica) found academic nudge effects 6x larger than at-scale (8.7pp vs 1.4pp across 126 RCTs, 23M individuals) — strongly suggesting the 12pp Blanco & Vargas effect wouldn't replicate. Hanna et al. (2024, REStat) found low enrollment may be due to low valuation, not information barriers. Page et al. (2023) found zero impact from national-scale FAFSA SMS nudges. J-PAL/CID 2024: information alone insufficient; enrollment assistance needed. No new direct RCT on SMS for welfare enrollment in LMICs. G2P infrastructure expanded (865M new accounts during COVID) but benefits digital delivery, not SMS nudges. CE likely ~1-3x.
+
+### QEA 33: Safe birth kits — COMPLETE
+
+- Original QEA: https://docs.google.com/document/d/15VAn_CD6v5sCNVapA1EDfJRIVUutndzaomaE5bEe5oY/
+- Original BOTEC: https://docs.google.com/spreadsheets/d/1_ej-0xGxLcHJqcyTl-RNx-KwKAE5Iwkj-6rhEFy_KAk/
+- Year: 2022 | Rating: **Low**
+- Outputs: CSV row only
+- Key notes: Still no well-powered RCT showing mortality reduction from birth kits alone. Arowosegbe et al. 2023 (Nigeria cluster RCT, n=453) showed promising direction (neonatal infection RR 0.64) but underpowered (p=0.10). iNCK trial in Pakistan (~27k women) could be pivotal but results pending and tests bundled intervention. Gebeyehu et al. 2024 meta-analysis: CDK use associated with reduced mortality/sepsis but all observational evidence. Cost slightly favorable (JANMA kit ~$2.20 vs ~$10 original; iNCK CEA: $74/DALY averted). No new Cochrane review. WHO position unchanged. Trend toward facility-based care may shrink target population. CE ~2-4x, still well below 8x bar.
+
+---
+
+**Batch 9 complete (QEAs 32–33). Both rated Low. All 33 QEAs from the master list are now complete.**
+
+**Final tally: H=1, M=6, L=26.**
+
+| Rating | Count | Interventions |
+|--------|-------|---------------|
+| High | 1 | Rheumatic heart disease prevention |
+| Medium | 6 | Uterotonics for PPH, Oral azithromycin during labor, Antenatal corticosteroids for preterm birth, Non-pneumatic anti-shock garment (NASG), Sayana Press injectable contraceptive, MMS during pregnancy |
+| Low | 26 | All others |
