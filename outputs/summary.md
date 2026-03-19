@@ -2,15 +2,15 @@
 
 ## Overview
 
-Reassessed 33 GiveWell QEAs (quick evidence assessments) to identify interventions worth revisiting, based on changes in evidence, costs, burden, funding, or technology since the original assessment.
+Reassessed 60 GiveWell QEAs (quick evidence assessments) to identify interventions worth revisiting, based on changes in evidence, costs, burden, funding, or technology since the original assessment.
 
-**Results:** 1 High, 6 Medium, 26 Low.
+**Results:** 1 High, 9 Medium, 50 Low.
 
 | Rating | Count | Interventions |
 |--------|-------|---------------|
 | High | 1 | Rheumatic heart disease prevention |
-| Medium | 6 | Uterotonics for PPH, Oral azithromycin during labor, Antenatal corticosteroids for preterm birth, Non-pneumatic anti-shock garment (NASG), Sayana Press injectable contraceptive, MMS during pregnancy |
-| Low | 26 | ProCCM, Ponseti clubfoot, Diabetes prevention (K-DPP), Flood-tolerant rice, Road traffic safety legislation, Phone audits, ANC CCTs, Rabies dog vaccination, LPG cookstoves, Selenium supplementation, Radio campaigns (DMI), Cleft lip/palate, HIV self-testing, Adaptive education (Mindspark), Drowning prevention, Rape prevention (NMNW), Bacterial vaginosis treatment, Leprosy case finding, Striga control, Pulse oximeter + surgery checklist, Safe abortion, School feeding, Salt substitution, WASH for HAI, Digital tools for welfare take-up, Safe birth kits |
+| Medium | 9 | Uterotonics for PPH, Oral azithromycin during labor, Antenatal corticosteroids for preterm birth, Non-pneumatic anti-shock garment (NASG), Sayana Press injectable contraceptive, MMS during pregnancy, Oxygen therapy for children, Arsenic in wells (Bangladesh), MDR-TB treatment |
+| Low | 50 | All others (including 1 already being pursued by GiveWell: iCCM commodity provision; 1 obsolete: COVID antivirals) |
 
 ---
 
@@ -55,6 +55,21 @@ Reassessed 33 GiveWell QEAs (quick evidence assessments) to identify interventio
 - WHO included UNIMMAP MMS on Essential Medicines List (2021). Kirk Humanitarian committed $125M and reached 75M pregnant women in 111 LMICs at $0.0118/dose ($2.13/pregnancy). 2025 meta-analyses confirm benefits extend beyond birth: stunting (RR 0.86) and underweight (RR 0.86) through 24 months. Copenhagen Consensus 2023 named MMS one of 12 best investments ($37 return per $1).
 - **Next step:** Request disaggregated cost-per-pregnancy data from UNICEF's MMS program; investigate whether GW's early-life growth work can anchor the moral weight for LBW.
 
+### Oxygen therapy for children
+- **Original CE:** ~7x non-COVID / ~14x COVID | **Updated CE:** ~10x at $30/patient (range 6–20x)
+- Uganda stepped-wedge RCT (Lancet 2024, n=2,405): 48.7% reduction in fatal outcomes (adjusted RR 0.51) — first RCT demonstrating mortality benefit from improved oxygen access. Lancet Global Health Oxygen Commission (Feb 2025): 70% oxygen coverage gap in LMICs. Cost-effectiveness favorable ($25–62/DALY averted). 88% of needed $34B remains unfunded.
+- **Next step:** Assess RFMF given CHAI ($100M), Unitaid ($22M), and US aid cuts creating new gaps; contact CHAI oxygen team for programmatic cost data.
+
+### Arsenic in wells (Bangladesh)
+- **Original CE:** ~18.4x (BOTEC; inflated MW) | **Updated CE:** ~8x at $5/well (range 5–13x)
+- HEALS 20-year follow-up (JAMA 2025, n=10,977): 54% lower chronic disease mortality for those switching from high to low arsenic exposure — strongest causal evidence to date. Well-switching rates higher than assumed (37–60% vs 35%). Benefits persist 8–15 years (vs 5 assumed). 20M Bangladeshis still exposed to >50 ug/L. Space remarkably neglected — no major international programs.
+- **Next step:** Contact Columbia University HEALS team (Dr. Joseph Graziano) for implementer identification; explore BRAC integration for low-cost well-switching ($3–4/well).
+
+### MDR-TB treatment
+- **Original CE:** No BOTEC (evidence too thin) | **Updated CE:** ~3x at $1,500/patient (range 2–15x)
+- Five Phase 3 RCTs now demonstrate ~89–91% treatment success with BPaLM (6-month, all-oral): TB-PRACTECAL (Lancet Resp Med 2023), endTB (NEJM 2024), Nix-TB (NEJM 2020), ZeNix (NEJM 2022), STREAM Stage 2. Drug costs dropped from $1,000+ to $310/course. 2025 US funding cuts creating acute gap (Global Fund cut $1.4B). CE at drug procurement cost ($310/patient, filling stockouts): ~15x.
+- **Next step:** Investigate whether a targeted drug-procurement grant could fill stockouts created by US aid cuts; contact Global Drug Facility for current pricing and supply gaps.
+
 ---
 
 ## Low priority (not worth revisiting)
@@ -87,6 +102,31 @@ Reassessed 33 GiveWell QEAs (quick evidence assessments) to identify interventio
 | WASH for HAI | 2021 | ~4x | ~4x | APT-Sepsis encouraging (RR 0.68) but broader IPC; no WASH evaluation |
 | Digital tools for welfare | 2022 | ~3x | ~1–3x | Evidence weakened: scale-up shows 6x effect deflation (DellaVigna & Linos) |
 | Safe birth kits | 2022 | ~2.4x | ~2–4x | No RCT mortality evidence; small targetable share of neonatal deaths |
+| Midwifery school support | 2022 | ~5.3x | ~4–5x | No direct RCTs; below bar even with leverage |
+| Manual water pumps | 2022 | -4.9x to 3.3x | ~2–4x | Farm gains offset by non-farm losses; below bar |
+| Bt brinjal (GM eggplants) | 2022 | ~3.1x | ~3x | Adoption declining; income-only; no mortality channel |
+| iCCM commodity provision | 2022 | ~14x | ~17x (GW estimate) | Already being pursued by GW ($8M+ to CHAI) |
+| Deworming pregnant people | 2022 | 2–7x standalone | ~2–7x | No new RCTs; add-on scenario needs implementer |
+| UCTs for pregnant people | 2022 | ~1.7x | ~1.5–2x | 2025 Kenya study raises GD baseline, not targeted advantage |
+| Hepatitis C medication | 2021 | 0.3–1.1x | ~0.5–2x | Deaths in elderly (low MW); $60/person still too high |
+| COVID antivirals | 2022 | 15–42x | Obsolete | Pandemic ended; assumptions no longer hold |
+| PSBI antibiotic delivery | 2020 | No estimate | ~2–4x | Evidence improved but CE still below bar |
+| Podoconiosis management | 2021 | 1.7x | ~1.7x | Income-only; no mortality channel |
+| CrAg testing for HIV | 2020 | 27x (inflated MW) | ~8–10x corrected | PEPFAR/Global Fund dominated; target population shrinking |
+| Statins/polypill for CVD | 2021 | 0.7–1.9x | ~1–3x | $128/year chronic medication; elderly CVD deaths; no implementer |
+| Aspirin for AMI | 2021 | 3.8x | ~3–4x | Adult CVD deaths (low MW); trivial drug cost but system costs high |
+| C-section prophylactic antibiotics | 2020 | 10.6x (overstated) | ~3–5x | ~87% already receive prophylaxis; marginal population small |
+| Eggs for complementary feeding | 2020 | 1.63x | ~0.5–1x | Ecuador effect vanished at follow-up; WHO pooled estimate 0.06 SD |
+| MDR-TB treatment | 2017 | No BOTEC | ~3x at $1,500 | See Medium writeup above |
+| Child marriage CCTs | 2017 | 3.2x | ~3x | No mortality channel; uncertain MW for child marriage |
+| Schizophrenia community care | 2019 | 1.2x | ~1–2x | Morbidity-only; order of magnitude below bar |
+| CBT/StrongMinds | 2017 | 0.5x | ~2–3x | GW 2023: ~25% of marginal; moral weight debate binding |
+| Synbiotics for neonatal sepsis | 2018 | ~14x (5% CFR) | ~5–14x | Single unreplicated trial (8 years); uncertain CFR |
+| Adolescent pregnancy prevention | 2017 | $2–3k/pregnancy | Same | Sayana Press 40–170x cheaper per pregnancy averted |
+| Rural electrification | 2017 | No estimate | ~1–2x | Infrastructure; no mortality channel; not GW's domain |
+| Saloni behavior change (India) | 2017 | Indeterminate | Indeterminate | Single flawed RCT; program defunct |
+| Deforestation PES | 2017 | $2.60/tonne CO2 | Same | Climate intervention; no health channel |
+| Snakebite antivenom | 2017 | 0.7–0.9x | ~0.5–3x | High costs; observational evidence; space now well-funded |
 
 ---
 
@@ -105,3 +145,11 @@ Reassessed 33 GiveWell QEAs (quick evidence assessments) to identify interventio
 6. **GiveWell's contraception valuation unlocks two previously blocked interventions.** GW's April 2025 contraception valuation (0.7 UoV per woman-year) directly resolves the moral weight blocker for Sayana Press and is relevant to DMI radio campaigns. Sayana Press becomes clearly promising (~13x) with self-injection driving down costs. GW's active investigation of family planning suggests this space may already be on their radar.
 
 7. **MMS may be the strongest "new" finding.** MMS during pregnancy was rated Medium in the original 2021 QEA (~7x, uncertain costs). Since then, Kirk Humanitarian's $125M commitment has driven commodity costs to $2.13/pregnancy, WHO added MMS to the Essential Medicines List, and 2025 meta-analyses confirm benefits beyond birth (stunting, underweight). At updated costs (~$3/pregnancy), CE reaches ~9x. The remaining uncertainty is programmatic costs — but with 75M women already reached across 111 LMICs, real-world data should exist.
+
+8. **Moral weight is the binding constraint for non-mortality interventions.** Across all 60 QEAs, the clearest pattern is that interventions without a mortality channel face a structural ceiling under GW's framework. Child marriage CCTs (3.2x), schizophrenia (1.2x), StrongMinds/CBT (0.5–2.5x), rural electrification (~1–2x), deforestation PES (no health channel), podoconiosis (1.7x), striga control (0.5–2x), and drowning prevention (0.5x) all fail despite addressing real problems. GW's 2023 StrongMinds assessment (~25% of marginal) makes this explicit.
+
+9. **One validated prediction.** The iCCM commodity provision QEA (2022, estimated 14x) was validated by GW's own investigation (estimated 17x) and subsequent $8M+ grant to CHAI. This suggests the QEA screening approach can identify real opportunities.
+
+10. **US funding cuts create time-limited opportunities.** The 2025 cuts to PEPFAR and Global Fund create acute gaps in MDR-TB treatment (Global Fund cut $1.4B), potentially in oxygen therapy, and in other Global Fund-dependent health programs. At drug procurement cost ($310/patient for BPaLM), MDR-TB treatment reaches ~15x — but only if the gap is genuinely unfilled by other funders.
+
+11. **Next-gen technologies could change several conclusions.** Recombinant antivenoms (snakebite), Strep A vaccine (RHD), ACTION-III trial results (ACS for late preterm), and SQ-LNS formulations could materially change the CE landscape for their respective interventions within 3–7 years.

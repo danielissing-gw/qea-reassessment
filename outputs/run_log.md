@@ -659,3 +659,111 @@ Master list updated with 10 new QEAs. Processing in batches of 3.
 - **Moral weight is the key structural constraint for NCD interventions:** Aspirin for AMI (3.8x), polypill (1-3x), salt substitution (2-4x), and hepatitis C (0.5-2x) all have strong evidence but fail the CE bar because adult/elderly CVD deaths get low moral weights.
 - **One validated prediction:** The iCCM commodity provision QEA (2022, estimated 14x) was validated by GiveWell's own investigation (estimated 17x) and subsequent $8M+ grant to CHAI. This suggests the QEA process can identify real opportunities.
 - **Contraception is a new frontier:** Sayana Press (~13x) benefited from GiveWell's 2025 contraception valuation framework (0.7 UoV/woman-year). This resolved the key blocker for multiple family planning interventions.
+
+## Session: 2026-03-18 (batch 16: QEAs 52–54 from final master list update)
+
+Master list updated with 9 new QEAs. Processing in batches of 3.
+
+### QEA 52: Conditional incentives to avert child marriage — COMPLETE
+
+- Original QEA: https://docs.google.com/document/d/1--EsY5hThHBVDGki1ouLuTwEGWCnrWKAcyeqz6gQ3Uo/
+- Original BOTEC: https://docs.google.com/spreadsheets/d/1pYDMl5FAqRAvv4S42uPggiw3OWwI7RrfXssKsMRL7jE/
+- Year: 2017 | Rating: **Low**
+- Outputs: CSV row only
+- Key notes: Study published as Buchmann et al. 2023 in AER. Program gave $16/year cooking oil to delay marriage in rural Bangladesh. CE at 3.2x driven by consumption benefits and subjective child-marriage-averted valuation. No new RCTs. UNICEF reports child marriage declining globally but 12M girls/year still affected. CE far below 8x bar; no mortality channel; uncertain moral weight for child marriage; Bangladesh-specific.
+
+### QEA 53: Schizophrenia antipsychotics or community-based care — COMPLETE
+
+- Original QEA: no writeup
+- Original BOTEC: https://docs.google.com/spreadsheets/d/1vZVk9lUPhhCxHvaeSknBY-7yE1vXrfMKnndaDW0Q-Zk/
+- Year: 2019 | Rating: **Low**
+- Outputs: CSV row only
+- Key notes: Based on BasicNeeds model. CE at 1.2x ($721/DALY, 1.48 DALYs/patient at $1,067 cost). GBD 2021: 14.8M DALYs but zero attributed deaths. No new large LMIC RCTs. SAMARTH project (2025-2030) testing digital psychosocial rehab in India but results years away. An order of magnitude below 8x bar; no mortality channel; unresolved mental health moral weights.
+
+### QEA 54: CBT and interpersonal therapy (StrongMinds) — COMPLETE
+
+- Original QEA: https://docs.google.com/document/d/1K4W4vU8si5-ardbh7EShd81C5gqXC3U0ygXXaFXlG2k/
+- Original BOTEC: https://docs.google.com/spreadsheets/d/1-lCC1zQHVZlJS8f9OfqhzcZTetHMxuMkW7nT75QDGhk/ (DRK check-in, not a proper BOTEC)
+- Year: 2017 | Rating: **Low**
+- Outputs: CSV row only
+- Key notes: StrongMinds cost dropped from ~$200 to $23/person; scale up to 426k clients/year (2024). HLI estimates 5.3x GD. GiveWell 2023 assessment: ~25% of marginal opportunities (~2-2.5x cash). Moral weight debate is the binding constraint. Even with 10x cost reduction, GW's framework puts this well below 8x bar.
+
+---
+
+**Batch 16 complete (QEAs 52–54). All three rated Low. Continuing with batch 17 (QEAs 55–57).**
+
+### QEA 55: Synbiotics to prevent neonatal sepsis — COMPLETE
+
+- Original QEA: no writeup
+- Original BOTEC: https://docs.google.com/spreadsheets/d/1zbPI3isnMJjYX2ANqpIuCxf1olE4zbSOJ6gkNHpEVMg/
+- Year: 2018 | Rating: **Low**
+- Outputs: CSV row only
+- Key notes: Based on Panigrahi et al. 2017 (Nature, n=4,556, rural India). RR 0.6 for death/sepsis at $2/course. CE ~14x at 5% CFR but CFR is a guess. No replication after 8 years despite Nature publication — strong negative signal. Corrigendum published. No WHO recommendation for this synbiotic. Safety concerns with probiotics in neonates.
+
+### QEA 56: Adolescent pregnancy prevention interventions — COMPLETE
+
+- Original QEA: https://docs.google.com/document/d/1JlpTKkc7duc9PPIVS3yZfWTKKSRkwXL7NTv108RFSTY/
+- Original BOTEC: https://docs.google.com/spreadsheets/d/1G87GUhIeHZ7DnKe0zlMepD09gGlBdRzVoAmLUBLNZVs/
+- Year: 2017 | Rating: **Low**
+- Outputs: CSV row only
+- Key notes: $2,000-3,000/pregnancy averted via CCTs or community programs. Now rendered obsolete by Sayana Press (~$17/pregnancy averted, 13x). Direct contraception provision is 40-170x cheaper per pregnancy averted than indirect approaches. GW's 2025 contraception framework makes the comparison even starker.
+
+### QEA 57: Rural electrification — COMPLETE
+
+- Original QEA: https://docs.google.com/document/d/19Yn54dyNZp0xjeX7LeKt0OoQ2b5qaMtkcLMdiFeb45g/
+- Original BOTEC: none
+- Year: 2017 | Rating: **Low**
+- Outputs: CSV row only
+- Key notes: Infrastructure intervention with no mortality channel. Minigrids have scaled (11M connections, SSA electrification 17%→28%) but costs remain high ($300-1,000+/household). Income gains documented (50%+ increases) but income-to-UoV conversion yields ~1-2x by GW standards. Massive MDB/government funding. Not GW's domain.
+
+---
+
+**Batch 17 complete (QEAs 55–57). All three rated Low. Continuing with batch 18 (QEAs 58–60).**
+
+### QEA 58: Broad behavior change program for adolescent girls in India (Saloni) — COMPLETE
+
+- Original QEA: https://drive.google.com/open?id=1NG69Pjt3pQcWyvb76NZKfAJuATPWvm-shUkhDGowKVI
+- Original BOTEC: none (no cost data)
+- Year: 2017 | Rating: **Low**
+- Outputs: CSV row only
+- Key notes: Single flawed RCT (Kapadia-Kundu 2014) with self-reported outcomes, baseline imbalances, and atypical events. No cost data. Program apparently discontinued after 2015. Nothing to revisit.
+
+### QEA 59: CCTs to reduce deforestation (PES) — COMPLETE
+
+- Original QEA: https://docs.google.com/document/d/123bGrnBYtGpxL20PTWeerjyPZhJzqAE1k39RwfyAxV0/
+- Original BOTEC: none
+- Year: 2017 | Rating: **Low**
+- Outputs: CSV row only
+- Key notes: Jayachandran et al. 2017 (Science) showed 50% less deforestation at $2.60/tonne CO2. Follow-up found effects disappeared 4 years after program ended (permanent delay but not permanent behavior change). But this is a climate/environment intervention with no health/mortality channel — outside GW's framework entirely.
+
+### QEA 60: Snakebite antivenom — COMPLETE
+
+- Original QEA: https://docs.google.com/document/d/1bxP6BzMji2EB7lUPcuUfN-3ExHUW7A9--n5ZY4wrMPs/
+- Original BOTEC: https://docs.google.com/spreadsheets/d/1OpO3mS4kzewYfvKynwaIe37q5yoKRKgkkwWvoH0S8D0/
+- Year: 2017 | Rating: **Low**
+- Outputs: CSV row only
+- Key notes: Original CE 0.7-0.9x. WHO launched snakebite strategy (2019), Wellcome committed $100M. West African CEA found $83-281/DALY averted — better than original but still 2-9x under various assumptions. Next-gen recombinant antivenoms in development at 30+ institutions but years from market. Space now much better funded.
+
+---
+
+**Batch 18 complete (QEAs 58–60). All three rated Low.**
+
+---
+
+## ALL 60 QEAs FROM ALL MASTER LISTS NOW COMPLETE.
+
+**FINAL TALLY: H=1, M=9, L=50.**
+
+| Rating | Count | Interventions |
+|--------|-------|---------------|
+| High | 1 | Rheumatic heart disease prevention |
+| Medium | 9 | Uterotonics for PPH, Oral azithromycin during labor, Antenatal corticosteroids for preterm birth, Non-pneumatic anti-shock garment (NASG), Sayana Press injectable contraceptive, MMS during pregnancy, Oxygen therapy for children, Arsenic in wells (Bangladesh), MDR-TB treatment |
+| Low | 50 | All others |
+
+### Notable patterns from the final 9 QEAs (52–60):
+
+- **Moral weight constraints dominate:** Child marriage CCTs (3.2x), schizophrenia (1.2x), and StrongMinds/CBT (0.5-2.5x) all face the same structural constraint — GW has no standard moral weight for non-mortality outcomes (averting child marriage, mental health improvement). GW's 2023 StrongMinds assessment (~25% of marginal) makes this explicit.
+- **Domain mismatch:** Three interventions (rural electrification, deforestation PES, adolescent behavior change) are outside GW's health-focused framework entirely. PES is a climate intervention; electrification is infrastructure; Saloni was a defunct school-based program.
+- **Single-trial fragility:** Synbiotics (Panigrahi 2017) had a striking Nature result (RR 0.6) but no replication in 8 years — a strong negative signal. Similarly, the Saloni program had a single flawed RCT.
+- **Snakebite as future potential:** Of the 9, snakebite antivenom has the most potential for future reassessment — next-gen recombinant antivenoms could dramatically cut costs, but are still years from deployment.
+- **Adolescent pregnancy made redundant:** GW's 2025 contraception framework and Sayana Press at 13x make indirect pregnancy prevention via CCTs (~$3,000/pregnancy) obsolete as a GW-relevant intervention.
