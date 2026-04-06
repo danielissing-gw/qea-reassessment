@@ -104,7 +104,7 @@ Follow this structure unless there's a good reason to deviate. The goal is a con
 5. **Internal validity (IV) adjustment** — Discount for study quality (e.g., observational vs. RCT). Even if 0%, include the row explicitly.
 6. **External validity (EV) adjustment** — Discount for extrapolation from study context to target context. Even if 0%, include the row explicitly.
 7. **Deaths (or cases) averted** — From the above.
-8. **Convert to units of value** — Deaths averted × moral weights. Use GiveWell's standard moral weights (currently 52.5 UoV per under-5 death averted, or the relevant age-specific weight).
+8. **Convert to units of value** — Deaths averted × moral weights. Use GiveWell's age-specific moral weights from `docs/moral_weights.md` (which logs the full table from [GiveWell's 2020 moral weights tool](https://docs.google.com/spreadsheets/d/1YiZmHQb-JsDIDJF_tKKVte2x5NOL0CGUTndJNoB0iHo/)). Look up the relevant age brackets for the target population and compute a weighted average based on the expected age distribution of deaths averted. Do not use a single blanket number — weights vary from ~84 (neonatal) to ~134 (ages 5–14) and decline through adulthood.
 9. **Ad-hoc adjustments for other benefit streams** — Morbidity (YLDs), income effects, treatment costs averted, etc. Model as explicit percentage additions, clearly labeled as assumptions.
 10. **Final CE** — Total UoV ÷ grant amount ÷ benchmark (344 UoV per $100k, i.e., 0.00344 UoV per dollar).
 

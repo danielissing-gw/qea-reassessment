@@ -1,7 +1,7 @@
 {
   "file": "C:\\Users\\Daniel Issing\\Documents\\claudecode\\qea-reassessment\\outputs\\writeups\\oxygen_therapy_for_children.md",
   "status": "pass",
-  "total_citations": 8,
+  "total_citations": 10,
   "citations": [
     {
       "type": "footnote",
@@ -94,6 +94,28 @@
       ],
       "quotes": [
         "Full scale-up of pulse oximetry to 90% usage and oxygen to 80% availability would avert 71,000 DALYs per year [...] ICER of $35 per DALY averted ($33\u2013$36), or $924 per death averted."
+      ],
+      "issues": []
+    },
+    {
+      "type": "note",
+      "number": 9,
+      "body": "[Note] GiveWell's 2020 moral weights (see `docs/moral_weights.md`) give age-specific values: Post Neonatal (1mo\u20131yr) = 100.7, 1\u20134yr = 127.3. For children dying of pneumonia (excluding neonates), a weighted average assuming ~40% post-neonatal and ~60% age 1\u20134 gives ~117 UoV per death averted. For adults, a weighted average across ages 20\u201350 gives ~100 UoV per death averted. Source: [GiveWell 2020 moral weights tool](https://docs.google.com/spreadsheets/d/1YiZmHQb-JsDIDJF_tKKVte2x5NOL0CGUTndJNoB0iHo/).",
+      "urls": [
+        "https://docs.google.com/spreadsheets/d/1YiZmHQb-JsDIDJF_tKKVte2x5NOL0CGUTndJNoB0iHo/"
+      ],
+      "quotes": [],
+      "issues": []
+    },
+    {
+      "type": "footnote",
+      "number": 10,
+      "body": "\"The ICER of solar-powered O2 delivery vs no O2 was $20 (95% CI, $2.83-$206) per DALY saved [...] $26 per patient treated [...] $542 per life saved.\" ([Bradley et al. 2021, JAMA Network Open](https://pubmed.ncbi.nlm.nih.gov/34165579/))",
+      "urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/34165579/"
+      ],
+      "quotes": [
+        "The ICER of solar-powered O2 delivery vs no O2 was $20 (95% CI, $2.83-$206) per DALY saved [...] $26 per patient treated [...] $542 per life saved."
       ],
       "issues": []
     }

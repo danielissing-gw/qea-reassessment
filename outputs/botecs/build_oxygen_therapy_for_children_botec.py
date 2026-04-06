@@ -18,6 +18,8 @@ LANCET_COMMISSION = "https://pmc.ncbi.nlm.nih.gov/articles/PMC11865010/"
 ORIGINAL_BOTEC = "https://docs.google.com/spreadsheets/d/1163LXJ5FhMT3DWjhJb4IKdHnuEOWNnTlIrkYaLv8jJE/"
 HYPOXAEMIA_REVIEW = "https://pmc.ncbi.nlm.nih.gov/articles/PMC11783038/"
 MALAWI_CEA = "https://www.sciencedirect.com/science/article/pii/S2214109X25002025"
+BRADLEY_CEA = "https://pubmed.ncbi.nlm.nih.gov/34165579/"
+GW_MORAL_WEIGHTS = "https://docs.google.com/spreadsheets/d/1YiZmHQb-JsDIDJF_tKKVte2x5NOL0CGUTndJNoB0iHo/"
 
 
 def add_link(row, col, text, url):
@@ -41,15 +43,18 @@ ws.cell(2, 1, "Grant amount")
 ws.cell(2, 2, 1000000)
 ws.cell(2, 2).number_format = "$#,##0"
 
-ws.cell(3, 1, "Cost per patient receiving oxygen (philanthropic)")
-ws.cell(3, 2, 30)
+ws.cell(3, 1, "Cost per patient receiving oxygen (total program cost)")
+ws.cell(3, 2, 45)
 ws.cell(3, 2).number_format = "$#,##0"
-c = ws.cell(3, 3, "Mid-range: CHAI costs ~$15/patient; total with government match ~$45")
+c = ws.cell(3, 3, "Total cost per patient including infrastructure, training, and consumables")
 c.comment = Comment(
-    "Original BOTEC used $15.12 (CHAI) + $15.12 (government) + $15.12 (additional) = $45.35 total. "
-    "Using $30 as philanthropic cost (CHAI + additional, excluding government match). "
-    "Malawi CEA (Lin et al. 2025) implies much lower per-patient costs at scale. "
-    "This is a key assumption — sensitivity from $15 to $50.",
+    "Three independent estimates: (1) Original CHAI BOTEC: $15.12 CHAI + $15.12 govt + $15.12 other "
+    "= $45.35 total per patient. (2) Bradley et al. 2021 CEA of solar-powered O2: $26/patient treated "
+    "(JAMA Network Open, PMID 34165579). (3) Lancet Commission 2025: $59/DALY averted median "
+    "(range $21-225), implying higher per-patient costs when accounting for full system costs. "
+    "Using $45 as best guess: consistent with the original total cost estimate and above the "
+    "modeled $26 (which may understate real-world implementation costs). "
+    "If government co-funding is available, philanthropic share would be lower.",
     "BOTEC"
 )
 
@@ -201,13 +206,29 @@ ws.cell(30, 3, "Calculation")
 ws.cell(31, 1, "")
 ws.cell(32, 1, "Benefits").font = section_font
 
-ws.cell(33, 1, "Moral weight per under-5 death averted (UoV)")
-ws.cell(33, 2, 52.5)
-ws.cell(33, 3, "GiveWell standard")
+ws.cell(33, 1, "Moral weight per child (1mo-5yr) death averted (UoV)")
+ws.cell(33, 2, 117)
+c = add_link(33, 3, "GiveWell 2020 moral weights: Post Neonatal 100.7, 1-4yr 127.3", GW_MORAL_WEIGHTS)
+c.comment = Comment(
+    "From GiveWell's 2020 moral weights tool. Age-specific values: "
+    "Post Neonatal (1mo-1yr) = 100.7, 1 to 4yr = 127.3. "
+    "Weighted average assuming ~40% post-neonatal, ~60% age 1-4 "
+    "(approximate age distribution of under-5 pneumonia deaths excluding neonates): "
+    "0.40 x 100.7 + 0.60 x 127.3 = 116.7, rounded to 117.",
+    "BOTEC"
+)
 
 ws.cell(34, 1, "Moral weight per adult death averted (UoV)")
-ws.cell(34, 2, 30)
-ws.cell(34, 3, "Rough estimate; average age ~35-50, mix of surgical/maternal")
+ws.cell(34, 2, 100)
+c = add_link(34, 3, "GiveWell 2020 moral weights: weighted avg across ages 20-50", GW_MORAL_WEIGHTS)
+c.comment = Comment(
+    "From GiveWell's 2020 moral weights tool. Adult oxygen patients include maternal, "
+    "surgical, and respiratory cases. Assumed age distribution centered on 25-40: "
+    "20-24yr=118, 25-29yr=112.7, 30-34yr=106.3, 35-39yr=99.7, 40-44yr=86.4, 45-49yr=75.7. "
+    "Weighted average ~100. This is still an assumption about age mix — "
+    "adult contribution is small (~2% of total UoV) so imprecision here matters little.",
+    "BOTEC"
+)
 
 ws.cell(35, 1, "UoV from children's deaths averted")
 ws.cell(35, 2, "=B20*B33")
@@ -253,30 +274,25 @@ ws.cell(42, 3, "Calculation")
 ws.cell(43, 1, "")
 ws.cell(44, 1, "Sensitivity (CE at different costs per patient)").font = section_font
 
-# Helper: children UoV at different costs
-# UoV_children = (grant/cost)*0.80*0.32*0.19*(1-0.51)*0.90*0.80*52.5
-# UoV_adults = (grant/cost)*0.80*0.60*0.02*(1-0.90)*0.50*30
-# Total = (UoV_children + UoV_adults)*(1+0.10) / (grant * 0.00344)
-
-ws.cell(45, 1, "CE at $15/patient")
-ws.cell(45, 2, "=((B2/15*B7*B8*B15*(1-B16)*B17*B18*B33)+(B2/15*B7*B10*B26*(1-B27)*B28*B34))*(1+B37)/(B2*B41)")
+ws.cell(45, 1, "CE at $26/patient")
+ws.cell(45, 2, "=((B2/26*B7*B8*B15*(1-B16)*B17*B18*B33)+(B2/26*B7*B10*B26*(1-B27)*B28*B34))*(1+B37)/(B2*B41)")
 ws.cell(45, 2).number_format = "0.0"
-ws.cell(45, 3, "Scenario: CHAI-only cost, no overhead")
+ws.cell(45, 3, "Scenario: Bradley et al. 2021 modeled cost for solar O2 systems")
 
-ws.cell(46, 1, "CE at $20/patient")
-ws.cell(46, 2, "=((B2/20*B7*B8*B15*(1-B16)*B17*B18*B33)+(B2/20*B7*B10*B26*(1-B27)*B28*B34))*(1+B37)/(B2*B41)")
+ws.cell(46, 1, "CE at $45/patient (best guess)")
+ws.cell(46, 2, "=B42")
 ws.cell(46, 2).number_format = "0.0"
-ws.cell(46, 3, "Scenario: lean implementation")
+ws.cell(46, 3, "= main BOTEC estimate")
 
-ws.cell(47, 1, "CE at $30/patient (best guess)")
-ws.cell(47, 2, "=B42")
+ws.cell(47, 1, "CE at $75/patient")
+ws.cell(47, 2, "=((B2/75*B7*B8*B15*(1-B16)*B17*B18*B33)+(B2/75*B7*B10*B26*(1-B27)*B28*B34))*(1+B37)/(B2*B41)")
 ws.cell(47, 2).number_format = "0.0"
-ws.cell(47, 3, "= main BOTEC estimate")
+ws.cell(47, 3, "Scenario: high-cost implementation with solar + remote facilities")
 
-ws.cell(48, 1, "CE at $50/patient")
-ws.cell(48, 2, "=((B2/50*B7*B8*B15*(1-B16)*B17*B18*B33)+(B2/50*B7*B10*B26*(1-B27)*B28*B34))*(1+B37)/(B2*B41)")
+ws.cell(48, 1, "CE at $100/patient")
+ws.cell(48, 2, "=((B2/100*B7*B8*B15*(1-B16)*B17*B18*B33)+(B2/100*B7*B10*B26*(1-B27)*B28*B34))*(1+B37)/(B2*B41)")
 ws.cell(48, 2).number_format = "0.0"
-ws.cell(48, 3, "Scenario: high-cost rural solar-powered systems")
+ws.cell(48, 3, "Scenario: pessimistic — full system costs in difficult settings")
 
 # Wrap text
 for row in ws.iter_rows(min_row=1, max_row=48, min_col=3, max_col=3):

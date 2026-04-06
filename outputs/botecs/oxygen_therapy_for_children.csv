@@ -1,22 +1,22 @@
 Parameter,Value,Source / notes
 Costs,Value,Source / notes
 Grant amount,"$1,000,000",
-Cost per patient receiving oxygen (philanthropic),$30,Mid-range: CHAI costs ~$15/patient; total with government match ~$45
-Number of patients reached,"33,333",Calculation
+Cost per patient receiving oxygen (total program cost),$45,"Total cost per patient including infrastructure, training, and consumables"
+Number of patients reached,"22,222",Calculation
 Patient composition,,
 % of patients who are truly hypoxaemic (vs. misuse),80%,From original BOTEC (guess to account for misuse)
 "% who are children 1mo-5yr (pneumonia, malaria, sepsis)",32%,From original BOTEC
 % who are neonates (<1 month),8%,From original BOTEC
 % who are adults,60%,From original BOTEC
-Hypoxaemic children receiving oxygen,"8,533",Calculation
-Hypoxaemic adults receiving oxygen,"16,000",Calculation
+Hypoxaemic children receiving oxygen,"5,689",Calculation
+Hypoxaemic adults receiving oxygen,"10,667",Calculation
 Burden & effect (children with pneumonia),,
 Baseline CFR among hospitalized children with hypoxemia,19%,From original BOTEC (CHAI Breathing New Life proposal)
 RR of mortality with oxygen (from Uganda RCT),0.51,"Nabwire et al., Lancet 2024 (n=2,405 hypoxaemic children)"
 Internal validity adjustment,90%,"Single RCT (n=2,405); consistent with 3 pre/post studies and systematic review"
 External validity adjustment,80%,Extrapolation from Uganda rural facilities to broader LMIC settings
 Adjusted mortality reduction,35%,Calculation: (1-RR) × IV × EV
-Deaths averted (children),572.0,Calculation
+Deaths averted (children),381.3,Calculation
 Neonatal mortality (null result — no benefit),,
 Neonatal deaths averted,0,RR ~1.02-1.11 (null); no evidence of neonatal benefit from oxygen alone
 Adult mortality (weak evidence),,
@@ -24,19 +24,19 @@ Baseline CFR among hospitalized adults with hypoxemia,2%,"Guess from original BO
 RR for adults with oxygen,0.90,Guess from original BOTEC — no RCT evidence for adults
 IV/EV adjustment (adults),50%,"Heavy discount: no RCT, guess-based parameters"
 Adjusted adult mortality reduction,5%,Calculation
-Deaths averted (adults),16.0,Calculation
+Deaths averted (adults),10.7,Calculation
 Benefits,,
-Moral weight per under-5 death averted (UoV),52.5,GiveWell standard
-Moral weight per adult death averted (UoV),30,"Rough estimate; average age ~35-50, mix of surgical/maternal"
-UoV from children's deaths averted,"30,030",Calculation
-UoV from adult deaths averted,480,Calculation
+Moral weight per child (1mo-5yr) death averted (UoV),117,"GiveWell 2020 moral weights: Post Neonatal 100.7, 1-4yr 127.3"
+Moral weight per adult death averted (UoV),100,GiveWell 2020 moral weights: weighted avg across ages 20-50
+UoV from children's deaths averted,"44,616",Calculation
+UoV from adult deaths averted,"1,067",Calculation
 "Ad-hoc: morbidity averted (developmental effects, reduced complications)",10%,Assumption: 10% uplift for non-fatal hypoxemia episodes averted
-Total UoV from program,"33,561",Calculation
+Total UoV from program,"50,251",Calculation
 Final CE,,
 Value per dollar spent on benchmark (GiveDirectly),0.00344,
-CE (multiples of cash),9.8,Calculation
+CE (multiples of cash),14.6,Calculation
 Sensitivity (CE at different costs per patient),,
-CE at $15/patient,19.5,"Scenario: CHAI-only cost, no overhead"
-CE at $20/patient,14.6,Scenario: lean implementation
-CE at $30/patient (best guess),9.8,= main BOTEC estimate
-CE at $50/patient,5.9,Scenario: high-cost rural solar-powered systems
+CE at $26/patient,25.3,Scenario: Bradley et al. 2021 modeled cost for solar O2 systems
+CE at $45/patient (best guess),14.6,= main BOTEC estimate
+CE at $75/patient,8.8,Scenario: high-cost implementation with solar + remote facilities
+CE at $100/patient,6.6,Scenario: pessimistic — full system costs in difficult settings
