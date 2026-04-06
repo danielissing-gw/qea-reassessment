@@ -767,3 +767,22 @@ Master list updated with 9 new QEAs. Processing in batches of 3.
 - **Single-trial fragility:** Synbiotics (Panigrahi 2017) had a striking Nature result (RR 0.6) but no replication in 8 years — a strong negative signal. Similarly, the Saloni program had a single flawed RCT.
 - **Snakebite as future potential:** Of the 9, snakebite antivenom has the most potential for future reassessment — next-gen recombinant antivenoms could dramatically cut costs, but are still years from deployment.
 - **Adolescent pregnancy made redundant:** GW's 2025 contraception framework and Sayana Press at 13x make indirect pregnancy prevention via CCTs (~$3,000/pregnancy) obsolete as a GW-relevant intervention.
+
+## Session: 2026-04-06
+
+### Ad-hoc: Oxygen therapy for children — BOTEC REVISED
+
+- Corrected moral weights (52.5 → 117 for children, 30 → 100 for adults) per GW's 2020 moral weights tool
+- Increased cost per patient from $30 to $45 (total program cost, triangulated across multiple sources)
+- New CE: ~15x at $45/patient (was 9.8x at $30/patient)
+- Also created `docs/moral_weights.md` as local reference and updated `docs/methodology.md`
+
+### Ad-hoc: Sickle cell disease screening and treatment — NEW ASSESSMENT
+
+- Source: CHAI memo and BOTEC (July 2023, internal); no formal QEA
+- Rating: **Medium**
+- Outputs:
+  - Writeup: `outputs/writeups/sickle_cell_disease.md`
+  - BOTEC: `outputs/botecs/sickle_cell_disease.xlsx` / `.csv`
+  - QA: PASS (1 expected warning — no QEA doc links for internal-only source)
+- Key finding: CE ~3x with sustainability discount, ~6x face value, up to ~10x in treatment-only + lifelong access scenario. The sustainability issue (SCD is lifelong; program covers 0-5 only) is the dominant uncertainty. HU is now the only oral therapy (crizanlizumab and voxelotor withdrawn). WHO added HU to core EML + Children's EML (2025). No RCT exists — evidence still rests on REACH pre-post trial.

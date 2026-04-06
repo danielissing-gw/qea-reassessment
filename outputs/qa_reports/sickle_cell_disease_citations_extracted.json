@@ -1,0 +1,130 @@
+{
+  "file": "C:\\Users\\Daniel Issing\\Documents\\claudecode\\qea-reassessment\\outputs\\writeups\\sickle_cell_disease.md",
+  "status": "pass",
+  "total_citations": 11,
+  "citations": [
+    {
+      "type": "footnote",
+      "number": 1,
+      "body": "\"The total number of SCD-attributable deaths, including both SCD as a cause and a risk factor, was estimated at 376,000 in 2021 [...] 81,100 (95% UI: 58,800\u2013108,000) SCD-attributable deaths occurred in children under 5 years of age, making SCD the 12th leading cause of under-5 mortality.\" ([GBD 2021 SCD study, Lancet Haematology 2023](https://www.thelancet.com/journals/lanhae/article/PIIS2352-3026(23)00118-7/fulltext))",
+      "urls": [
+        "https://www.thelancet.com/journals/lanhae/article/PIIS2352-3026(23"
+      ],
+      "quotes": [
+        "The total number of SCD-attributable deaths, including both SCD as a cause and a risk factor, was estimated at 376,000 in 2021 [...] 81,100 (95% UI: 58,800\u2013108,000) SCD-attributable deaths occurred in children under 5 years of age, making SCD the 12th leading cause of under-5 mortality."
+      ],
+      "issues": []
+    },
+    {
+      "type": "footnote",
+      "number": 2,
+      "body": "\"MHRA revoked the marketing authorisation for crizanlizumab [...] The Phase III STAND trial did not confirm the clinical benefit.\" ([Sickle Cell Society, January 2024](https://www.sicklecellsociety.org/crizanlizumab-statement-january-2024/))",
+      "urls": [
+        "https://www.sicklecellsociety.org/crizanlizumab-statement-january-2024/"
+      ],
+      "quotes": [
+        "MHRA revoked the marketing authorisation for crizanlizumab [...] The Phase III STAND trial did not confirm the clinical benefit."
+      ],
+      "issues": []
+    },
+    {
+      "type": "footnote",
+      "number": 3,
+      "body": "\"Pfizer has decided to voluntarily withdraw the global approvals for voxelotor (marketed as Oxbryta) [...] following an imbalance in vaso-occlusive crises and fatal events.\" ([Pharmaceutical Journal, September 2024](https://pharmaceutical-journal.com/article/news/manufacturer-withdraws-treatment-for-sickle-cell-disease-following-concern-over-deaths))",
+      "urls": [
+        "https://pharmaceutical-journal.com/article/news/manufacturer-withdraws-treatment-for-sickle-cell-disease-following-concern-over-deaths"
+      ],
+      "quotes": [
+        "Pfizer has decided to voluntarily withdraw the global approvals for voxelotor (marketed as Oxbryta) [...] following an imbalance in vaso-occlusive crises and fatal events."
+      ],
+      "issues": []
+    },
+    {
+      "type": "note",
+      "number": 4,
+      "body": "[Note] WHO Essential Medicines List, 24th edition (September 2025): hydroxycarbamide transferred from complementary to core list; added to Children's EML for the first time; dedicated SCD sub-section created within Section 10.3. Source: [WHO EML](https://list.essentialmeds.org/medicines/93).",
+      "urls": [
+        "https://list.essentialmeds.org/medicines/93"
+      ],
+      "quotes": [],
+      "issues": []
+    },
+    {
+      "type": "footnote",
+      "number": 5,
+      "body": "\"606 children received hydroxyurea; 522 (86%) were treated for a median of 93 months, accumulating 4,340 patient-years of treatment. [...] Transfusion rates dropped by 75% compared to pre-treatment during the MTD phase.\" ([REACH 8-year follow-up, Lancet Haematology 2024](https://www.thelancet.com/journals/lanhae/article/PIIS2352-3026(24)00078-4/abstract))",
+      "urls": [
+        "https://www.thelancet.com/journals/lanhae/article/PIIS2352-3026(24"
+      ],
+      "quotes": [
+        "606 children received hydroxyurea; 522 (86%) were treated for a median of 93 months, accumulating 4,340 patient-years of treatment. [...] Transfusion rates dropped by 75% compared to pre-treatment during the MTD phase."
+      ],
+      "issues": []
+    },
+    {
+      "type": "footnote",
+      "number": 6,
+      "body": "\"Hydroxyurea decreased transcranial Doppler velocity by a mean of \u221230 cm/s over 0.5\u20132.6 years, with TCD normalizing in most children.\" ([ASH Blood Global Hematology 2025](https://ashpublications.org/bloodglobal/article/1/1/100001/535647/Hydroxyurea-to-decrease-stroke-risk-in-children))",
+      "urls": [
+        "https://ashpublications.org/bloodglobal/article/1/1/100001/535647/Hydroxyurea-to-decrease-stroke-risk-in-children"
+      ],
+      "quotes": [
+        "Hydroxyurea decreased transcranial Doppler velocity by a mean of \u221230 cm/s over 0.5\u20132.6 years, with TCD normalizing in most children."
+      ],
+      "issues": []
+    },
+    {
+      "type": "note",
+      "number": 7,
+      "body": "[Note] Casgevy (exagamglogene autotemcel) FDA-approved Dec 2023, EU Feb 2024. Lists at $2.2M per treatment. Only 64 patients received infusions globally as of 2025 for SCD or TDT. No LMIC approvals. Source: [BioSpace](https://www.biospace.com/drug-development/sickle-cell-gene-therapies-casgevy-and-lyfgenia-still-lacking-traction-2-years-in).",
+      "urls": [
+        "https://www.biospace.com/drug-development/sickle-cell-gene-therapies-casgevy-and-lyfgenia-still-lacking-traction-2-years-in"
+      ],
+      "quotes": [],
+      "issues": []
+    },
+    {
+      "type": "note",
+      "number": 8,
+      "body": "[Note] NIH/BMGF $200M joint commitment (2019) for in vivo gene-based cures. Phase 2 trial launched 2024. Target: single-administration cure deliverable in SSA settings without specialized infrastructure. Source: [NHLBI Cure SCI](https://www.nhlbi.nih.gov/science/cure-sickle-cell-initiative).",
+      "urls": [
+        "https://www.nhlbi.nih.gov/science/cure-sickle-cell-initiative"
+      ],
+      "quotes": [],
+      "issues": []
+    },
+    {
+      "type": "note",
+      "number": 9,
+      "body": "[Note] Adherence data from US studies: one study of children 1\u201317 found median adherence ~70% by pharmacy refill data (PMID 37046404). Caregiver education is critical, especially for asymptomatic children receiving prophylactic treatment. No large-scale SSA adherence data for HU in children exists.",
+      "urls": [],
+      "quotes": [],
+      "issues": []
+    },
+    {
+      "type": "footnote",
+      "number": 10,
+      "body": "\"Included 3 RCTs (423 participants). Found significant improvement in fetal hemoglobin (HbF) with a mean difference of 9.45% (95% CI: 2.15\u201316.75).\" ([Narra X 2024](https://narrax.org/main/article/view/164))",
+      "urls": [
+        "https://narrax.org/main/article/view/164"
+      ],
+      "quotes": [
+        "Included 3 RCTs (423 participants). Found significant improvement in fetal hemoglobin (HbF) with a mean difference of 9.45% (95% CI: 2.15\u201316.75)."
+      ],
+      "issues": []
+    },
+    {
+      "type": "footnote",
+      "number": 11,
+      "body": "\"158,736 babies screened; 2,201 (1.39%) identified with SCD; 25,708 (16.20%) with sickle trait. Of identified SCD cases, only 847 (38.5%) had a documented initial clinical visit.\" ([ASH CONSA 2024](https://ashpublications.org/blood/article/146/Supplement%201/944/552274/The-ASH-consa-consortium-on-newborn-screening-in))",
+      "urls": [
+        "https://ashpublications.org/blood/article/146/Supplement%201/944/552274/The-ASH-consa-consortium-on-newborn-screening-in"
+      ],
+      "quotes": [
+        "158,736 babies screened; 2,201 (1.39%) identified with SCD; 25,708 (16.20%) with sickle trait. Of identified SCD cases, only 847 (38.5%) had a documented initial clinical visit."
+      ],
+      "issues": []
+    }
+  ],
+  "issues": []
+}

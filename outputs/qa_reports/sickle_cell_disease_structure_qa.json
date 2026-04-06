@@ -1,0 +1,12 @@
+{
+  "intervention": "sickle_cell_disease",
+  "status": "warn",
+  "errors": [],
+  "warnings": [
+    {
+      "check": "no_header_links",
+      "severity": "warning",
+      "message": "No links found in the header area (first 20 lines). Expected links to original QEA and/or BOTEC."
+    }
+  ]
+}

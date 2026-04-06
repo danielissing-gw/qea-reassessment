@@ -1,0 +1,31 @@
+Parameter,Value,Source / notes
+Costs,Value,Source / notes
+Grant amount,"$1,000,000",
+Cost per child-year of SCD treatment (full program),$60,"Includes screening, HU, other therapies, TA, M&E"
+Child-years of treatment per $1M,"16,667",Calculation
+Burden (SCD in children under 5),,
+"Case fatality rate per 1,000 person-years (SCD, under 5)",29.9,"IHME GBD 2021: ~24,400 under-5 SCD deaths / ~817K under-5 SCD person-years in Nigeria"
+Expected deaths without treatment in treated cohort,498.3,Calculation
+Effect of hydroxyurea treatment,,
+Mortality reduction from HU (from REACH trial),70%,"REACH: IRR 0.30 → 70% mortality reduction (pre-post, n=606)"
+Internal validity adjustment,65%,Pre-post design with increased monitoring; no RCT available
+External validity adjustment,80%,REACH was at research sites; national implementation would differ
+Adherence adjustment,80%,HU requires daily administration by caregivers; not modeled in CHAI BOTEC
+Adjusted mortality reduction,29%,Calculation: effect × IV × EV × adherence
+Deaths averted per $1M (face value),145.1,Calculation
+Sustainability adjustment (critical assumption),,
+Sustainability discount on moral weight,50%,SCD requires lifelong treatment; program covers only ages 0-5
+Benefits,,
+Moral weight per under-5 death averted (UoV),117,"GiveWell 2020 moral weights: Post Neonatal 100.7, 1-4yr 127.3"
+UoV from mortality (sustainability-adjusted),"8,489",Calculation: deaths averted × moral weight × sustainability discount
+"Ad-hoc: morbidity averted (pain crises, stroke, organ damage)",15%,Assumption: 15% uplift for morbidity benefits realized during program
+UoV from morbidity (no sustainability discount needed),"2,547",Calculation
+Total UoV from program,"11,036",Calculation
+Final CE,,
+Value per dollar spent on benchmark (GiveDirectly),0.00344,
+CE (multiples of cash),3.2,Calculation
+Sensitivity,,
+CE without sustainability discount (face value),5.7,If lifelong treatment is ensured (endowment/govt uptake)
+"CE at $35/child-year (treatment-only, e.g. Uganda/Ghana)",5.5,Countries with existing screening; lower overhead
+CE at $35/child-year + no sustainability discount,9.7,Best case: existing screening + lifelong treatment ensured
+CE at $80/child-year + 70% sustainability discount,1.7,"Pessimistic: high costs, poor treatment sustainability"
