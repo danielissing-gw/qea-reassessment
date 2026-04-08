@@ -786,3 +786,108 @@ Master list updated with 9 new QEAs. Processing in batches of 3.
   - BOTEC: `outputs/botecs/sickle_cell_disease.xlsx` / `.csv`
   - QA: PASS (1 expected warning — no QEA doc links for internal-only source)
 - Key finding: CE ~3x with sustainability discount, ~6x face value, up to ~10x in treatment-only + lifelong access scenario. The sustainability issue (SCD is lifelong; program covers 0-5 only) is the dominant uncertainty. HU is now the only oral therapy (crizanlizumab and voxelotor withdrawn). WHO added HU to core EML + Children's EML (2025). No RCT exists — evidence still rests on REACH pre-post trial.
+
+## Session: 2026-04-06 (reassessment of previously Low-rated interventions)
+
+User review flagged several interventions rated Low that may deserve reconsideration due to: (1) high CE estimates despite Low rating, (2) faulty moral weight assumptions, (3) overly strict RCT requirements. Reassessing 6 interventions with full Stage 2 outputs.
+
+### QEA 44 (redo): Cryptococcal antigen testing for PLHIV — UPGRADED to Medium
+
+- Previous rating: Low (~8-10x "with corrected moral weights")
+- New rating: **Medium** (~9x at $10/person screened; range 6-14x)
+- Key error corrected: MW was "corrected" from 100 to ~35 UoV — but 35 was wrong. Median age of CM deaths in SSA is 33-36 years → MW ~98 UoV per GW's 2020 table. The original 100 UoV was approximately correct.
+- Key update: PEPFAR funding crisis (FY2026 proposed $1.9B cut) creates genuine philanthropic gap in HIV services that didn't exist in 2020.
+- Outputs:
+  - `outputs/writeups/cryptococcal_antigen_testing.md`
+  - `outputs/botecs/cryptococcal_antigen_testing.xlsx` / `.csv`
+  - Tracker CSV row updated
+  - QA: **PASS** (1 expected WARN — no QEA doc links for BOTEC-only original)
+
+## Session: 2026-04-07 (continuing Low→Medium reassessment batch)
+
+Picking up the remaining 5 reassessments from the 2026-04-06 batch. Interventions: synbiotics for neonatal sepsis, community salt substitution, snakebite antivenom, prophylactic antibiotics for C-sections, WASH for hospital infections.
+
+### QEA 55 (redo): Synbiotics to prevent neonatal sepsis — UPGRADED to Medium
+
+- Previous rating: Low (~5-14x; "not worth revisiting unless a replication trial is published")
+- New rating: **Medium** (~12x at $5/course; range 7-31x)
+- Key error corrected: Original BOTEC used 5% neonatal sepsis CFR as an acknowledged guess. Systematic reviews show the true CFR is 10-20% (pooled 17.6%; BARNARDS 13.3%). This 3x correction is the main driver of the upgrade.
+- Key concern: Bangladesh Phase 2 trial (Pell et al. 2025, n=519) failed to replicate persistent gut colonization — raises genuine doubt about external validity. Reflected in 60% EV adjustment.
+- Key remaining blocker: No implementer, no WHO recommendation. PROSYNK trial in Kenya (LSTM, n=600) is the most decision-relevant pending evidence.
+- Outputs:
+  - `outputs/writeups/synbiotics_neonatal_sepsis.md`
+  - `outputs/botecs/synbiotics_neonatal_sepsis.xlsx` / `.csv`
+  - Tracker CSV row updated
+  - QA: **PASS** (0 errors, 8 citations)
+
+### Community salt substitution — STAYS Low
+
+- Previous rating: Low (0.9-1.9x)
+- New rating: **Low** (~3-5x with high-risk targeting; still below 8x bar)
+- Reason for no upgrade: The binding constraint is moral weight for elderly CVD deaths (MW ~31 at ages 60-75), not evidence quality. The original BOTEC used MW=54.8 (ages 55-59), which was actually *too high* — correcting it makes the intervention less promising. SSaSS hard-endpoint data (RR 0.88, NEJM 2021) and WHO 2025 guideline strengthen the evidence dramatically, but GW's framework inherently undervalues programs that primarily prevent deaths in 65+ populations. At $5/person/year, CE is ~3-5x even with SSaSS-level effects. GiveWell has already evaluated and found it below their bar.
+- No Stage 2 outputs (stays Low)
+
+### QEA 60 (redo): Snakebite antivenom — UPGRADED to Medium
+
+- Previous rating: Low (0.7-0.9x at $900/treatment with ~40 UoV moral weight)
+- New rating: **Medium** (~5x at $124/treatment; range 1-9x)
+- Key errors corrected: (1) Moral weight was ~40 UoV (adult equivalent) but snakebite deaths have a young age distribution (28% under 15, 17% ages 15-29) → age-weighted MW is ~95 UoV, more than double the original. (2) Treatment cost of $900/5-vial dose reflected expensive polyvalent antivenoms, but West African EchiTAb products cost ~$124/treatment (Hamza et al. 2016).
+- Key development: Next-gen antivenoms approaching clinical readiness — varespladib (oral, NDA target 2027) and nanobody-based antivenom (Nature 2025, covers 17 African species at <50% current cost).
+- Key remaining concerns: All evidence is observational (no RCTs, and placebo RCT would be unethical); cold chain and species-matching logistics; Wellcome $100M program concluding 2026 — need to assess post-Wellcome gap.
+- Outputs:
+  - `outputs/writeups/snakebite_antivenom.md`
+  - `outputs/botecs/snakebite_antivenom.xlsx` / `.csv`
+  - Tracker CSV row updated
+  - QA: **PASS** (0 errors, 10 citations)
+
+---
+
+**3 reassessments completed this session: synbiotics (L→M), salt substitution (stays L), snakebite (L→M). Per project rules ("start new session every 3 QEAs"), session should be refreshed. Remaining 2 reassessments (prophylactic antibiotics for C-sections, WASH for hospital infections) deferred to next session.**
+
+### QEA 49 (redo): Prophylactic antibiotics for C-sections — STAYS Low
+
+- Previous rating: Low (~3-5x)
+- New rating: **Low** (~3-6x after deeper analysis)
+- Original BOTEC inflated CE through: (1) zero counterfactual coverage (actual guideline-concordant coverage in SSA ~30-60%: Benin 31% optimal, Nigeria >80% wrong timing), (2) IV 90% / EV 110% = net 99% discount (should be ~68% given indirectly derived mortality estimate and HIC-dominated trial evidence), (3) MW 113 is actually correct (ages 25-29 = 112.7).
+- New findings: Cefazolin (WHO first-line) often unavailable in SSA (removed from Ethiopian procurement list); hospitals substitute ceftriaxone (Watch category) driving AMR. FALCON trial (2024): 58% of SSI organisms not covered by prophylactic antibiotic; 69% MDR. Tanzania Safe Surgery 2020 achieved SSI reduction 13.9%→0.7% (pre-post, 30 facilities) but no cost data.
+- At 50% marginal × 68% IV/EV: CE ≈ 3.7x. At 70% marginal: ≈ 5.2x. Most optimistic: ~6x. Cannot reach 8x.
+- No major funder owns this space. Health system quality improvement challenge, not drug access.
+- No Stage 2 outputs (stays Low)
+
+### QEA 31 (redo): WASH to decrease hospital acquired infections — STAYS Low
+
+- Previous rating: Low (~4x, up to 7.6x with APT-Sepsis effect)
+- New rating: **Low** (~4x; WASH-specific evidence has weakened)
+- WASH-specific intervention evidence has actually gotten *weaker*: TEACH CLEAN in Gambia (2024) failed to reduce surface contamination. WASH FIT: two 2024 systematic reviews found "insufficient evidence to evaluate effectiveness." No new WASH-specific RCTs measuring HAI/mortality in LMICs.
+- APT-Sepsis (NEJM 2025, RR 0.68) is strong but is IPC+clinical bundle (hand hygiene + antibiotics + sepsis detection/treatment), not a WASH intervention. Effect increased to 47% reduction by final month.
+- Burden evidence much stronger: SSA HAI prevalence 12.9% (2024 meta-analysis), 22.2% mortality, $8.4B/year cost (WaterAid 2024). WHO 2024: only 6% of countries meet IPC minimum requirements.
+- Binding constraint is intervention evidence, not burden. No proven scalable WASH-specific intervention exists. Philanthropic opportunity is in funding RCTs, not scale-up.
+- No Stage 2 outputs (stays Low)
+
+---
+
+**All 5 reassessments from the 2026-04-06 batch now complete. Results: 2 upgraded (synbiotics L→M, snakebite L→M), 3 confirmed Low (salt substitution, prophylactic antibiotics, WASH).**
+
+## Session: 2026-04-07 (ad-hoc reassessment: rabies dog vaccination)
+
+User flagged rabies dog vaccination as potentially worth revisiting despite not being in the original reassessment batch. Original CE of ~9x (13-year average) was already near bar, and GAVI PEP announcement (June 2024) materially changes the cost structure.
+
+### Rabies dog vaccination (MDV + PEP) — UPGRADED to Medium
+
+- Original QEA: https://docs.google.com/document/d/1dHe2GNWIqYqd44C5ghJxzMfVelHpVbkbL0cFbBj1WGs/
+- Original BOTEC: https://docs.google.com/spreadsheets/d/1xhZNL7D7SwveYrzctyN3c2MyxqLKIlhC-DYUTuhHwGY/
+- Year: 2022 | Previous rating: **Low** | New rating: **Medium**
+- Outputs:
+  - `outputs/writeups/rabies_dog_vaccination.md`
+  - `outputs/botecs/rabies_dog_vaccination.xlsx` / `.csv`
+  - Tracker CSV row updated (L→M)
+  - QA: **PASS** (0 errors, 11 citations)
+- Key findings:
+  - **GAVI PEP support (June 2024)** is the pivotal development. GAVI approved rabies PEP for 50+ countries; 5 already approved (Tanzania, Madagascar, Cote d'Ivoire, Yemen, Syria). PEP was 62% of Phase I costs and ~19% of total 13-year costs. Removing PEP from philanthropic costs reduces the denominator from $254.6M to $207M, substantially improving CE.
+  - **Country-level eliminations** provide real-world proof of concept: Mexico (certified 2019, $121/DALY averted), Bohol Philippines (<3 years), KwaZulu-Natal SA, Zanzibar, Namibia.
+  - **Cluster RCT on MDV delivery** (Mtui-Malamsha 2024, Tanzania): community-based delivery achieved 49-62% coverage vs 22-46% team-based, at lower per-dog cost (~$2.70 vs $4.47 median).
+  - **MW correction** small: 94 → 100 (40% of rabies deaths in children under 15).
+  - **IV/EV tightened**: 90.25% → 68% (85% IV × 80% EV) to reflect model-based evidence and DRC-specific implementation uncertainty.
+  - **CE: ~10x with GAVI PEP** (range 4x Phase I to 12x Phase III; 8x without GAVI; up to 16x at community-based delivery costs). Cost per death averted: ~$3,078.
+  - **Key concern**: Phase I CE remains ~4x even with GAVI — back-loaded benefits require sustained multi-year commitment. No RCTs linking MDV to human mortality (but biological mechanism is unambiguous).
+  - **Clearest philanthropic opportunity**: Fund MDV in GAVI PEP-supported countries (especially Tanzania) where the human PEP component is covered by GAVI, leaving the dog vaccination component as the unfunded complement.

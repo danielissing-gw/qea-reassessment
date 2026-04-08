@@ -1,0 +1,33 @@
+Parameter,Value,Source / notes
+Costs,Value,Source / notes
+Grant amount,"$1,000,000",
+Cost per person screened (CrAg test + delivery),$10,Blended estimate: reflexed lab ($5-7) and POC ($15-20)
+Additional cost per CrAg-positive patient (pre-emptive Rx + monitoring),$50,Pre-emptive fluconazole ($20) + follow-up visits ($15) + LP if symptomatic ($15)
+Additional cost per confirmed CM case (AMBITION regimen + hospitalization),$200,Single-dose liposomal AmB ($100-150) + hospitalization ($50-100)
+CrAg prevalence among CD4 <100 patients,5%,"Midpoint: SA 6.2%, Uganda 1.4%, pooled SSA ~4-6%"
+% of CrAg+ with confirmed CM (needing AMBITION treatment),25%,~25% of CrAg+ patients have active CM at diagnosis
+Total cost per person screened (blended),$15.00,Calculation: screening cost + CrAg prevalence × (treatment + CM% × CM treatment)
+Number of people screened,"66,667",Calculation
+CrAg-positive patients identified,"3,333",Calculation
+Burden & effect,,
+1-year mortality among CrAg+ without pre-emptive treatment,25%,Conservative estimate based on multiple sources
+Mortality reduction from pre-emptive fluconazole treatment,50%,Based on modeling and observational data
+Internal validity adjustment,80%,No RCT of screening program; REMSTART HR 0.65 was non-significant
+External validity adjustment,85%,Uganda/SA data extrapolated to other SSA settings
+Adjusted mortality reduction,34%,Calculation: mortality reduction × IV × EV
+Deaths averted,283.3,Calculation: CrAg+ patients × baseline mortality × adjusted reduction
+Benefits,,
+Moral weight per death averted (UoV) — age-weighted,98,"GiveWell 2020 moral weights, weighted for CM age distribution"
+UoV from deaths averted,"27,767",Calculation
+"Ad-hoc: morbidity averted (CM-related disability, DALYs from survivors)",15%,Assumption: 15% uplift for non-fatal benefits
+Total UoV from program,"31,932",Calculation
+Final CE,,
+Value per dollar spent on benchmark (GiveDirectly),0.00344,
+CE (multiples of cash),9.3,Calculation
+Cost per death averted (implied),"$3,529",Cross-check: Uganda program found $459/death averted
+Sensitivity,,
+CE at $5/person screened (reflexed lab model),13.9,Reflexed screening: marginal cost ~$5/result (SA NHLS data)
+CE at $10/person screened (best guess),9.3,= main BOTEC estimate
+CE at $20/person screened (new POC program),5.6,Point-of-care screening in lower-resource settings
+CE at 2% CrAg prevalence (low-burden setting),4.6,"E.g., East Africa with better ART coverage"
+CE at 8% CrAg prevalence (high-burden setting),12.4,"E.g., Southern Africa, West/Central Africa"

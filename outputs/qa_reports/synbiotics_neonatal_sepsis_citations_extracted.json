@@ -1,0 +1,100 @@
+{
+  "file": "C:\\Users\\Daniel Issing\\Documents\\claudecode\\qea-reassessment\\outputs\\writeups\\synbiotics_neonatal_sepsis.md",
+  "status": "pass",
+  "total_citations": 8,
+  "citations": [
+    {
+      "type": "footnote",
+      "number": 1,
+      "body": "\"In 2021, globally, an estimated 206,451 neonates died from neonatal sepsis and other infections, with an age-standardized mortality rate of 2,117.8 per 100,000 live births.\" [GBD 2021 analysis, Frontiers in Medicine 2025](https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2025.1536948/full)",
+      "urls": [
+        "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2025.1536948/full"
+      ],
+      "quotes": [
+        "In 2021, globally, an estimated 206,451 neonates died from neonatal sepsis and other infections, with an age-standardized mortality rate of 2,117.8 per 100,000 live births."
+      ],
+      "issues": []
+    },
+    {
+      "type": "footnote",
+      "number": 2,
+      "body": "\"Pooled neonatal sepsis case fatality was 17.6% (95% CI 10.3-28.6%).\" [Fleischmann et al. 2021, eClinicalMedicine](https://pmc.ncbi.nlm.nih.gov/articles/PMC8311109/)",
+      "urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8311109/"
+      ],
+      "quotes": [
+        "Pooled neonatal sepsis case fatality was 17.6% (95% CI 10.3-28.6%)."
+      ],
+      "issues": []
+    },
+    {
+      "type": "note",
+      "number": 3,
+      "body": "[Note] BARNARDS study (Lancet Global Health 2022, 7 LMIC countries): 183 deaths among 1,372 confirmed neonatal sepsis cases = 13.3% CFR. This is facility-based data from Bangladesh, Ethiopia, India, Pakistan, Nigeria, Rwanda, and South Africa.",
+      "urls": [],
+      "quotes": [],
+      "issues": []
+    },
+    {
+      "type": "footnote",
+      "number": 4,
+      "body": "\"Case fatality among young infants 0-59 days old with a possible serious bacterial infection (pSBI) was 9.8% (95% CI 7.4-12.2%).\" [Lancet Infectious Diseases 2014 pooled estimate](https://pmc.ncbi.nlm.nih.gov/articles/PMC6340339/)",
+      "urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC6340339/"
+      ],
+      "quotes": [
+        "Case fatality among young infants 0-59 days old with a possible serious bacterial infection (pSBI) was 9.8% (95% CI 7.4-12.2%)."
+      ],
+      "issues": []
+    },
+    {
+      "type": "footnote",
+      "number": 5,
+      "body": "\"LP202195 abundance in LP-treated infants increased on day 14 and day 60, compared with control; however, it progressively declined over the study period. [...] This decline of LP202195 is inconsistent with a prior study of the same synbiotic regimen in India, in which LP202195 was shown to persist in the infant GI tract for up to 6 months.\" [Pell et al. 2025, mSphere](https://pubmed.ncbi.nlm.nih.gov/39992135/)",
+      "urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/39992135/"
+      ],
+      "quotes": [
+        "LP202195 abundance in LP-treated infants increased on day 14 and day 60, compared with control; however, it progressively declined over the study period. [...] This decline of LP202195 is inconsistent with a prior study of the same synbiotic regimen in India, in which LP202195 was shown to persist in the infant GI tract for up to 6 months."
+      ],
+      "issues": []
+    },
+    {
+      "type": "footnote",
+      "number": 6,
+      "body": "\"The mean financial cost per participant completing the intervention with direct oral administration was $8.62 [...] while the mean economic cost was $9.15.\" [PROSYNK cost study, medRxiv 2024](https://www.medrxiv.org/content/10.1101/2024.12.17.24319142v1.full)",
+      "urls": [
+        "https://www.medrxiv.org/content/10.1101/2024.12.17.24319142v1.full"
+      ],
+      "quotes": [
+        "The mean financial cost per participant completing the intervention with direct oral administration was $8.62 [...] while the mean economic cost was $9.15."
+      ],
+      "issues": []
+    },
+    {
+      "type": "footnote",
+      "number": 7,
+      "body": "\"PROSYNK is a four-arm, open-label, randomised phase II trial, in which 600 newborn infants in Homa Bay County, western Kenya, will be randomised 1:1:1:1 to receive two synbiotics, a probiotic, or no supplement.\" [Trial protocol, Trials 2022](https://trialsjournal.biomedcentral.com/articles/10.1186/s13063-022-06211-1)",
+      "urls": [
+        "https://trialsjournal.biomedcentral.com/articles/10.1186/s13063-022-06211-1"
+      ],
+      "quotes": [
+        "PROSYNK is a four-arm, open-label, randomised phase II trial, in which 600 newborn infants in Homa Bay County, western Kenya, will be randomised 1:1:1:1 to receive two synbiotics, a probiotic, or no supplement."
+      ],
+      "issues": []
+    },
+    {
+      "type": "footnote",
+      "number": 8,
+      "body": "\"The Gates Foundation's Goalkeepers 2023 report listed probiotics among 'seven innovations that could save 2 million mothers and babies by 2030.'\" [Gates Foundation 2023](https://www.gatesfoundation.org/ideas/media-center/press-releases/2023/09/goalkeepers-report-maternal-child-mortality)",
+      "urls": [
+        "https://www.gatesfoundation.org/ideas/media-center/press-releases/2023/09/goalkeepers-report-maternal-child-mortality"
+      ],
+      "quotes": [
+        "The Gates Foundation's Goalkeepers 2023 report listed probiotics among 'seven innovations that could save 2 million mothers and babies by 2030.'"
+      ],
+      "issues": []
+    }
+  ],
+  "issues": []
+}

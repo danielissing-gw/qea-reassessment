@@ -1,0 +1,31 @@
+Parameter,Value,Source / notes
+Costs,Value,Source / notes
+Grant amount,"$1,000,000",
+Total 13-year program cost (DRC model),"$254,600,000",Original BOTEC: MDV + PEP + infrastructure over 13 years
+Total PEP costs over 13 years,"$47,600,000","From original BOTEC; PEP = 62% of Y1, declining to ~0 by Y8"
+Philanthropic cost (total minus GAVI PEP),"$207,000,000",Assumes GAVI covers all PEP costs (June 2024 announcement)
+Annual average philanthropic cost,"$15,923,077",Calculation (13-year program)
+Grant as share of annual program,6%,Calculation
+Burden & effect,,
+Annual rabies deaths in DRC (counterfactual),8847,Hampson et al. 2015 model estimate for DRC
+Average mortality reduction over 13 years,86%,"Weighted average: Phase I 33%, Phase II 80%, Phase III 100%"
+Deaths prevented per year (unadjusted),"7,608",Calculation
+Deaths attributable to $1M grant,478,Calculation (pro-rata share of annual program)
+Internal validity adjustment,85%,Model-based evidence; country eliminations support but no RCT
+External validity adjustment,80%,DRC-specific model; infrastructure and dog ecology vary
+Deaths averted (adjusted),325,Calculation
+Benefits,,
+Moral weight per death averted (UoV),100,"Age-weighted: 40% under 15 (MW 130), 60% adults (MW 80)"
+UoV from deaths averted,"32,492",Calculation
+Ad-hoc: PEP demand reduction uplift,5%,Assumption: 5% uplift for reduced PEP burden on health system
+Total UoV from program,"34,117",Calculation
+Final CE,,
+Value per dollar spent on benchmark (GiveDirectly),0.00344,
+CE (multiples of cash),9.9,Calculation
+Cost per death averted (implied),"$3,078",Cross-check
+Sensitivity,,
+CE without GAVI PEP (full $254.6M philanthropic),8.1,If GAVI PEP support does not materialize or is delayed
+CE in Phase III only (100% mortality reduction),11.5,Mature program with elimination-level coverage
+CE at $2.70/dog (community-based delivery),16.4,Tanzania community-based MDV cost (Mtui-Malamsha 2024)
+CE at original IV 95% / EV 95%,13.2,Original BOTEC's more generous evidence discount
+CE in Phase I only (33% avg mortality reduction),3.8,Early years — back-loaded CE concern

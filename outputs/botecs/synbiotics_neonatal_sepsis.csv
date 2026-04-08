@@ -1,0 +1,34 @@
+Parameter,Value,Source / notes
+Costs,Value,Source / notes
+Grant amount,"$1,000,000",
+Drug cost per synbiotic course,$1.00,Panigrahi trial: ~$1/course for 7-day regimen
+Delivery/overhead costs per course,$4.00,Assumption: $4 delivery overhead for a scaled 7-day regimen
+Total cost per synbiotic course,$5.00,Calculation
+Neonates treated,"200,000",Calculation
+Burden & effect,,
+Baseline risk of death or sepsis (composite),9%,"Panigrahi 2017: 206/2,278 in control group"
+RR for death or sepsis (synbiotic vs. placebo),0.60,Panigrahi 2017: RR 0.60 (95% CI 0.48-0.74)
+Absolute risk reduction,4%,Calculation
+Composite death/sepsis events prevented,"7,232",Calculation
+Neonatal sepsis case fatality rate (CFR),15%,Midpoint of systematic review estimates (10-20%)
+Deaths before adjustments,"1,085",Calculation: composite events prevented × CFR
+Internal validity adjustment,70%,"Single large RCT (Nature, n=4,556) but unreplicated; corrigendum"
+External validity adjustment,60%,"Rural Odisha, India → other LMIC settings; colonization persistence concern"
+Deaths averted (adjusted),456,Calculation
+Benefits,,
+Moral weight per neonatal death averted (UoV),84,"GiveWell 2020 moral weights, neonatal age bracket"
+UoV from deaths averted,"38,272",Calculation
+Ad-hoc: morbidity uplift (developmental sequelae in sepsis survivors),10%,Assumption: 10% uplift for non-fatal benefits
+Total UoV from program,"42,099",Calculation
+Final CE,,
+Value per dollar spent on benchmark (GiveDirectly),0.00344,
+CE (multiples of cash),12.2,Calculation
+Cost per death averted (implied),"$2,195",Cross-check
+Sensitivity,,
+CE at $2/course (original Indian cost),30.6,Drug $1 + minimal overhead $1
+CE at $5/course (central estimate),12.2,= main BOTEC estimate
+CE at $9/course (PROSYNK Kenya programmatic cost),6.8,PROSYNK cost study (32-dose/6-month regimen)
+CE at 10% CFR (conservative),8.2,Lower bound of systematic review range
+CE at 15% CFR (central estimate),12.2,= main BOTEC estimate
+CE at 20% CFR (higher estimate),16.3,Upper-central range (Fleischmann pooled: 17.6%)
+CE at 50% IV / 50% EV (heavy replication discount),7.3,If Bangladesh colonization failure warrants deeper skepticism

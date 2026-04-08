@@ -1,0 +1,121 @@
+{
+  "file": "C:\\Users\\Daniel Issing\\Documents\\claudecode\\qea-reassessment\\outputs\\writeups\\snakebite_antivenom.md",
+  "status": "pass",
+  "total_citations": 10,
+  "citations": [
+    {
+      "type": "footnote",
+      "number": 1,
+      "body": "\"In 2019, there were an estimated 63,400 (95% uncertainty interval 38,900-78,600) deaths from snakebite envenoming globally [...] South Asia accounted for 54,600 (86.1%) of global snakebite deaths.\" [GBD 2019 analysis, Nature Communications 2022](https://www.nature.com/articles/s41467-022-33627-9)",
+      "urls": [
+        "https://www.nature.com/articles/s41467-022-33627-9"
+      ],
+      "quotes": [
+        "In 2019, there were an estimated 63,400 (95% uncertainty interval 38,900-78,600) deaths from snakebite envenoming globally [...] South Asia accounted for 54,600 (86.1%) of global snakebite deaths."
+      ],
+      "issues": []
+    },
+    {
+      "type": "footnote",
+      "number": 2,
+      "body": "\"By 2030, the model predicts only an 8.6% further decrease (95% UI: \u22129.6% to 20.1%)\" in age-standardized snakebite mortality \u2014 far short of the WHO target of 50% reduction. [Nature Communications 2022](https://www.nature.com/articles/s41467-022-33627-9)",
+      "urls": [
+        "https://www.nature.com/articles/s41467-022-33627-9"
+      ],
+      "quotes": [
+        "By 2030, the model predicts only an 8.6% further decrease (95% UI: \u22129.6% to 20.1%)"
+      ],
+      "issues": []
+    },
+    {
+      "type": "note",
+      "number": 3,
+      "body": "[Note] Age distribution from GBD 2019 India data (which carries >80% of global burden): 28% under 15, 17% ages 15-29, 47% ages 30-69, 9% ages 70+. West African data consistently shows mean age of snakebite victims in the late twenties. I'm computing a weighted-average MW of ~95 UoV using GiveWell's 2020 moral weights table: 0.28 \u00d7 130 + 0.17 \u00d7 120 + 0.30 \u00d7 93 + 0.17 \u00d7 55 + 0.09 \u00d7 21 = 95.4.",
+      "urls": [],
+      "quotes": [],
+      "issues": []
+    },
+    {
+      "type": "footnote",
+      "number": 4,
+      "body": "\"The cost per death averted ranged from US$1,997 in Guinea-Bissau to US$6,205 in Sierra Leone and Liberia. [...] cost per DALY averted ranged from US$83 in Benin to US$281 in Sierra Leone and Liberia.\" [Hamza et al. 2016, PLOS NTDs](https://journals.plos.org/plosntds/article?id=10.1371/journal.pntd.0004568)",
+      "urls": [
+        "https://journals.plos.org/plosntds/article?id=10.1371/journal.pntd.0004568"
+      ],
+      "quotes": [
+        "The cost per death averted ranged from US$1,997 in Guinea-Bissau to US$6,205 in Sierra Leone and Liberia. [...] cost per DALY averted ranged from US$83 in Benin to US$281 in Sierra Leone and Liberia."
+      ],
+      "issues": []
+    },
+    {
+      "type": "footnote",
+      "number": 5,
+      "body": "\"Improving antivenom access from current levels to full access: 9,362 deaths averted (\u221259%), 230,075 DALYs averted (\u221259%), cost savings of $1.3 billion (\u221253%).\" [PLOS NTDs 2022, ASEAN analysis](https://pmc.ncbi.nlm.nih.gov/articles/PMC9668136/)",
+      "urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC9668136/"
+      ],
+      "quotes": [
+        "Improving antivenom access from current levels to full access: 9,362 deaths averted (\u221259%), 230,075 DALYs averted (\u221259%), cost savings of $1.3 billion (\u221253%)."
+      ],
+      "issues": []
+    },
+    {
+      "type": "footnote",
+      "number": 6,
+      "body": "\"FDA agreed that varespladib can be developed under the Animal Rule [...] Ophirex's CEO stated the goal is to complete Animal Rule efficacy studies 'before the end of [2026]' and submit an NDA in 2027.\" [Ophirex December 2025 business update](https://www.globenewswire.com/news-release/2025/12/11/3203856/0/en/Ophirex-Announces-Business-Update-Advances-Toward-Food-and-Drug-Administration-FDA-Approval-for-Varespladib-as-Novel-Oral-Snakebite-Treatment.html)",
+      "urls": [
+        "https://www.globenewswire.com/news-release/2025/12/11/3203856/0/en/Ophirex-Announces-Business-Update-Advances-Toward-Food-and-Drug-Administration-FDA-Approval-for-Varespladib-as-Novel-Oral-Snakebite-Treatment.html"
+      ],
+      "quotes": [
+        "FDA agreed that varespladib can be developed under the Animal Rule [...] Ophirex's CEO stated the goal is to complete Animal Rule efficacy studies 'before the end of [2026]' and submit an NDA in 2027."
+      ],
+      "issues": []
+    },
+    {
+      "type": "footnote",
+      "number": 7,
+      "body": "\"A recombinant antivenom composed of eight nanobodies that provides broad protection against 17 African elapid snake species [...] can reportedly be produced at less than half the current cost of existing antivenoms.\" [Nature 2025](https://www.nature.com/articles/s41586-025-09661-0)",
+      "urls": [
+        "https://www.nature.com/articles/s41586-025-09661-0"
+      ],
+      "quotes": [
+        "A recombinant antivenom composed of eight nanobodies that provides broad protection against 17 African elapid snake species [...] can reportedly be produced at less than half the current cost of existing antivenoms."
+      ],
+      "issues": []
+    },
+    {
+      "type": "note",
+      "number": 8,
+      "body": "[Note] Annual cost to meet WHO antivenom targets in SSA: $51.4-$66.2M for ~279,485 treatments, based on antivenom prices of $100-$153/treatment. From PLOS NTDs 2020 gap analysis.",
+      "urls": [],
+      "quotes": [],
+      "issues": []
+    },
+    {
+      "type": "footnote",
+      "number": 9,
+      "body": "\"Wellcome is running an innovation prize competition for creative approaches to tackling snakebite envenoming.\" The \"Snakebite Beyond 2026\" RFP was published in March 2024. [Wellcome 2024](https://cms.wellcome.org/sites/default/files/2024-03/Snakebite-beyond-2026-RFP.pdf)",
+      "urls": [
+        "https://cms.wellcome.org/sites/default/files/2024-03/Snakebite-beyond-2026-RFP.pdf"
+      ],
+      "quotes": [
+        "Wellcome is running an innovation prize competition for creative approaches to tackling snakebite envenoming.",
+        "Snakebite Beyond 2026"
+      ],
+      "issues": []
+    },
+    {
+      "type": "footnote",
+      "number": 10,
+      "body": "\"MSF treated 6,747 snakebite patients in 2023.\" [MSF snakebite page](https://www.msf.org/snakebite)",
+      "urls": [
+        "https://www.msf.org/snakebite"
+      ],
+      "quotes": [
+        "MSF treated 6,747 snakebite patients in 2023."
+      ],
+      "issues": []
+    }
+  ],
+  "issues": []
+}
