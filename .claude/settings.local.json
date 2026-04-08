@@ -88,7 +88,15 @@
       "WebFetch(domain:www.hks.harvard.edu)",
       "WebFetch(domain:documents1.worldbank.org)",
       "WebFetch(domain:spdci.org)",
-      "WebFetch(domain:supply.unicef.org)"
+      "WebFetch(domain:supply.unicef.org)",
+      "WebFetch(domain:ashpublications.org)",
+      "WebFetch(domain:www.ncbi.nlm.nih.gov)",
+      "WebFetch(domain:www.kff.org)",
+      "WebFetch(domain:dndi.org)",
+      "WebFetch(domain:www.tandfonline.com)",
+      "WebFetch(domain:unitaid.org)",
+      "WebFetch(domain:www.edctp.org)",
+      "mcp__hardened-workspace__start_google_auth"
     ],
     "deny": []
   },
