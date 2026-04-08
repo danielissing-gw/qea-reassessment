@@ -1,0 +1,156 @@
+{
+  "file": "C:\\Users\\Daniel Issing\\Documents\\claudecode\\qea-reassessment\\outputs\\writeups\\cryptococcal_antigen_testing.md",
+  "status": "pass",
+  "total_citations": 13,
+  "citations": [
+    {
+      "type": "footnote",
+      "number": 1,
+      "body": "\"In 2020, there were an estimated 152 000 incident cases (95% uncertainty interval 111 000\u2013205 000) of cryptococcal meningitis in people living with HIV, resulting in an estimated 112 000 deaths (79 000\u2013134 000) [...] The proportion of AIDS-related deaths attributable to cryptococcal meningitis was 19% (IQR 13\u201324%).\" ([Rajasingham et al., Lancet Infectious Diseases 2022](https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(22)00042-7/fulltext))",
+      "urls": [
+        "https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(22"
+      ],
+      "quotes": [
+        "In 2020, there were an estimated 152 000 incident cases (95% uncertainty interval 111 000\u2013205 000) of cryptococcal meningitis in people living with HIV, resulting in an estimated 112 000 deaths (79 000\u2013134 000) [...] The proportion of AIDS-related deaths attributable to cryptococcal meningitis was 19% (IQR 13\u201324%)."
+      ],
+      "issues": []
+    },
+    {
+      "type": "footnote",
+      "number": 2,
+      "body": "\"The pooled estimate of CrAg screening uptake was 57.1% (95% CI 41.4-72.7) [...] overall pooled estimates of uptake of CrAg screening, cryptococcal antigenemia and preemptive initiation of antifungal medications in these settings were 57%, 9% and 85%, respectively.\" ([Systematic review, PLOS ONE 2025](https://pmc.ncbi.nlm.nih.gov/articles/PMC11761098/))",
+      "urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11761098/"
+      ],
+      "quotes": [
+        "The pooled estimate of CrAg screening uptake was 57.1% (95% CI 41.4-72.7) [...] overall pooled estimates of uptake of CrAg screening, cryptococcal antigenemia and preemptive initiation of antifungal medications in these settings were 57%, 9% and 85%, respectively."
+      ],
+      "issues": []
+    },
+    {
+      "type": "footnote",
+      "number": 3,
+      "body": "\"None of the 35 countries assessed had fully adopted WHO's recommendations for cryptococcal meningitis and advanced HIV disease (AHD).\" ([DNDi press release, 2023](https://dndi.org/press-releases/2023/cryptococcal-meningitis-new-report-highlights-slow-uptake-guidelines-shown-reduce-deaths-africa/))",
+      "urls": [
+        "https://dndi.org/press-releases/2023/cryptococcal-meningitis-new-report-highlights-slow-uptake-guidelines-shown-reduce-deaths-africa/"
+      ],
+      "quotes": [
+        "None of the 35 countries assessed had fully adopted WHO's recommendations for cryptococcal meningitis and advanced HIV disease (AHD)."
+      ],
+      "issues": []
+    },
+    {
+      "type": "footnote",
+      "number": 4,
+      "body": "\"CrAg screening and treatment in the base case cost $3,356,724 compared to doing nothing, and saved 7,320 lives [...] cost of $459 per life saved.\" ([Michelow et al., PLOS ONE 2019 \u2014 Uganda national program evaluation](https://pmc.ncbi.nlm.nih.gov/articles/PMC6328136/))",
+      "urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC6328136/"
+      ],
+      "quotes": [
+        "CrAg screening and treatment in the base case cost $3,356,724 compared to doing nothing, and saved 7,320 lives [...] cost of $459 per life saved."
+      ],
+      "issues": []
+    },
+    {
+      "type": "footnote",
+      "number": 5,
+      "body": "\"At 10 weeks, 101 of 407 patients (24.8%; 95% confidence interval [CI], 20.7 to 29.3) had died in the AmBisome group, as compared with 117 of 407 (28.7%; 95% CI, 24.4 to 33.4) in the control group [...] Grade 3 or 4 adverse events occurred in 50.0% of the patients in the AmBisome group and 62.3% in the control group. Grade 3 or 4 anemia occurred in 13.3% and 39.1%, respectively.\" ([Jarvis et al., NEJM 2022](https://www.nejm.org/doi/full/10.1056/NEJMoa2111904))",
+      "urls": [
+        "https://www.nejm.org/doi/full/10.1056/NEJMoa2111904"
+      ],
+      "quotes": [
+        "At 10 weeks, 101 of 407 patients (24.8%; 95% confidence interval [CI], 20.7 to 29.3) had died in the AmBisome group, as compared with 117 of 407 (28.7%; 95% CI, 24.4 to 33.4) in the control group [...] Grade 3 or 4 adverse events occurred in 50.0% of the patients in the AmBisome group and 62.3% in the control group. Grade 3 or 4 anemia occurred in 13.3% and 39.1%, respectively."
+      ],
+      "issues": []
+    },
+    {
+      "type": "footnote",
+      "number": 6,
+      "body": "\"The 2022 WHO guidelines recommend a single high dose (10 mg/kg) of liposomal amphotericin B with 14 days of flucytosine and fluconazole as the preferred induction regimen for cryptococcal meningitis treatment.\" ([WHO Guidelines for Diagnosing, Preventing and Managing Cryptococcal Disease, 2022](https://www.who.int/publications/i/item/9789240052178/))",
+      "urls": [
+        "https://www.who.int/publications/i/item/9789240052178/"
+      ],
+      "quotes": [
+        "The 2022 WHO guidelines recommend a single high dose (10 mg/kg) of liposomal amphotericin B with 14 days of flucytosine and fluconazole as the preferred induction regimen for cryptococcal meningitis treatment."
+      ],
+      "issues": []
+    },
+    {
+      "type": "footnote",
+      "number": 7,
+      "body": "\"The FY 2025 Continuing Resolution that passed in March included level funding for PEPFAR's bilateral programming at USAID, State, CDC, and DoD of $4.85 billion [...] The administration's FY 2026 budget request includes $2.9 billion for bilateral PEPFAR activities, a decrease of $1.9 billion.\" ([KFF PEPFAR Status Tracker, 2026](https://www.kff.org/global-health-policy/the-trump-administrations-foreign-aid-review-status-of-pepfar/))",
+      "urls": [
+        "https://www.kff.org/global-health-policy/the-trump-administrations-foreign-aid-review-status-of-pepfar/"
+      ],
+      "quotes": [
+        "The FY 2025 Continuing Resolution that passed in March included level funding for PEPFAR's bilateral programming at USAID, State, CDC, and DoD of $4.85 billion [...] The administration's FY 2026 budget request includes $2.9 billion for bilateral PEPFAR activities, a decrease of $1.9 billion."
+      ],
+      "issues": []
+    },
+    {
+      "type": "footnote",
+      "number": 8,
+      "body": "\"UNAIDS estimated that by October 2025, 2.5 million people who had been using PrEP in 2024 lost access to the medication solely because of funding cuts [...] If PEPFAR funding ends, there could be an additional 6.6 million HIV infections and over 4.2 million AIDS-related deaths by 2030.\" ([PMC \u2014 PEPFAR Funding Suspension Impact Analysis, 2025](https://pmc.ncbi.nlm.nih.gov/articles/PMC11959925/))",
+      "urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11959925/"
+      ],
+      "quotes": [
+        "UNAIDS estimated that by October 2025, 2.5 million people who had been using PrEP in 2024 lost access to the medication solely because of funding cuts [...] If PEPFAR funding ends, there could be an additional 6.6 million HIV infections and over 4.2 million AIDS-related deaths by 2030."
+      ],
+      "issues": []
+    },
+    {
+      "type": "footnote",
+      "number": 9,
+      "body": "\"Majority of participants were male aged 32-36 years\" across studies in the systematic review of CM mortality in Africa. ([Frontiers in Medicine, 2022](https://pmc.ncbi.nlm.nih.gov/articles/PMC9494297/))",
+      "urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC9494297/"
+      ],
+      "quotes": [
+        "Majority of participants were male aged 32-36 years"
+      ],
+      "issues": []
+    },
+    {
+      "type": "note",
+      "number": 10,
+      "body": "[Note] GiveWell's 2020 moral weights (see `docs/moral_weights.md`): 25\u201329yr = 112.7, 30\u201334yr = 106.3, 35\u201339yr = 99.7, 40\u201344yr = 86.4. Assuming an age distribution of CM deaths: 15% ages 25\u201329, 25% ages 30\u201334, 25% ages 35\u201339, 20% ages 40\u201344, 10% ages 45\u201349, 5% ages 20\u201324: weighted average = 0.05\u00d7118 + 0.15\u00d7112.7 + 0.25\u00d7106.3 + 0.25\u00d799.7 + 0.20\u00d786.4 + 0.10\u00d775.7 = 98.8, rounded to ~98.",
+      "urls": [],
+      "quotes": [],
+      "issues": []
+    },
+    {
+      "type": "footnote",
+      "number": 11,
+      "body": "\"A cost per result of $5.897 was reported for reflexed CrAg testing for a count < 100 cells/uL\" at national CrAg detection rate of 6.2% in South Africa. ([PMC 2024](https://pmc.ncbi.nlm.nih.gov/articles/PMC11538356/)) Uganda prevalence: 1.4% per Michelow et al. 2019.",
+      "urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11538356/"
+      ],
+      "quotes": [
+        "A cost per result of $5.897 was reported for reflexed CrAg testing for a count < 100 cells/uL"
+      ],
+      "issues": []
+    },
+    {
+      "type": "footnote",
+      "number": 12,
+      "body": "\"Unitaid funds the CHAI-led THRIVE Project in collaboration with Afrocab and Penta to enable access to critical prevention, screening, and treatment commodities for advanced HIV disease [...] operating in 11 countries with implementation research in five countries.\" ([Unitaid AHD Project](https://unitaid.org/project/preventing-hiv-related-deaths-by-optimizing-advanced-hiv-disease-management/))",
+      "urls": [
+        "https://unitaid.org/project/preventing-hiv-related-deaths-by-optimizing-advanced-hiv-disease-management/"
+      ],
+      "quotes": [
+        "Unitaid funds the CHAI-led THRIVE Project in collaboration with Afrocab and Penta to enable access to critical prevention, screening, and treatment commodities for advanced HIV disease [...] operating in 11 countries with implementation research in five countries."
+      ],
+      "issues": []
+    },
+    {
+      "type": "note",
+      "number": 13,
+      "body": "[Note] South Africa NHLS processes approximately 283,240 specimens with CD4 <100 cells/uL annually. The reflexed screening model automatically tests all CD4 <100 samples for CrAg, with marginal cost of ~$5.90 per result. Source: PMC 2024 South Africa extended threshold analysis.",
+      "urls": [],
+      "quotes": [],
+      "issues": []
+    }
+  ],
+  "issues": []
+}

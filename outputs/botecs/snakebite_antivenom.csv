@@ -1,0 +1,31 @@
+Parameter,Value,Source / notes
+Costs,Value,Source / notes
+Grant amount,"$1,000,000",
+Antivenom + direct treatment cost per patient,$124.00,West African EchiTAb average (Hamza et al. 2016)
+"Program overhead per patient (cold chain, distribution, training)",$51.00,Assumption: ~41% overhead on treatment cost
+Total cost per treatment,$175.00,Calculation
+Patients treated,"5,714",Calculation
+Burden & effect,,
+Weighted untreated case fatality rate,10%,Weighted: 66% carpet viper (15% CFR) + 34% other (3% CFR)
+Mortality reduction with antivenom treatment,75%,OR 0.25 from meta-analysis of 4 observational studies (Habib & Warrell 2013)
+Absolute risk reduction,8%,Calculation
+Deaths before adjustments,429,Calculation
+Internal validity adjustment,70%,No RCTs; observational evidence only but biologically plausible
+External validity adjustment,70%,West African data; snake species and health systems vary across regions
+Wastage / inefficiency factor,80%,"20% waste from expiry, species mismatch, late presentation"
+Deaths averted (adjusted),168,Calculation
+Benefits,,
+Moral weight per death averted (UoV),95,Age-weighted average using GiveWell 2020 moral weights
+UoV from deaths averted,"15,960",Calculation
+Ad-hoc: morbidity uplift (chronic disability in survivors),10%,Assumption: 10% uplift for non-fatal benefits
+Total UoV from program,"17,556",Calculation
+Final CE,,
+Value per dollar spent on benchmark (GiveDirectly),0.00344,
+CE (multiples of cash),5.1,Calculation
+Cost per death averted (implied),"$5,952",Cross-check
+Sensitivity,,
+CE at $900/treatment (original BOTEC cost),0.9,Original: $180/vial x 5 vials polyvalent
+"CE at $124/treatment (central, West African EchiTAb)",5.1,= main BOTEC estimate
+CE at $50/treatment (Benin-like lower cost),8.8,Benin: $83/DALY averted (Hamza 2016)
+"CE at $20/treatment (varespladib/next-gen, speculative)",12.6,Varespladib ~$10-20/course oral (Ophirex target)
+CE at 50% IV / 50% EV (heavier observational discount),2.6,If observational evidence warrants deeper skepticism

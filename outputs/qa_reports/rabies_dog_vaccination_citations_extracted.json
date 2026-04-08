@@ -1,0 +1,128 @@
+{
+  "file": "C:\\Users\\Daniel Issing\\Documents\\claudecode\\qea-reassessment\\outputs\\writeups\\rabies_dog_vaccination.md",
+  "status": "pass",
+  "total_citations": 11,
+  "citations": [
+    {
+      "type": "footnote",
+      "number": 1,
+      "body": "\"Rabies causes an estimated 59,000 human deaths annually in over 150 countries, with 95% of cases occurring in Africa and Asia.\" [WHO Rabies Fact Sheet](https://www.who.int/news-room/fact-sheets/detail/rabies)",
+      "urls": [
+        "https://www.who.int/news-room/fact-sheets/detail/rabies"
+      ],
+      "quotes": [
+        "Rabies causes an estimated 59,000 human deaths annually in over 150 countries, with 95% of cases occurring in Africa and Asia."
+      ],
+      "issues": []
+    },
+    {
+      "type": "footnote",
+      "number": 2,
+      "body": "\"40% of people bitten by suspect rabid animals are children under 15 years of age.\" [WHO Rabies Fact Sheet](https://www.who.int/news-room/fact-sheets/detail/rabies)",
+      "urls": [
+        "https://www.who.int/news-room/fact-sheets/detail/rabies"
+      ],
+      "quotes": [
+        "40% of people bitten by suspect rabid animals are children under 15 years of age."
+      ],
+      "issues": []
+    },
+    {
+      "type": "footnote",
+      "number": 3,
+      "body": "\"Gavi, the Vaccine Alliance, today announced support for human rabies vaccines as part of its 2026-2030 Investment Strategy [...] Five countries \u2014 Tanzania, Madagascar, C\u00f4te d'Ivoire, Yemen and Syria \u2014 have been approved for initial support.\" [WHO/GAVI Joint Statement, June 2024](https://www.who.int/news/item/05-06-2024-gavi-board-approves-support-for-human-rabies-vaccines)",
+      "urls": [
+        "https://www.who.int/news/item/05-06-2024-gavi-board-approves-support-for-human-rabies-vaccines"
+      ],
+      "quotes": [
+        "Gavi, the Vaccine Alliance, today announced support for human rabies vaccines as part of its 2026-2030 Investment Strategy [...] Five countries \u2014 Tanzania, Madagascar, C\u00f4te d'Ivoire, Yemen and Syria \u2014 have been approved for initial support."
+      ],
+      "issues": []
+    },
+    {
+      "type": "footnote",
+      "number": 4,
+      "body": "\"Mexico was validated by WHO as free from dog-transmitted human rabies in 2019 [...] The cost per DALY averted was $121 and cost per life-year saved was $410.\" [Castillo-Neyra et al. 2021, Vaccine](https://doi.org/10.1016/j.vaccine.2021.01.035)",
+      "urls": [
+        "https://doi.org/10.1016/j.vaccine.2021.01.035"
+      ],
+      "quotes": [
+        "Mexico was validated by WHO as free from dog-transmitted human rabies in 2019 [...] The cost per DALY averted was $121 and cost per life-year saved was $410."
+      ],
+      "issues": []
+    },
+    {
+      "type": "note",
+      "number": 5,
+      "body": "[Note] Country elimination examples: Bohol Province (Philippines) eliminated canine rabies in <3 years through intensive MDV campaigns. KwaZulu-Natal (South Africa) achieved zero human rabies deaths through sustained MDV since 2007. Zanzibar has maintained rabies-free status since 2018 following MDV campaigns. Namibia has reported near-zero canine rabies through sustained dog vaccination programs. These are documented in WHO/WOAH reports and the United Against Rabies Forum database.",
+      "urls": [],
+      "quotes": [],
+      "issues": []
+    },
+    {
+      "type": "footnote",
+      "number": 6,
+      "body": "\"Community-based vaccination campaigns achieved significantly higher coverage (49-62%) compared to team-based campaigns (22-46%) in a cluster-randomized trial in southeastern Tanzania.\" [Mtui-Malamsha et al. 2024, PLOS Neglected Tropical Diseases](https://doi.org/10.1371/journal.pntd.0012345)",
+      "urls": [
+        "https://doi.org/10.1371/journal.pntd.0012345"
+      ],
+      "quotes": [
+        "Community-based vaccination campaigns achieved significantly higher coverage (49-62%) compared to team-based campaigns (22-46%) in a cluster-randomized trial in southeastern Tanzania."
+      ],
+      "issues": []
+    },
+    {
+      "type": "footnote",
+      "number": 7,
+      "body": "\"The median cost per dog vaccinated was US$4.47 (IQR $2.36-$7.73) across 47 African countries [...] overall investment of $6.3 billion would be needed to achieve the goal of Zero by 30, with welfare benefits of $9.5 billion.\" [Rajeev et al. 2023, Nature Communications](https://doi.org/10.1038/s41467-023-39167-0)",
+      "urls": [
+        "https://doi.org/10.1038/s41467-023-39167-0"
+      ],
+      "quotes": [
+        "The median cost per dog vaccinated was US$4.47 (IQR $2.36-$7.73) across 47 African countries [...] overall investment of $6.3 billion would be needed to achieve the goal of Zero by 30, with welfare benefits of $9.5 billion."
+      ],
+      "issues": []
+    },
+    {
+      "type": "note",
+      "number": 8,
+      "body": "[Note] Community-based delivery costs of ~$2.70/dog vaccinated in Tanzania are from the Mtui-Malamsha et al. 2024 trial and earlier operational data from the Serengeti District MDV program (Hampson et al.). This is lower than the central $4.47 estimate because it uses local community animal health workers rather than centrally deployed vaccination teams.",
+      "urls": [],
+      "quotes": [],
+      "issues": []
+    },
+    {
+      "type": "note",
+      "number": 9,
+      "body": "[Note] GAVI's rabies PEP support is part of its broader strategy to expand beyond traditional childhood immunization. The 2026-2030 investment cycle includes rabies alongside other new vaccines. Critically, GAVI's mandate covers human vaccines only \u2014 it cannot fund canine vaccines, creating a clear complementary funding opportunity for dog vaccination.",
+      "urls": [],
+      "quotes": [],
+      "issues": []
+    },
+    {
+      "type": "footnote",
+      "number": 10,
+      "body": "\"Current progress is insufficient to meet the 2030 target [...] substantially increased investment in both mass dog vaccination and improved access to post-exposure prophylaxis is needed.\" [Minghui et al. 2023, Lancet Global Health](https://doi.org/10.1016/S2214-109X(23)00404-7)",
+      "urls": [
+        "https://doi.org/10.1016/S2214-109X(23"
+      ],
+      "quotes": [
+        "Current progress is insufficient to meet the 2030 target [...] substantially increased investment in both mass dog vaccination and improved access to post-exposure prophylaxis is needed."
+      ],
+      "issues": []
+    },
+    {
+      "type": "footnote",
+      "number": 11,
+      "body": "\"The estimated total investment needed to achieve Zero by 30 is $6.3 billion, with a funding gap of approximately $3.9 billion, primarily in the dog vaccination component.\" [Rajeev et al. 2023, Nature Communications](https://doi.org/10.1038/s41467-023-39167-0)",
+      "urls": [
+        "https://doi.org/10.1038/s41467-023-39167-0"
+      ],
+      "quotes": [
+        "The estimated total investment needed to achieve Zero by 30 is $6.3 billion, with a funding gap of approximately $3.9 billion, primarily in the dog vaccination component."
+      ],
+      "issues": []
+    }
+  ],
+  "issues": []
+}
