@@ -2,15 +2,15 @@
 
 ## Overview
 
-Reassessed 60 GiveWell QEAs (quick evidence assessments) to identify interventions worth revisiting, based on changes in evidence, costs, burden, funding, or technology since the original assessment.
+Reassessed 60 GiveWell QEAs (quick evidence assessments) and assessed 1 additional intervention (sickle cell disease) to identify interventions worth revisiting, based on changes in evidence, costs, burden, funding, or technology since the original assessment.
 
-**Results:** 1 High, 9 Medium, 50 Low.
+**Results:** 1 High, 14 Medium, 46 Low.
 
 | Rating | Count | Interventions |
 |--------|-------|---------------|
 | High | 1 | Rheumatic heart disease prevention |
-| Medium | 9 | Uterotonics for PPH, Oral azithromycin during labor, Antenatal corticosteroids for preterm birth, Non-pneumatic anti-shock garment (NASG), Sayana Press injectable contraceptive, MMS during pregnancy, Oxygen therapy for children, Arsenic in wells (Bangladesh), MDR-TB treatment |
-| Low | 50 | All others (including 1 already being pursued by GiveWell: iCCM commodity provision; 1 obsolete: COVID antivirals) |
+| Medium | 14 | Uterotonics for PPH, Oral azithromycin during labor, Antenatal corticosteroids for preterm birth, Non-pneumatic anti-shock garment (NASG), Sayana Press injectable contraceptive, MMS during pregnancy, Oxygen therapy for children, Arsenic in wells (Bangladesh), MDR-TB treatment, Cryptococcal antigen testing, Synbiotics for neonatal sepsis, Snakebite antivenom, Rabies dog vaccination, Sickle cell disease screening and treatment |
+| Low | 46 | All others (including 1 already being pursued by GiveWell: iCCM commodity provision; 1 obsolete: COVID antivirals) |
 
 ---
 
@@ -56,8 +56,8 @@ Reassessed 60 GiveWell QEAs (quick evidence assessments) to identify interventio
 - **Next step:** Request disaggregated cost-per-pregnancy data from UNICEF's MMS program; investigate whether GW's early-life growth work can anchor the moral weight for LBW.
 
 ### Oxygen therapy for children
-- **Original CE:** ~7x non-COVID / ~14x COVID | **Updated CE:** ~10x at $30/patient (range 6–20x)
-- Uganda stepped-wedge RCT (Lancet 2024, n=2,405): 48.7% reduction in fatal outcomes (adjusted RR 0.51) — first RCT demonstrating mortality benefit from improved oxygen access. Lancet Global Health Oxygen Commission (Feb 2025): 70% oxygen coverage gap in LMICs. Cost-effectiveness favorable ($25–62/DALY averted). 88% of needed $34B remains unfunded.
+- **Original CE:** ~7x non-COVID / ~14x COVID | **Updated CE:** ~15x at $45/patient (range 7–25x)
+- Uganda stepped-wedge RCT (Lancet 2024, n=2,405): 48.7% reduction in fatal outcomes (adjusted RR 0.51) — first RCT demonstrating mortality benefit from improved oxygen access. Moral weight corrected from ~52.5 to ~117 UoV (children). Lancet Global Health Oxygen Commission (Feb 2025): 70% oxygen coverage gap in LMICs. Cost-effectiveness favorable ($25–62/DALY averted). 88% of needed $34B remains unfunded.
 - **Next step:** Assess RFMF given CHAI ($100M), Unitaid ($22M), and US aid cuts creating new gaps; contact CHAI oxygen team for programmatic cost data.
 
 ### Arsenic in wells (Bangladesh)
@@ -69,6 +69,31 @@ Reassessed 60 GiveWell QEAs (quick evidence assessments) to identify interventio
 - **Original CE:** No BOTEC (evidence too thin) | **Updated CE:** ~3x at $1,500/patient (range 2–15x)
 - Five Phase 3 RCTs now demonstrate ~89–91% treatment success with BPaLM (6-month, all-oral): TB-PRACTECAL (Lancet Resp Med 2023), endTB (NEJM 2024), Nix-TB (NEJM 2020), ZeNix (NEJM 2022), STREAM Stage 2. Drug costs dropped from $1,000+ to $310/course. 2025 US funding cuts creating acute gap (Global Fund cut $1.4B). CE at drug procurement cost ($310/patient, filling stockouts): ~15x.
 - **Next step:** Investigate whether a targeted drug-procurement grant could fill stockouts created by US aid cuts; contact Global Drug Facility for current pricing and supply gaps.
+
+### Cryptococcal antigen testing for people living with HIV
+- **Original CE:** 27x (inflated MW) | **Updated CE:** ~9x at $10/person screened (range 6–14x)
+- Previous "correction" of moral weight from 100 to ~35 UoV was wrong — median age of CM deaths in SSA is 33–36 years, giving MW ~98 UoV per GW's 2020 table. The original 100 UoV was approximately correct. AMBITION trial (NEJM 2022) simplified CM treatment to single high-dose liposomal amphotericin B. PEPFAR funding crisis (FY2026 proposed $1.9B cut) creates genuine philanthropic gap in HIV diagnostic/prevention services.
+- **Next step:** Talk to CHAI THRIVE team and Dr. David Meya (Uganda) about specific PEPFAR-created funding gaps; investigate reflexed lab screening costs.
+
+### Synbiotics for neonatal sepsis
+- **Original CE:** ~14x (at 5% CFR) | **Updated CE:** ~12x at $5/course (range 7–31x)
+- Key correction: original BOTEC used 5% neonatal sepsis CFR as a guess; systematic reviews show the true CFR is 10–20% (pooled 17.6%). This 3x correction is the main driver of the upgrade. Bangladesh Phase 2 trial (Pell et al. 2025, n=519) failed to replicate persistent gut colonization — raises doubt about external validity outside rural India, reflected in 60% EV adjustment. No WHO recommendation; no implementer identified.
+- **Next step:** Track PROSYNK trial results from Kenya (LSTM, n=600); assess GW-funded implementation RCT feasibility conditional on efficacy replication.
+
+### Snakebite antivenom
+- **Original CE:** 0.7–0.9x | **Updated CE:** ~5x at $124/treatment (range 1–9x; ~12x with next-gen antivenoms)
+- Two key corrections: (1) Moral weight was ~40 UoV but snakebite deaths have a young age distribution (28% under 15, 17% ages 15–29) → age-weighted MW ~95 UoV, more than double the original. (2) Treatment cost of $900/5-vial dose reflected expensive polyvalent antivenoms; West African EchiTAb products cost ~$124/treatment. Next-gen antivenoms approaching clinical readiness: varespladib (oral, NDA target 2027) and nanobody-based antivenom (Nature 2025).
+- **Next step:** Model CE of West African procurement program (contact Prof. Habib); track varespladib regulatory progress; assess philanthropic gap post-Wellcome 2026.
+
+### Rabies dog vaccination (MDV + PEP)
+- **Original CE:** ~9x (13-year average) | **Updated CE:** ~10x with GAVI PEP (range 4x Phase I to 12x Phase III; 8x without GAVI)
+- GAVI approved rabies PEP support for 50+ countries (June 2024) — the single most important development. Absorbs ~$48M PEP costs, substantially improving philanthropic CE for the dog vaccination component. First cluster RCT on MDV delivery (Tanzania 2024): community-based model achieves 49–62% coverage at lower per-dog cost (~$2.70 vs $4.47). Country eliminations provide proof of concept (Mexico certified 2019, Philippines, Zanzibar).
+- **Next step:** Model CE of GAVI-complementary MDV program in Tanzania (contact Prof. Katie Hampson); assess global $3.9B funding gap; track GAVI PEP rollout.
+
+### Sickle cell disease screening and treatment
+- **Original CE:** 7–11x (CHAI BOTEC, 5-year Nigeria program) | **Updated CE:** ~3x with sustainability discount (~6x face value; ~10x treatment-only with lifelong access)
+- New assessment based on CHAI memo (July 2023). Sustainability is the dominant uncertainty: SCD is lifelong but program covers 0–5 only. Hydroxyurea is now the sole oral therapy (crizanlizumab and voxelotor withdrawn). WHO added HU to core EML + Children's EML (2025). REACH 8-year follow-up confirms sustained safety/efficacy. Gene therapy not reaching SSA ($2.2M/patient; only 64 treated globally).
+- **Next step:** Investigate treatment-only model in Uganda/Ghana (contact Dr. Isaac Odame); assess HU endowment feasibility and Ghana NHIS pathway.
 
 ---
 
@@ -83,7 +108,6 @@ Reassessed 60 GiveWell QEAs (quick evidence assessments) to identify interventio
 | Road traffic safety legislation | 2022 | ~13x | ~8–12x | Bloomberg $240M covers same countries; limited counterfactual |
 | Phone audits | 2022 | 0.15x | ~0.15x | Underlying program in middle-income India; no pathway |
 | ANC CCTs | 2022 | ~4–7x | ~4–7x | Below bar; single RCT; Afya trial negative |
-| Rabies dog vaccination | 2022 | ~9x | ~9–14x | Back-loaded (13 years); no RCTs; GAVI now funding PEP |
 | LPG cookstoves | 2022 | Unknown | Not CE | HAPIN trial (NEJM 2024): no health benefit from LPG |
 | Selenium supplementation | 2021 | ~5x | ~5x | Only one LMIC trial (n=90); no new studies; evidence too thin |
 | Radio campaigns (DMI) | 2021 | 2.7–5.3x | ~3–5x | Below 8x bar even at optimistic assumptions; FEM RCT pending |
@@ -98,8 +122,8 @@ Reassessed 60 GiveWell QEAs (quick evidence assessments) to identify interventio
 | Pulse oximeter + surgery checklist | 2017 | No model | ~$115/DALY (unverified) | No RCT evidence for mortality reduction; not GW's domain |
 | Safe abortion | 2017 | 3–10x | ~3–10x | GW-internal blockers: unresolved moral weight, no additionality evidence |
 | School feeding | 2022 | ~2–3x | ~2–3x | Costs higher than assumed ($110 vs $41); space is 99% government-funded |
-| Salt substitution | 2020 | 0.9–1.9x | ~2–4x | SSaSS trial positive but CVD deaths mainly in elderly; Bloomberg $215M |
-| WASH for HAI | 2021 | ~4x | ~4x | APT-Sepsis encouraging (RR 0.68) but broader IPC; no WASH evaluation |
+| Salt substitution | 2020 | 0.9–1.9x | ~3–5x | SSaSS (RR 0.88) + WHO 2025 guideline strengthen evidence, but MW for elderly CVD deaths (~31 UoV at ages 60–75) is the binding constraint; GW already evaluated and found below bar |
+| WASH for HAI | 2021 | ~4x | ~4x | WASH-specific evidence has weakened (TEACH CLEAN failed; WASH FIT insufficient evidence); APT-Sepsis (RR 0.68) is IPC+clinical bundle, not WASH; binding constraint is intervention evidence |
 | Digital tools for welfare | 2022 | ~3x | ~1–3x | Evidence weakened: scale-up shows 6x effect deflation (DellaVigna & Linos) |
 | Safe birth kits | 2022 | ~2.4x | ~2–4x | No RCT mortality evidence; small targetable share of neonatal deaths |
 | Midwifery school support | 2022 | ~5.3x | ~4–5x | No direct RCTs; below bar even with leverage |
@@ -112,27 +136,24 @@ Reassessed 60 GiveWell QEAs (quick evidence assessments) to identify interventio
 | COVID antivirals | 2022 | 15–42x | Obsolete | Pandemic ended; assumptions no longer hold |
 | PSBI antibiotic delivery | 2020 | No estimate | ~2–4x | Evidence improved but CE still below bar |
 | Podoconiosis management | 2021 | 1.7x | ~1.7x | Income-only; no mortality channel |
-| CrAg testing for HIV | 2020 | 27x (inflated MW) | ~8–10x corrected | PEPFAR/Global Fund dominated; target population shrinking |
 | Statins/polypill for CVD | 2021 | 0.7–1.9x | ~1–3x | $128/year chronic medication; elderly CVD deaths; no implementer |
 | Aspirin for AMI | 2021 | 3.8x | ~3–4x | Adult CVD deaths (low MW); trivial drug cost but system costs high |
-| C-section prophylactic antibiotics | 2020 | 10.6x (overstated) | ~3–5x | ~87% already receive prophylaxis; marginal population small |
+| C-section prophylactic antibiotics | 2020 | 10.6x (overstated) | ~3–6x | Original assumed zero counterfactual coverage (actual 30–60% in SSA) and 99% IV/EV (should be ~68%); at best ~6x; health system quality issue, not drug access |
 | Eggs for complementary feeding | 2020 | 1.63x | ~0.5–1x | Ecuador effect vanished at follow-up; WHO pooled estimate 0.06 SD |
 | MDR-TB treatment | 2017 | No BOTEC | ~3x at $1,500 | See Medium writeup above |
 | Child marriage CCTs | 2017 | 3.2x | ~3x | No mortality channel; uncertain MW for child marriage |
 | Schizophrenia community care | 2019 | 1.2x | ~1–2x | Morbidity-only; order of magnitude below bar |
 | CBT/StrongMinds | 2017 | 0.5x | ~2–3x | GW 2023: ~25% of marginal; moral weight debate binding |
-| Synbiotics for neonatal sepsis | 2018 | ~14x (5% CFR) | ~5–14x | Single unreplicated trial (8 years); uncertain CFR |
 | Adolescent pregnancy prevention | 2017 | $2–3k/pregnancy | Same | Sayana Press 40–170x cheaper per pregnancy averted |
 | Rural electrification | 2017 | No estimate | ~1–2x | Infrastructure; no mortality channel; not GW's domain |
 | Saloni behavior change (India) | 2017 | Indeterminate | Indeterminate | Single flawed RCT; program defunct |
 | Deforestation PES | 2017 | $2.60/tonne CO2 | Same | Climate intervention; no health channel |
-| Snakebite antivenom | 2017 | 0.7–0.9x | ~0.5–3x | High costs; observational evidence; space now well-funded |
 
 ---
 
 ## Cross-cutting observations
 
-1. **Facility-based maternal/neonatal interventions cluster together.** Four of six Medium-rated interventions (oral azithromycin, ACS, uterotonics, NASG) are facility-based interventions for labor/delivery. Shared delivery infrastructure could reduce per-intervention costs if bundled. Worth investigating the AMPLI-PPHI platform and E-MOTIVE protocol as potential vehicles.
+1. **Facility-based maternal/neonatal interventions cluster together.** Five of the Medium-rated interventions (oral azithromycin, ACS, uterotonics, NASG, synbiotics) are facility-based maternal/neonatal interventions. Shared delivery infrastructure could reduce per-intervention costs if bundled. Worth investigating the AMPLI-PPHI platform and E-MOTIVE protocol as potential vehicles.
 
 2. **Cost data is the binding constraint for most promising interventions.** For RHD, PPH, oral azithromycin, ACS, NASG, Sayana Press, and MMS, the CE estimate is highly sensitive to program delivery costs, and actual programmatic cost data is either unavailable or outdated. Getting real cost data from implementers would move several of these from "plausible" to "confirmed" or "ruled out."
 
@@ -153,3 +174,7 @@ Reassessed 60 GiveWell QEAs (quick evidence assessments) to identify interventio
 10. **US funding cuts create time-limited opportunities.** The 2025 cuts to PEPFAR and Global Fund create acute gaps in MDR-TB treatment (Global Fund cut $1.4B), potentially in oxygen therapy, and in other Global Fund-dependent health programs. At drug procurement cost ($310/patient for BPaLM), MDR-TB treatment reaches ~15x — but only if the gap is genuinely unfilled by other funders.
 
 11. **Next-gen technologies could change several conclusions.** Recombinant antivenoms (snakebite), Strep A vaccine (RHD), ACTION-III trial results (ACS for late preterm), and SQ-LNS formulations could materially change the CE landscape for their respective interventions within 3–7 years.
+
+12. **Moral weight corrections drove several reassessments.** A systematic review of Low-rated interventions found that 3 of 4 upgrades (CrAg testing, snakebite, oxygen therapy) were driven partly or primarily by correcting moral weight assumptions — using GW's 2020 age-specific table rather than rough guesses. The original assessments consistently underweighted interventions affecting young adults (CrAg: ages 33–36, MW ~98 vs assumed ~35) and children (oxygen: MW ~117 vs assumed ~52.5; snakebite: age-weighted MW ~95 vs assumed ~40). This suggests other Low-rated interventions may warrant MW audits.
+
+13. **GAVI and PEPFAR shifts create new philanthropic opportunities.** Two policy developments changed the funding landscape: GAVI's PEP approval for 50+ countries (June 2024) made rabies dog vaccination a viable complement rather than a standalone program; PEPFAR's proposed $1.9B cut (FY2026) created genuine gaps in CrAg screening that didn't exist when the space was fully funded. Time-limited funding gaps may warrant faster assessment timelines.
